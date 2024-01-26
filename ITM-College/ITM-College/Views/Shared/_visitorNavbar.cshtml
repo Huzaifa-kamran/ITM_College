@@ -1,0 +1,107 @@
+﻿
+
+    <!-- start page loading -->
+    <div id="preloader">
+        <div class="row loader">
+            <div class="loader-icon"></div>
+        </div>
+    </div>
+    <!-- end page loading -->
+
+    
+
+        <!-- start header section -->
+        <header class="header-style1 menu_area-light">
+
+            <div class="navbar-default">
+
+                <!-- start top search -->
+                <div class="top-search bg-highlight-theme">
+                    <div class="container">
+                        <form class="search-form" action="https://campus.websitelayout.net/search.html" method="GET" accept-charset="utf-8">
+                            <div class="input-group">
+                                <span class="input-group-addon cursor-pointer">
+                                    <button class="search-form_submit fas fa-search font-size18 text-white" type="submit"></button>
+                                </span>
+                                <input type="text" class="search-form_input form-control" name="s" autocomplete="off" placeholder="Type & hit enter...">
+                                <span class="input-group-addon close-search"><i class="fas fa-times font-size18 line-height-28 margin-5px-top"></i></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- end top search -->
+
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-12">
+                            <div class="menu_area alt-font">
+                                <nav class="navbar navbar-expand-lg navbar-light no-padding">
+
+                                    <div class="navbar-header navbar-header-custom">
+                                        <!-- start logo -->
+                                        <a href="index.html" class="navbar-brand"><img id="logo" src="~/clientcss/img/logos/logo.png" alt="logo"></a>
+                                        <!-- end logo -->
+                                    </div>
+
+                                    <div class="navbar-toggler"></div>
+
+                                    <!-- start menu area -->
+                                    <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a asp-action="About" asp-controller="Home">About Us</a></li>
+                                        <li><a asp-action="Courses" asp-controller="Home">Courses</a>
+                                            <ul>
+                                            <li><a asp-action="Courses" asp-controller="Home">Courses Grid</a></li>
+                                            <li><a asp-action="CourseDetails" asp-controller="Home">Course Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Events</a>
+                                            <ul>
+                                            <li><a asp-action="Events" asp-controller="Home">Events</a></li>
+                                            <li><a asp-action="EventDetails" asp-controller="Home">Event Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Pages</a>
+                                            <ul>
+                                            <li><a asp-action="Gallery" asp-controller="Home">Gallery</a></li>
+                                            <li><a asp-action="Teachers" asp-controller="Home">Teachers</a></li>
+                                            <li><a asp-action="TeachersDetails" asp-controller="Home">Teacher Details</a></li>
+                                            <li><a asp-action="FAQ" asp-controller="Home">FAQ</a></li>
+                                            <li><a asp-action="Login" asp-controller="Home">Login</a></li>
+                                            <li><a asp-action="Registration" asp-controller="Home">Register</a></li>
+                                                <li><a href="#">Others</a>
+                                                    <ul>
+                                                        <li><a href="tables.html">Tables</a></li>
+                                                        <li><a href="tabs-and-accordions.html">Tabs and Accordions</a></li>
+                                                        <li><a href="404-page.html">404 page</a></li>
+                                                        <li><a href="coming-soon.html">Comingsoon</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Blog</a>
+                                            <ul>
+                                            <li><a asp-action="Blog" asp-controller="Home">Blog Grid</a></li>
+                                            <li><a asp-action="BlogDetails" asp-controller="Home">Blog Details</a></li>
+                                        </ul>
+                                        </li>
+                                    <li><a asp-action="Contact" asp-controller="Home">Contact Us</a></li>
+                                    </ul>
+                                    <!-- end menu area -->
+
+                                    <!-- start atribute navigation -->
+                                    <div class="attr-nav sm-no-margin sm-margin-65px-right xs-margin-60px-right">
+                                        <ul>
+                                            <li class="search"><a href="#"><i class="fas fa-search"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- end atribute navigation -->
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+    <!-- end header section -->
