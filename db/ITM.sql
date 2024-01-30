@@ -5,7 +5,7 @@ use ITM_College;
 
 create table Admin(id int primary key identity(1,1),adminName varchar(55),adminEmail varchar(55),password varchar(55));
 
-create table Facilities(id int primary key identity(1,1),facilityName varchar(55),facilityDesc text,facilityImg varchar(max));
+create table Facilities(id int primary key identity(1,1),facilityName varchar(55),facultyEmail varchar(55),facultyPassword varchar(55),facilityDesc text,facilityImg varchar(max));
 
 create table Contact(id int primary key identity(1,1),userName varchar(55),userEmail varchar(55),message text);
 
@@ -21,10 +21,11 @@ foreign key (facultyDepartment) references Department(departmentID)
 
 
 create table Courses(
-courseID int primary key identity(1,1)
-,courseName varchar(55),
+courseID int primary key identity(1,1),
+courseName varchar(55),
 courseDesc varchar(55),
 courseImg varchar(max),
+courseFees int,
 facultyID int,
 foreign key (facultyID) references Faculties(facultyID)
 );
