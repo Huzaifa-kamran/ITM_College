@@ -28,6 +28,36 @@ C:\Users\Abdul Samad\source\repos\ITM-College\ITM-College\obj\Debug\net6.0\refin
 C:\Users\Abdul Samad\source\repos\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.pdb
 C:\Users\Abdul Samad\source\repos\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.genruntimeconfig.cache
 C:\Users\Abdul Samad\source\repos\ITM-College\ITM-College\obj\Debug\net6.0\ref\ITM-College.dll
+C:\Users\asp\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\asp\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\appsettings.json
+C:\Users\asp\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\ITM-College.staticwebassets.runtime.json
+C:\Users\asp\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\ITM-College.exe
+C:\Users\asp\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\ITM-College.deps.json
+C:\Users\asp\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\ITM-College.runtimeconfig.json
+C:\Users\asp\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\ITM-College.dll
+C:\Users\asp\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\ITM-College.pdb
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.AssemblyInfoInputs.cache
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.AssemblyInfo.cs
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.RazorAssemblyInfo.cache
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.RazorAssemblyInfo.cs
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\staticwebassets\msbuild.ITM-College.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\staticwebassets\msbuild.build.ITM-College.props
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ITM-College.props
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ITM-College.props
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\scopedcss\bundle\ITM-College.styles.css
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\scopedcss\projectbundle\ITM-College.bundle.scp.css
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.dll
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\refint\ITM-College.dll
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.pdb
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.genruntimeconfig.cache
+C:\Users\asp\Desktop\ITM-College\ITM-College\obj\Debug\net6.0\ref\ITM-College.dll
 C:\Users\a\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\a\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\appsettings.json
 C:\Users\a\Desktop\ITM-College\ITM-College\bin\Debug\net6.0\ITM-College.staticwebassets.runtime.json

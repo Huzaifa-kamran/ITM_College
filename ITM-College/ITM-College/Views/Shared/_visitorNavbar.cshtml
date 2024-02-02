@@ -39,7 +39,7 @@
 
                                     <div class="navbar-header navbar-header-custom">
                                         <!-- start logo -->
-                                        <a href="index.html" class="navbar-brand"><img id="logo" src="~/clientcss/img/logos/logo.png" alt="logo"></a>
+                                        <a asp-action="Index" asp-controller="Home" class="navbar-brand"><img id="logo" src="~/clientcss/img/logos/logo.png" alt="logo"></a>
                                         <!-- end logo -->
                                     </div>
 
@@ -47,7 +47,7 @@
 
                                     <!-- start menu area -->
                                     <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
-                                        <li><a href="#">Home</a></li>
+                                        <li><a asp-action="Index" asp-controller="Home">Home</a></li>
                                         <li><a asp-action="About" asp-controller="Home">About Us</a></li>
                                         <li><a asp-action="Courses" asp-controller="Home">Courses</a>
                                             <ul>
@@ -55,7 +55,7 @@
                                             <li><a asp-action="CourseDetails" asp-controller="Home">Course Details</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Events</a>
+                                        <li><a asp-action="Events" asp-controller="Home">Events</a>
                                             <ul>
                                             <li><a asp-action="Events" asp-controller="Home">Events</a></li>
                                             <li><a asp-action="EventDetails" asp-controller="Home">Event Details</a></li>
@@ -68,7 +68,8 @@
                                             <li><a asp-action="TeachersDetails" asp-controller="Home">Teacher Details</a></li>
                                             <li><a asp-action="FAQ" asp-controller="Home">FAQ</a></li>
                                             <li><a asp-action="Login" asp-controller="Home">Login</a></li>
-                                            <li><a asp-action="Registration" asp-controller="Home">Register</a></li>
+                                        <li><a asp-action="Registration" asp-controller="Home">Register</a></li>
+                                        
                                                 <li><a href="#">Others</a>
                                                     <ul>
                                                         <li><a href="tables.html">Tables</a></li>
@@ -79,13 +80,15 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Blog</a>
+                                <li>
+                                    <a asp-action="Blog" asp-controller="Home">Blog</a>
                                             <ul>
                                             <li><a asp-action="Blog" asp-controller="Home">Blog Grid</a></li>
                                             <li><a asp-action="BlogDetails" asp-controller="Home">Blog Details</a></li>
                                         </ul>
                                         </li>
                                     <li><a asp-action="Contact" asp-controller="Home">Contact Us</a></li>
+                                <li><a asp-action="Index" asp-controller="Admin">Admin</a></li>
                                     </ul>
                                     <!-- end menu area -->
 
