@@ -25,7 +25,7 @@ courseID int primary key identity(1,1),
 courseName varchar(55),
 courseDesc varchar(55),
 courseImg varchar(max),
-courseFees int,
+courseDuration int,
 facultyID int,
 foreign key (facultyID) references Faculties(facultyID)
 );
