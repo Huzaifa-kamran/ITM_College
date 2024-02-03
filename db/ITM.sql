@@ -5,14 +5,16 @@ use ITM_College;
 
 create table Admin(id int primary key identity(1,1),adminName varchar(55),adminEmail varchar(55),password varchar(55));
 
-create table Facilities(id int primary key identity(1,1),facilityName varchar(55),facultyEmail varchar(55),facultyPassword varchar(55),facilityDesc text,facilityImg varchar(max));
+create table Facilities(id int primary key identity(1,1),facilityName varchar(55),facilityDesc text,facilityImg varchar(max));
 
 create table Contact(id int primary key identity(1,1),userName varchar(55),userEmail varchar(55),message text);
 
 create table Department(departmentID int primary key identity(1,1),departmentName varchar(255),departmentDesc text);
 
 create table faculties(facultyID int primary key identity(1,1),
-facultyName varchar(255),
+facultyName varchar(55),
+facultyEmail varchar(255),
+facultyPassword varchar(55),
 facultyDepartment int,
 facultyImg varchar(max),
 foreign key (facultyDepartment) references Department(departmentID)
