@@ -1,9 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ITM_College.Data;
+using ITM_College.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ITM_College.Controllers
 {
     public class AdminController : Controller
     {
+
+		private readonly ITM_CollegeContext db;
+        public AdminController(ITM_CollegeContext db)
+        {
+			this.db = db;
+        }
         public IActionResult Index()
         {
             return View();
@@ -131,8 +139,9 @@ namespace ITM_College.Controllers
         // ii- Add Department
         // iii- Update Department
         // iv- Delete Department
-        public IActionResult Departments()
+        public IActionResult Departments(string message)
         {
+            ViewBag.message = message;
             return View();
         }
 
@@ -141,13 +150,21 @@ namespace ITM_College.Controllers
         {
             return View();
         }
-        //[HttpPost]
-        //public IActionResult AddDepartment()
-        //{
-        //	return View();
-        //}
+		[HttpPost]
+		public IActionResult AddDepartment(Department dep)
+		{
+			var asjd = dep;
+			if (ModelState.IsValid)
+			{
+				db.Departments.Add(dep);
+				db.SaveChanges();
+				ViewBag.message = "Department Add Successfully";
+				return RedirectToAction("Departments", new { message = ViewBag.message });
+			}
+			return View();
+		}
 
-        [HttpGet]
+		[HttpGet]
         public IActionResult UpdateDepartment()
         {
             return View();

@@ -1,7 +1,7 @@
 ﻿@{
     Layout = "_AdminLayout";
 }
-
+@model ITM_College.Models.Department;
 <!--**********************************
 	  Content body start
   ***********************************-->
@@ -31,18 +31,18 @@
 						<h5 class="card-title">Add Department</h5>
 					</div>
 					<div class="card-body">
-						<form action="#" method="post">
+						<form method="post">
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label for="Department_Name" class="form-label">Department Name</label>
-										<input id="Department_Name" placeholder="Department Name" type="text" class="form-control" required>
+										<input id="Department_Name" asp-for="DepartmentName" placeholder="Department Name" type="text" class="form-control" required>
 									</div>
 								</div>
 								<div class="col-lg-10 col-md-10 col-sm-12">
 									<div class="form-group">
 										<label for="Department_Details" class="form-label">Department Details</label>
-										<textarea id="Department_Details" placeholder="Department Details" class="form-control" rows="5" required></textarea>
+										<textarea id="Department_Details" asp-for="DepartmentDesc" placeholder="Department Details" class="form-control" rows="5" required></textarea>
 									</div>
 								</div>
 								<div class="col-lg-12 col-md-12 col-sm-12">

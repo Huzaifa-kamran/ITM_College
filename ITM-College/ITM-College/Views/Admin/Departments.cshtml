@@ -2,6 +2,13 @@
 	Layout = "_AdminLayout";
 }
 
+@if (ViewBag.message != null)
+{
+	<div class="alert alert-success">
+		@ViewBag.message
+	</div>
+}
+
 <!--**********************************
 		  Content body start
 	  ***********************************-->
