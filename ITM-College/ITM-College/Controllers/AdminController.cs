@@ -124,5 +124,84 @@ namespace ITM_College.Controllers
         }
         // Courses Controller End
 
-    }
+
+
+        // ------ Controller 4 Department Controller ------
+        // i- All Departments
+        // ii- Add Department
+        // iii- Update Department
+        // iv- Delete Department
+        public IActionResult Departments()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult AddDepartment()
+        {
+            return View();
+        }
+        //[HttpPost]
+        //public IActionResult AddDepartment()
+        //{
+        //	return View();
+        //}
+
+        [HttpGet]
+        public IActionResult UpdateDepartment()
+        {
+            return View();
+        }
+        //[HttpPost]
+        //public IActionResult UpdateDepartment()
+        //{
+        //	return View();
+        //}
+
+        public IActionResult DeleteDepartment()
+        {
+            return View();
+        }
+		// Department Controller End
+
+
+
+		// ------ Controller 5 Facilities Controller ------
+		// i- All Departments
+		// ii- Add Department
+		// iii- Update Department
+		// iv- Delete Department
+		public IActionResult Facilities()
+		{
+			return View();
+		}
+
+		[HttpGet]
+		public IActionResult AddFacility()
+		{
+			return View();
+		}
+		//[HttpPost]
+		//public IActionResult AddFacility()
+		//{
+		//	return View();
+		//}
+
+		[HttpGet]
+		public IActionResult UpdateFacility()
+		{
+			return View();
+		}
+		//[HttpPost]
+		//public IActionResult UpdateFacility()
+		//{
+		//	return View();
+		//}
+
+		public IActionResult DeleteFacility()
+		{
+			return View();
+		}
+		// Facilities Controller End
+	}
 }

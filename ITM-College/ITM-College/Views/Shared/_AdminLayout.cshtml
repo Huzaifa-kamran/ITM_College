@@ -277,10 +277,21 @@
 					<span class="nav-text">Departments</span>
 				</a>
 				<ul aria-expanded="false">
-					<li><a href="AllDepartments.html">All Departments</a></li>
-					<li><a href="AddDepartments.html">Add Departments</a></li>
+					<li><a asp-controller="Admin" asp-action="Departments">All Departments</a></li>
+					<li><a asp-controller="Admin" asp-action="AddDepartment">Add Departments</a></li>
 				</ul>
 			</li>
+
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="la la-book"></i>
+                            <span class="nav-text">Facilities</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a asp-controller="Admin" asp-action="Facilities">All Facilities</a></li>
+                            <li><a asp-controller="Admin" asp-action="AddFacility">Add Facility</a></li>
+                        </ul>
+                    </li>
 <!-- 			
 			<li>
 				<a class="has-arrow" href="javascript:void()" aria-expanded="false">
