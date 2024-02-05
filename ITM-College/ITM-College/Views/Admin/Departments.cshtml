@@ -1,32 +1,35 @@
 ﻿@{
 	Layout = "_AdminLayout";
 }
-
-@if (ViewBag.message != null)
-{
-	<div class="alert alert-success">
-		@ViewBag.message
-	</div>
-}
+@model IEnumerable<Department>;
 
 <!--**********************************
 		  Content body start
 	  ***********************************-->
 <div class="content-body">
+	
+@if (ViewBag.message != null)
+{
+	
+		<div class="alert alert-success solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-check"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button> @ViewBag.message
+		</div>
+}
 	<!-- row -->
 	<div class="container-fluid">
-
 		<div class="row page-titles mx-0">
 			<div class="col-sm-6 p-md-0">
 				<div class="welcome-text">
-					<h4>All Professors</h4>
+					<h4>All Departments</h4>
 				</div>
 			</div>
 			<div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
 				<ol class="breadcrumb">
 
-					<li class="breadcrumb-item"><a href="javascript:void(0);">Students</a></li>
-					<li class="breadcrumb-item active"><a href="javascript:void(0);">All Students</a></li>
+					<li class="breadcrumb-item"><a href="javascript:void(0);">Departments</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0);">All Departments</a></li>
 				</ol>
 			</div>
 		</div>
@@ -44,39 +47,37 @@
 						<div class="card">
 							<div class="card-header">
 								<h4 class="card-title">All Students  </h4>
-								<a asp-controller="Admin" asp-action="AddStudent" class="btn btn-primary">+ Add new</a>
+								<a asp-controller="Admin" asp-action="AddDepartment" class="btn btn-primary">+ Add new</a>
 							</div>
 							<div class="card-body">
 								<div class="table-responsive">
 									<table id="example3" class="display text-nowrap table" style="min-width: 845px">
 										<thead>
 											<tr>
-												<th>Profile</th>
+												<th>No.</th>
 												<th>Name</th>
 												<th>Department</th>
-												<th>Gender</th>
-												<th>Education</th>
-												<th>Mobile</th>
-												<th>Email</th>
-												<th>Joining Date</th>
 												<th>Action</th>
 											</tr>
 										</thead>
 										<tbody>
-											<tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
-												<td>Tiger Nixon</td>
-												<td>Architect</td>
-												<td>Male</td>
-												<td>M.COM., P.H.D.</td>
-												<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-												<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
-												<td>2011/04/25</td>
-												<td>
-													<a asp-controller="Admin" asp-action="UpdateDepartment" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
-													<a asp-controller="Admin" asp-action="DeleteDepartment" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
-												</td>
-											</tr>
+											@{
+												int counter = 1;
+											}
+											@foreach (var temp in Model)
+											{
+												<tr>
+										            <td>@counter</td>
+													<td>@temp.DepartmentName</td>
+													<td>@temp.DepartmentDesc</td>
+													<td>
+														<a asp-controller="Admin" asp-action="UpdateDepartment" asp-route-id="@temp.DepartmentId" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
+														<a asp-controller="Admin" asp-action="DeleteDepartment" asp-route-id="@temp.DepartmentId" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
+													</td>
+												</tr>
+												counter++;
+											}
+										
 
 
 										</tbody>

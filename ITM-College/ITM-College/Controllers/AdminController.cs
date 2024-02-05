@@ -142,7 +142,7 @@ namespace ITM_College.Controllers
         public IActionResult Departments(string message)
         {
             ViewBag.message = message;
-            return View();
+            return View(db.Departments.ToList());
         }
 
         [HttpGet]
@@ -165,20 +165,39 @@ namespace ITM_College.Controllers
 		}
 
 		[HttpGet]
-        public IActionResult UpdateDepartment()
+        public IActionResult UpdateDepartment(int id)
         {
-            return View();
+			Department department = db.Departments.FirstOrDefault(cols=>cols.DepartmentId == id);
+            return View(department);
         }
-        //[HttpPost]
-        //public IActionResult UpdateDepartment()
-        //{
-        //	return View();
-        //}
+		[HttpPost]
+		public IActionResult UpdateDepartment(Department dep)
+		{
+			var updatedDep = dep;
+			var id = updatedDep.DepartmentId;
+			Department fetchDepartment = db.Departments.FirstOrDefault(cols => cols.DepartmentId == id);
 
-        public IActionResult DeleteDepartment()
+			if (fetchDepartment != null)
+			{
+				fetchDepartment.DepartmentName = updatedDep.DepartmentName;
+				fetchDepartment.DepartmentDesc = updatedDep.DepartmentDesc;
+
+				db.SaveChanges();
+				ViewBag.message = "Department Updated Successfully";
+				return RedirectToAction("Departments", new { message = ViewBag.message });
+			}
+
+			return View();
+		}
+
+		public IActionResult DeleteDepartment(int id)
         {
-            return View();
-        }
+			Department dep = db.Departments.Find(id);
+			db.Departments.Remove(dep);
+			db.SaveChanges();
+			ViewBag.message = "Department Deleted Successfully";
+			return RedirectToAction("Departments", new { message = ViewBag.message });
+		}
 		// Department Controller End
 
 
