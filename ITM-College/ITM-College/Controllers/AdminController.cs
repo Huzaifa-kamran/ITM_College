@@ -1,6 +1,7 @@
 ﻿using ITM_College.Data;
 using ITM_College.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ITM_College.Controllers
 {
@@ -29,7 +30,12 @@ namespace ITM_College.Controllers
 		[HttpGet]
 		public IActionResult AddFaculty()
 		{
-			return View();
+			FacultyAndDepartment viewModel = new FacultyAndDepartment
+			{
+				Faculty = new Faculty(),
+				Departments = db.Departments.ToList()
+			};
+			return View(viewModel);
 		}
 		//[HttpPost]
 		//public IActionResult AddFaculty()
@@ -142,7 +148,8 @@ namespace ITM_College.Controllers
         public IActionResult Departments(string message)
         {
             ViewBag.message = message;
-            return View(db.Departments.ToList());
+			var dep = db.Departments.Include(d => d.Faculties).ToList();
+			return View(dep);
         }
 
         [HttpGet]

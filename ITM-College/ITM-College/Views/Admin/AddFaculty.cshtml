@@ -1,6 +1,7 @@
 ﻿@{
 	Layout = "_AdminLayout";
 }
+@model ITM_College.Models.FacultyAndDepartment;
 <!--**********************************
 		 Content body start
 	 ***********************************-->
@@ -35,7 +36,7 @@
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label class="form-label" for="first_name">Faculty Name</label>
-										<input placeholder="Enter Faculty Name" id="faculty_name" type="text"
+										<input placeholder="Enter Faculty Name" asp-for="Faculty.FacultyName" id="faculty_name" type="text"
 											   class="form-control" required>
 									</div>
 								</div>
@@ -43,7 +44,7 @@
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label class="form-label" for="email_here">Email Here</label>
-										<input placeholder="Email Here" id="email_here" type="email" class="form-control" required>
+										<input placeholder="Email Here" asp-for="Faculty.FacultyEmail" id="email_here" type="email" class="form-control" required>
 									</div>
 								</div>
 
@@ -51,7 +52,7 @@
 									<div class="form-group">
 										<label class="form-label" for="password">Password</label>
 										<div class="input-group pass-group">
-											<input placeholder="Password" id="password" type="password" class="form-control pass-input" required>
+											<input placeholder="Password" asp-for="Faculty.FacultyPassword" id="password" type="password" class="form-control pass-input" required>
 											<span class="input-group-text pass-handle">
 												<i class="fa fa-eye-slash"></i>
 												<i class="fa fa-eye"></i>
@@ -80,13 +81,19 @@
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label class="form-label">Department</label>
-										<select class="form-control">
-											<option value="Department">Department</option>
+										<select asp-for="Faculty.FacultyDepartment" class="form-control">
+											<option>Select Department</option>
+
+											@foreach (var temp in Model.Departments)
+											{
+												<option value="@temp.DepartmentId">@temp.DepartmentName</option>
+											}
 
 										</select>
+
 									</div>
 								</div>
-
+							
 
 								<div class="col-lg-4 col-md-6">
 									<div class="form-group fallback w-100">
