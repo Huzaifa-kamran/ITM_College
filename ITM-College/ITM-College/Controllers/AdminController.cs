@@ -23,9 +23,10 @@ namespace ITM_College.Controllers
 		// ii- Add Faculties
 		// iii- Update Faculty
 		// iv- Delete Faculty
-		public IActionResult Faculty()
+		public IActionResult Faculty(string message)
         {
-            return View();
+			ViewBag.message = message;
+			return View();
         }
 		[HttpGet]
 		public IActionResult AddFaculty()
@@ -48,14 +49,21 @@ namespace ITM_College.Controllers
 			faculty.FacultyImg = newFaculty.FacultyTable.FacultyImg;
 			faculty.gender = newFaculty.FacultyTable.gender;
 
+			db.Faculties.Add(faculty);
 			db.SaveChanges();
-			return View();
+			ViewBag.message = "Faculty Add Successfully";
+			return RedirectToAction("Faculty", new { message = ViewBag.message });
 		}
 
 		[HttpGet]
-		public IActionResult UpdateFaculty()
+		public IActionResult UpdateFaculty(int id)
 		{
-			return View();
+			Faculty faculty = db.Faculties.FirstOrDefault(cols => cols.FacultyId == id);
+			var facs = new FacultyAndDepartment { 
+				FacultyTable = faculty, 
+				Departments = db.Departments.ToList() 
+			};
+			return View(facs);
 		}
 		//[HttpPost]
 		//public IActionResult UpdateFaculty()
@@ -63,9 +71,13 @@ namespace ITM_College.Controllers
 		//	return View();
 		//}
 
-		public IActionResult DeleteFaculty()
+		public IActionResult DeleteFaculty(int id)
 		{
-			return View();
+			Faculty faculty = db.Faculties.Find(id);
+			db.Faculties.Remove(faculty);
+			db.SaveChanges();
+			ViewBag.message = "Faculty Deleted Successfully";
+			return RedirectToAction("Faculties", new { message = ViewBag.message });
 		}
 		// Faculty Controller End
 
