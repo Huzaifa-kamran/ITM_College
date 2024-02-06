@@ -17,6 +17,8 @@ namespace ITM_College.Models
         public int? FacultyDepartment { get; set; }
         public string? FacultyImg { get; set; }
 
+        public int gender { get; set; }
+
         public virtual Department? FacultyDepartmentNavigation { get; set; }
         public virtual ICollection<Course> Courses { get; set; }
     }

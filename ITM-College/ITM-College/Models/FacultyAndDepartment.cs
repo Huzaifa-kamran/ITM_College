@@ -2,7 +2,7 @@
 {
 	public class FacultyAndDepartment
 	{
-        public Faculty Faculty { get; set; }
+        public Faculty FacultyTable { get; set; }
 		public List<Department> Departments { get; set; }
     }
 }

@@ -12,14 +12,14 @@
 		<div class="row page-titles mx-0">
 			<div class="col-sm-6 p-md-0">
 				<div class="welcome-text">
-					<h4>Add Professor</h4>
+					<h4>Add Faculty</h4>
 				</div>
 			</div>
 			<div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
 				<ol class="breadcrumb">
 
-					<li class="breadcrumb-item"><a href="AddProfessor.html">Professors</a></li>
-					<li class="breadcrumb-item active"><a href="javascript:void(0)">Add Professor</a></li>
+					<li class="breadcrumb-item"><a asp-action="AddFaculty" asp-controller="Admin">Faculties</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0)">Add Faculty</a></li>
 				</ol>
 			</div>
 		</div>
@@ -31,12 +31,12 @@
 						<h5 class="card-title">Basic Info</h5>
 					</div>
 					<div class="card-body">
-						<form action="#" method="post" id="addStaffForm">
+						<form method="post" id="addStaffForm" enctype="multipart/form-data">
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label class="form-label" for="first_name">Faculty Name</label>
-										<input placeholder="Enter Faculty Name" asp-for="Faculty.FacultyName" id="faculty_name" type="text"
+										<input placeholder="Enter Faculty Name" asp-for="FacultyTable.FacultyName" id="faculty_name" type="text"
 											   class="form-control" required>
 									</div>
 								</div>
@@ -44,7 +44,7 @@
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label class="form-label" for="email_here">Email Here</label>
-										<input placeholder="Email Here" asp-for="Faculty.FacultyEmail" id="email_here" type="email" class="form-control" required>
+										<input placeholder="Email Here" asp-for="FacultyTable.FacultyEmail" id="email_here" type="email" class="form-control" required>
 									</div>
 								</div>
 
@@ -52,7 +52,7 @@
 									<div class="form-group">
 										<label class="form-label" for="password">Password</label>
 										<div class="input-group pass-group">
-											<input placeholder="Password" asp-for="Faculty.FacultyPassword" id="password" type="password" class="form-control pass-input" required>
+											<input placeholder="Password" asp-for="FacultyTable.FacultyPassword" id="password" type="password" class="form-control pass-input" required>
 											<span class="input-group-text pass-handle">
 												<i class="fa fa-eye-slash"></i>
 												<i class="fa fa-eye"></i>
@@ -63,17 +63,10 @@
 
 								<div class="col-sm-6">
 									<div class="form-group">
-										<label class="form-label" for="mobile_number">Mobile Number</label>
-										<input placeholder="Mobile Number" id="mobile_number" type="number" maxlength="10" name="phoneNumber" class="form-control" required>
-									</div>
-								</div>
-								<div class="col-sm-6">
-									<div class="form-group">
 										<label class="form-label">Gender</label>
-										<select class="form-control">
-											<option value="Gender">Gender</option>
-											<option value="Male">Male</option>
-											<option value="Female">Female</option>
+										<select asp-for="FacultyTable.gender" class="form-control">
+											<option value="1">Male</option>
+											<option value="2">Female</option>
 										</select>
 									</div>
 								</div>
@@ -81,9 +74,8 @@
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label class="form-label">Department</label>
-										<select asp-for="Faculty.FacultyDepartment" class="form-control">
-											<option>Select Department</option>
-
+										<select asp-for="FacultyTable.FacultyDepartment" class="form-control">
+		
 											@foreach (var temp in Model.Departments)
 											{
 												<option value="@temp.DepartmentId">@temp.DepartmentName</option>
@@ -95,14 +87,15 @@
 								</div>
 							
 
-								<div class="col-lg-4 col-md-6">
+								<div class="col-lg-6 col-md-6">
 									<div class="form-group fallback w-100">
-										<input type="file" class="form-control" data-default-file="" required>
+										<label class="form-label">Faculty Image</label>
+										<input type="file" class="form-control" required>
 									</div>
 								</div>
 								<div class="col-lg-12 col-md-12 col-sm-12">
 									<button type="submit" class="btn btn-primary">Submit</button>
-									<button type="submit" class="btn btn-danger light">Cancel</button>
+									<button type="reset" class="btn btn-danger light">Cancel</button>
 								</div>
 							</div>
 						</form>

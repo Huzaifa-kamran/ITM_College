@@ -32,16 +32,25 @@ namespace ITM_College.Controllers
 		{
 			FacultyAndDepartment viewModel = new FacultyAndDepartment
 			{
-				Faculty = new Faculty(),
+				FacultyTable = new Faculty(),
 				Departments = db.Departments.ToList()
 			};
 			return View(viewModel);
 		}
-		//[HttpPost]
-		//public IActionResult AddFaculty()
-		//{
-		//	return View();
-		//}
+		[HttpPost]
+		public IActionResult AddFaculty(FacultyAndDepartment newFaculty)
+		{
+			Faculty faculty = new Faculty();
+			faculty.FacultyName = newFaculty.FacultyTable.FacultyName;
+			faculty.FacultyEmail = newFaculty.FacultyTable.FacultyEmail;
+			faculty.FacultyPassword = newFaculty.FacultyTable.FacultyPassword;
+			faculty.FacultyDepartment = newFaculty.FacultyTable.FacultyDepartment;
+			faculty.FacultyImg = newFaculty.FacultyTable.FacultyImg;
+			faculty.gender = newFaculty.FacultyTable.gender;
+
+			db.SaveChanges();
+			return View();
+		}
 
 		[HttpGet]
 		public IActionResult UpdateFaculty()
