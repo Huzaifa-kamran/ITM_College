@@ -17,6 +17,7 @@ facultyEmail varchar(255),
 facultyPassword varchar(55),
 facultyDepartment int,
 facultyImg varchar(max),
+gender int,
 foreign key (facultyDepartment) references Department(departmentID)
 );
 
