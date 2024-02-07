@@ -1,11 +1,30 @@
 ﻿@{
 	Layout = "_AdminLayout";
 }
-
+@model IEnumerable<Course>;
 <!--**********************************
 		  Content body start
 	  ***********************************-->
 <div class="content-body">
+	@if (ViewBag.message != null)
+	{
+
+		<div class="alert alert-success solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-check"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button> @ViewBag.message
+		</div>
+	}
+
+	@if (ViewBag.error != null)
+	{
+
+		<div class="alert alert-danger solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-check"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button> @ViewBag.error
+		</div>
+	}
 	<!-- row -->
 	<div class="container-fluid">
 
@@ -36,45 +55,54 @@
 					<div id="list-view" class="tab-pane fade active show col-lg-12">
 						<div class="card">
 							<div class="card-header">
-								<h4 class="card-title">All Courses  </h4>
+								<h4 class="card-title">All Courses</h4>
 								<a asp-controller="Admin" asp-action="AddStudent" class="btn btn-primary">+ Add new</a>
 							</div>
 							<div class="card-body">
+								@if (Model.Any())
+								{
+
+								
 								<div class="table-responsive">
 									<table id="example3" class="display text-nowrap table" style="min-width: 845px">
 										<thead>
 											<tr>
-												<th>Profile</th>
+												<th>Image</th>
 												<th>Name</th>
+												<th>Faculty</th>
 												<th>Department</th>
-												<th>Gender</th>
-												<th>Education</th>
-												<th>Mobile</th>
-												<th>Email</th>
-												<th>Joining Date</th>
+												<th>Duration</th>
+												<th>Description</th>
 												<th>Action</th>
 											</tr>
 										</thead>
 										<tbody>
-											<tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
-												<td>Tiger Nixon</td>
-												<td>Architect</td>
-												<td>Male</td>
-												<td>M.COM., P.H.D.</td>
-												<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-												<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
-												<td>2011/04/25</td>
-												<td>
-													<a asp-controller="Admin" asp-action="UpdateCourse" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
-													<a asp-controller="Admin" asp-action="DeleteCourse" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
-												</td>
-											</tr>
+											@foreach (var temp in Model)
+												{
+													<tr>
+														<td><img class="rounded-circle" width="35" src="~/@temp.CourseImg" alt=""></td>
+														<td>@temp.CourseName</td>
+														<td>@temp.Faculty.FacultyName</td>
+														<td>@temp.Faculty.FacultyDepartmentNavigation.DepartmentName</td>
+														<td>@temp.CourseDuration</td>
+														<td>@temp.CourseDesc</td>
+														<td>
+															<a asp-controller="Admin" asp-action="UpdateCourse" asp-route-id="@temp.CourseId" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
+															<a asp-controller="Admin" asp-action="DeleteCourse" asp-route-id="@temp.CourseId" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
+														</td>
+													</tr>
+												}
+											
 
 
 										</tbody>
 									</table>
 								</div>
+								}
+								else
+								{
+									<h2>No Course Found</h2>
+								}
 							</div>
 						</div>
 					</div>

@@ -45,64 +45,66 @@ namespace ITM_College.Controllers
 		public IActionResult AddFaculty(FacultyAndDepartment newFaculty,IFormFile img)
 		{
 
-            //checking Image path was null or not ?
+			//checking Image path was null or not ?
+			if (ModelState.IsValid)
+			{
+				if (img != null && img.Length > 0)
+				{
+					// GETTING IMAGE FILE EXTENSION 
+					var fileExt = System.IO.Path.GetExtension(img.FileName).Substring(1);
 
-            if (img != null && img.Length > 0)
-            {
-                // GETTING IMAGE FILE EXTENSION 
-                var fileExt = System.IO.Path.GetExtension(img.FileName).Substring(1);
+					// GETTING IMAGE NAME
+					var random = Path.GetFileName(img.FileName);
 
-                // GETTING IMAGE NAME
-                var random = Path.GetFileName(img.FileName);
+					// GUID ID COMBINE WITH IMAGE NAME - TO ESCAPE IMAGE NAME REDENDNCY 
+					var FileName = Guid.NewGuid() + random;
 
-                // GUID ID COMBINE WITH IMAGE NAME - TO ESCAPE IMAGE NAME REDENDNCY 
-                var FileName = Guid.NewGuid() + random;
+					// GET PATH OF CUSTOM IMAGE FOLDER
+					string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/admincss/Faculty");
 
-                // GET PATH OF CUSTOM IMAGE FOLDER
-                string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/admincss/Faculty");
+					// CHECKING FOLDER EXIST OR NOT - IF NOT THEN CREATE F0LDER 
+					if (!Directory.Exists(imgFolder))
+					{
+						Directory.CreateDirectory(imgFolder);
+					}
 
-                // CHECKING FOLDER EXIST OR NOT - IF NOT THEN CREATE F0LDER 
-                if (!Directory.Exists(imgFolder))
-                {
-                    Directory.CreateDirectory(imgFolder);
-                }
+					// MAKING CUSTOM AND COMBINE FOLDER PATH WITH IMAHE 
+					string filepath = Path.Combine(imgFolder, FileName);
 
-                // MAKING CUSTOM AND COMBINE FOLDER PATH WITH IMAHE 
-                string filepath = Path.Combine(imgFolder, FileName);
+					// COPY IMAGE TO REAL PATH TO DEVELOPER PATH
+					using (var stream = new FileStream(filepath, FileMode.Create))
+					{
+						img.CopyTo(stream);
+					}
 
-                // COPY IMAGE TO REAL PATH TO DEVELOPER PATH
-                using (var stream = new FileStream(filepath, FileMode.Create))
-                {
-                    img.CopyTo(stream);
-                }
+					// READY SEND PATH TO  IMAGE TO DB  
+					var dbAddress = Path.Combine("admincss/Faculty", FileName);
 
-                // READY SEND PATH TO  IMAGE TO DB  
-                var dbAddress = Path.Combine("admincss/Faculty", FileName);
+					// EQUALIZE TABLE (MODEL) PROPERTY WITH CUSTOM PATH 
+					newFaculty.FacultyTable.FacultyImg = dbAddress;
+					//MYIMAGES/imagetodbContext.JGP
 
-                // EQUALIZE TABLE (MODEL) PROPERTY WITH CUSTOM PATH 
-                newFaculty.FacultyTable.FacultyImg = dbAddress;
-                //MYIMAGES/imagetodbContext.JGP
+					Faculty faculty = new Faculty();
+					faculty.FacultyName = newFaculty.FacultyTable.FacultyName;
+					faculty.FacultyEmail = newFaculty.FacultyTable.FacultyEmail;
+					faculty.FacultyPassword = newFaculty.FacultyTable.FacultyPassword;
+					faculty.gender = newFaculty.FacultyTable.gender;
+					faculty.FacultyDepartment = newFaculty.FacultyTable.FacultyDepartment;
+					faculty.FacultyImg = dbAddress;
 
-                Faculty faculty = new Faculty();
-                faculty.FacultyName = newFaculty.FacultyTable.FacultyName;
-                faculty.FacultyEmail = newFaculty.FacultyTable.FacultyEmail;
-                faculty.FacultyPassword = newFaculty.FacultyTable.FacultyPassword;
-				faculty.gender = newFaculty.FacultyTable.gender;
-				faculty.FacultyDepartment = newFaculty.FacultyTable.FacultyDepartment;
-				faculty.FacultyImg = dbAddress;
-			
 
-				// SEND TO TABLE 
-				db.Faculties.Add(faculty);
-                db.SaveChanges();
-                ViewBag.message = "Faculty Add Successfully";
-                return RedirectToAction("Faculty", new { message = ViewBag.message });
+					// SEND TO TABLE 
+					db.Faculties.Add(faculty);
+					db.SaveChanges();
+					ViewBag.message = "Faculty Add Successfully";
+					return RedirectToAction("Faculty", new { message = ViewBag.message });
+				}
 			}
 			else
 			{
 				ViewBag.error = "Something went wrong";
-                return RedirectToAction("AddFaculty");
-            }
+				return RedirectToAction("AddFaculty");
+			}
 
 			return View();
 		}
@@ -246,9 +248,10 @@ namespace ITM_College.Controllers
         // ii- Add Students
         // iii- Update Student
         // iv- Delete Student
-        public IActionResult Courses()
+        public IActionResult Courses(string message)
         {
-
+			ViewBag.message = message;
+			var course = db.Courses.Include(c => c.Faculty).Include(f=>f.Faculty.FacultyDepartmentNavigation).ToList();
             return View();
         }
 
@@ -262,10 +265,69 @@ namespace ITM_College.Controllers
 			};
 			return View(viewModel);
         }
+
+
 		[HttpPost]
-		public IActionResult AddCourse(CourseFacultyView course)
+		public IActionResult AddCourse(CourseFacultyView newCourse,IFormFile img)
 		{
-			var ab = course.CourseTable;
+			//checking Image path was null or not ?
+			
+				var asd= img;
+				if (img != null && img.Length > 0)
+				{
+					// GETTING IMAGE FILE EXTENSION 
+					var fileExt = System.IO.Path.GetExtension(img.FileName).Substring(1);
+
+					// GETTING IMAGE NAME
+					var random = Path.GetFileName(img.FileName);
+
+					// GUID ID COMBINE WITH IMAGE NAME - TO ESCAPE IMAGE NAME REDENDNCY 
+					var FileName = Guid.NewGuid() + random;
+
+					// GET PATH OF CUSTOM IMAGE FOLDER
+					string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/admincss/Course");
+
+					// CHECKING FOLDER EXIST OR NOT - IF NOT THEN CREATE F0LDER 
+					if (!Directory.Exists(imgFolder))
+					{
+						Directory.CreateDirectory(imgFolder);
+					}
+
+					// MAKING CUSTOM AND COMBINE FOLDER PATH WITH IMAHE 
+					string filepath = Path.Combine(imgFolder, FileName);
+
+					// COPY IMAGE TO REAL PATH TO DEVELOPER PATH
+					using (var stream = new FileStream(filepath, FileMode.Create))
+					{
+						img.CopyTo(stream);
+					}
+
+					// READY SEND PATH TO  IMAGE TO DB  
+					var dbAddress = Path.Combine("admincss/Course", FileName);
+
+					// EQUALIZE TABLE (MODEL) PROPERTY WITH CUSTOM PATH 
+					newCourse.CourseTable.CourseImg = dbAddress;
+					//MYIMAGES/imagetodbContext.JGP
+
+					Course course = new Course();
+					course.CourseName = newCourse.CourseTable.CourseName;
+					course.CourseDesc = newCourse.CourseTable.CourseDesc;
+					course.CourseDuration = newCourse.CourseTable.CourseDuration;
+					course.CourseImg = newCourse.CourseTable.CourseImg;
+
+					course.CourseImg = dbAddress;
+
+
+					// SEND TO TABLE 
+					db.Courses.Add(course);
+					db.SaveChanges();
+				    ViewBag.message = "Course Added Successfully";
+				return RedirectToAction("Courses", new { message = ViewBag.message });
+				}else
+			{
+				ViewBag.error = "Something went wrong";
+				return RedirectToAction("AddCourse");
+			}
 			return View();
 		}
 
