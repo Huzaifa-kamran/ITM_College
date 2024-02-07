@@ -16,6 +16,16 @@
 			</button> @ViewBag.message
 		</div>
 	}
+
+	@if (ViewBag.error != null)
+	{
+
+		<div class="alert alert-danger solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-check"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button> @ViewBag.error
+		</div>
+	}
 	<!-- row -->
 	<div class="container-fluid">
 
@@ -50,7 +60,8 @@
 								<a asp-controller="Admin" asp-action="AddFaculty" class="btn btn-primary">+ Add new</a>
 							</div>
 							<div class="card-body">
-								
+								@if (Model.Any())
+								{
 								<div class="table-responsive">
 									<table id="example3" class="display text-nowrap table" style="min-width: 845px">
 										<thead>
@@ -92,6 +103,12 @@
 										</tbody>
 									</table>
 								</div>
+								}
+								else
+								{
+									// Model is empty or null
+									<h2>No Faculties</h2>
+								}
 							</div>
 						</div>
 					</div>

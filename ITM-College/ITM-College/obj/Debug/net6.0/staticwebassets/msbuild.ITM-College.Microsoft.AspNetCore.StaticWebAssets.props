@@ -32,6 +32,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\css\style.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\0fd0785e-9877-47bf-b7f9-b94816a776c0IMG-20240103-WA0217.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ITM-College</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ITM-College</BasePath>
+      <RelativePath>admincss/Faculty/0fd0785e-9877-47bf-b7f9-b94816a776c0IMG-20240103-WA0217.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\0fd0785e-9877-47bf-b7f9-b94816a776c0IMG-20240103-WA0217.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\2c15511e-1eaa-4ad6-b76e-dc0f9897bb1dIMG-20240103-WA0146.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ITM-College</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ITM-College</BasePath>
+      <RelativePath>admincss/Faculty/2c15511e-1eaa-4ad6-b76e-dc0f9897bb1dIMG-20240103-WA0146.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\2c15511e-1eaa-4ad6-b76e-dc0f9897bb1dIMG-20240103-WA0146.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\451c2323-7e87-49ef-bca1-90e129a9eb37c2.jfif))">
       <SourceType>Package</SourceType>
       <SourceId>ITM-College</SourceId>
@@ -63,6 +95,54 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\6418ee56-fa51-4c53-a845-cbd6b40da9b0fruit-and-vegetables-basket-png-20.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\7062b9ed-7967-46e9-a391-457c70fd118dIMG-20220220-WA0056-01_1.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ITM-College</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ITM-College</BasePath>
+      <RelativePath>admincss/Faculty/7062b9ed-7967-46e9-a391-457c70fd118dIMG-20220220-WA0056-01_1.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\7062b9ed-7967-46e9-a391-457c70fd118dIMG-20220220-WA0056-01_1.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\cccec3f4-aec8-49a7-bdec-4f9559110670IMG-20240103-WA0177.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ITM-College</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ITM-College</BasePath>
+      <RelativePath>admincss/Faculty/cccec3f4-aec8-49a7-bdec-4f9559110670IMG-20240103-WA0177.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\cccec3f4-aec8-49a7-bdec-4f9559110670IMG-20240103-WA0177.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\dd82817c-a5b9-4133-b50c-6cd72c575560convert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ITM-College</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ITM-College</BasePath>
+      <RelativePath>admincss/Faculty/dd82817c-a5b9-4133-b50c-6cd72c575560convert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\Faculty\dd82817c-a5b9-4133-b50c-6cd72c575560convert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admincss\icons\avasta\css\style.css))">
       <SourceType>Package</SourceType>

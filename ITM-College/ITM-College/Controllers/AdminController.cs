@@ -26,7 +26,6 @@ namespace ITM_College.Controllers
 		public IActionResult Faculty(string message)
         {
 			var faculties = db.Faculties.Include(f => f.FacultyDepartmentNavigation);
-
 			ViewBag.message = message;
 			return View(faculties);
         }
@@ -40,6 +39,8 @@ namespace ITM_College.Controllers
 			};
 			return View(viewModel);
 		}
+
+
 		[HttpPost]
 		public IActionResult AddFaculty(FacultyAndDepartment newFaculty,IFormFile img)
 		{
@@ -116,11 +117,79 @@ namespace ITM_College.Controllers
 			};
 			return View(facs);
 		}
-		//[HttpPost]
-		//public IActionResult UpdateFaculty()
-		//{
-		//	return View();
-		//}
+
+		[HttpPost]
+		public IActionResult UpdateFaculty(FacultyAndDepartment updatedFaculty, IFormFile img)
+		{
+			// Check if the faculty ID is valid
+			if (updatedFaculty.FacultyTable.FacultyId <= 0)
+			{
+				ViewBag.error = "Invalid faculty ID.";
+				return RedirectToAction("Faculty");
+			}
+
+			// Retrieve the existing faculty from the database
+			var existingFaculty = db.Faculties.FirstOrDefault(f => f.FacultyId == updatedFaculty.FacultyTable.FacultyId);
+
+			if (existingFaculty == null)
+			{
+				ViewBag.error = "Faculty not found.";
+				return RedirectToAction("Faculty");
+			}
+
+			// Check if a new image file is provided
+			if (img != null && img.Length > 0)
+			{
+				// GETTING IMAGE FILE EXTENSION 
+				var fileExt = System.IO.Path.GetExtension(img.FileName).Substring(1);
+
+				// GETTING IMAGE NAME
+				var random = Path.GetFileName(img.FileName);
+
+				// GUID ID COMBINE WITH IMAGE NAME - TO ESCAPE IMAGE NAME REDENDNCY 
+				var FileName = Guid.NewGuid() + random;
+
+				// GET PATH OF CUSTOM IMAGE FOLDER
+				string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/admincss/Faculty");
+
+				// CHECKING FOLDER EXIST OR NOT - IF NOT THEN CREATE F0LDER 
+				if (!Directory.Exists(imgFolder))
+				{
+					Directory.CreateDirectory(imgFolder);
+				}
+
+				// MAKING CUSTOM AND COMBINE FOLDER PATH WITH IMAHE 
+				string filepath = Path.Combine(imgFolder, FileName);
+
+				// COPY IMAGE TO REAL PATH TO DEVELOPER PATH
+				using (var stream = new FileStream(filepath, FileMode.Create))
+				{
+					img.CopyTo(stream);
+				}
+
+				// READY SEND PATH TO  IMAGE TO DB  
+				var dbAddress = Path.Combine("admincss/Faculty", FileName);
+
+				// EQUALIZE TABLE (MODEL) PROPERTY WITH CUSTOM PATH 
+				updatedFaculty.FacultyTable.FacultyImg = dbAddress;
+				//MYIMAGES/imagetodbContext.JGP
+				existingFaculty.FacultyImg = updatedFaculty.FacultyTable.FacultyImg;
+			}
+
+			// Update other properties of the faculty
+			existingFaculty.FacultyName = updatedFaculty.FacultyTable.FacultyName;
+			existingFaculty.FacultyEmail = updatedFaculty.FacultyTable.FacultyEmail;
+			existingFaculty.FacultyPassword = updatedFaculty.FacultyTable.FacultyPassword;
+			existingFaculty.gender = updatedFaculty.FacultyTable.gender;
+			existingFaculty.FacultyDepartment = updatedFaculty.FacultyTable.FacultyDepartment;
+
+			// Save changes to the database
+			db.SaveChanges();
+
+			ViewBag.message = "Faculty updated successfully.";
+			return RedirectToAction("Faculty", new { message = ViewBag.message });
+		}
+
 
 		public IActionResult DeleteFaculty(int id)
 		{
@@ -128,7 +197,7 @@ namespace ITM_College.Controllers
 			db.Faculties.Remove(faculty);
 			db.SaveChanges();
 			ViewBag.message = "Faculty Deleted Successfully";
-			return RedirectToAction("Faculties", new { message = ViewBag.message });
+			return RedirectToAction("Faculty", new { message = ViewBag.message });
 		}
 		// Faculty Controller End
 
@@ -179,21 +248,28 @@ namespace ITM_College.Controllers
         // iv- Delete Student
         public IActionResult Courses()
         {
+
             return View();
         }
 
         [HttpGet]
         public IActionResult AddCourse()
         {
-            return View();
+			CourseFacultyView viewModel = new CourseFacultyView
+			{
+				CourseTable = new Course(),
+				faculties = db.Faculties.ToList()
+			};
+			return View(viewModel);
         }
-        //[HttpPost]
-        //public IActionResult AddCourse()
-        //{
-        //	return View();
-        //}
+		[HttpPost]
+		public IActionResult AddCourse(CourseFacultyView course)
+		{
+			var ab = course.CourseTable;
+			return View();
+		}
 
-        [HttpGet]
+		[HttpGet]
         public IActionResult UpdateCourse()
         {
             return View();
@@ -232,7 +308,6 @@ namespace ITM_College.Controllers
 		[HttpPost]
 		public IActionResult AddDepartment(Department dep)
 		{
-			var asjd = dep;
 			if (ModelState.IsValid)
 			{
 				db.Departments.Add(dep);
