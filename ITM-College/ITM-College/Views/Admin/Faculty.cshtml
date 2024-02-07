@@ -1,6 +1,7 @@
 ﻿@{
 	Layout = "_AdminLayout";
 }
+@model IEnumerable<Faculty>;
 
 <!--**********************************
 		  Content body start
@@ -49,6 +50,7 @@
 								<a asp-controller="Admin" asp-action="AddFaculty" class="btn btn-primary">+ Add new</a>
 							</div>
 							<div class="card-body">
+								
 								<div class="table-responsive">
 									<table id="example3" class="display text-nowrap table" style="min-width: 845px">
 										<thead>
@@ -57,28 +59,34 @@
 												<th>Name</th>
 												<th>Department</th>
 												<th>Gender</th>
-												<th>Education</th>
-												<th>Mobile</th>
 												<th>Email</th>
-												<th>Joining Date</th>
 												<th>Action</th>
 											</tr>
 										</thead>
 										<tbody>
-											<tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
-												<td>Tiger Nixon</td>
-												<td>Architect</td>
-												<td>Male</td>
-												<td>M.COM., P.H.D.</td>
-												<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-												<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
-												<td>2011/04/25</td>
-												<td>
-													<a asp-controller="Admin" asp-action="UpdateFaculty" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
-													<a asp-controller="Admin" asp-action="DeleteFaculty" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
-												</td>
-											</tr>
+											@foreach (var temp in Model)
+											{
+												<tr>
+													<td><img class="rounded-circle" width="35" src="~/@temp.FacultyImg" alt=""></td>
+													<td>@temp.FacultyName</td>
+													<td>@temp.FacultyDepartmentNavigation.DepartmentName</td>
+													<td>
+														@{
+															string gender = temp.gender == 1 ? "Male" : "Female";
+														}
+														@gender
+													</td>
+
+													<td>@temp.FacultyEmail</td>	
+													<td>
+														<a asp-controller="Admin" asp-action="UpdateFaculty" 
+														asp-route-id="@temp.FacultyId" class="btn btn-xs sharp btn-primary" >
+														<i class="fa fa-pencil"></i></a>
+														<a asp-controller="Admin" asp-action="DeleteFaculty" asp-route-id="@temp.FacultyId" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
+													</td>
+												</tr>
+											}
+										
 
 
 										</tbody>

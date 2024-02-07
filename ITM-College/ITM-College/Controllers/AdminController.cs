@@ -25,8 +25,10 @@ namespace ITM_College.Controllers
 		// iv- Delete Faculty
 		public IActionResult Faculty(string message)
         {
+			var faculties = db.Faculties.Include(f => f.FacultyDepartmentNavigation);
+
 			ViewBag.message = message;
-			return View();
+			return View(faculties);
         }
 		[HttpGet]
 		public IActionResult AddFaculty()
@@ -39,20 +41,69 @@ namespace ITM_College.Controllers
 			return View(viewModel);
 		}
 		[HttpPost]
-		public IActionResult AddFaculty(FacultyAndDepartment newFaculty)
+		public IActionResult AddFaculty(FacultyAndDepartment newFaculty,IFormFile img)
 		{
-			Faculty faculty = new Faculty();
-			faculty.FacultyName = newFaculty.FacultyTable.FacultyName;
-			faculty.FacultyEmail = newFaculty.FacultyTable.FacultyEmail;
-			faculty.FacultyPassword = newFaculty.FacultyTable.FacultyPassword;
-			faculty.FacultyDepartment = newFaculty.FacultyTable.FacultyDepartment;
-			faculty.FacultyImg = newFaculty.FacultyTable.FacultyImg;
-			faculty.gender = newFaculty.FacultyTable.gender;
 
-			db.Faculties.Add(faculty);
-			db.SaveChanges();
-			ViewBag.message = "Faculty Add Successfully";
-			return RedirectToAction("Faculty", new { message = ViewBag.message });
+            //checking Image path was null or not ?
+
+            if (img != null && img.Length > 0)
+            {
+                // GETTING IMAGE FILE EXTENSION 
+                var fileExt = System.IO.Path.GetExtension(img.FileName).Substring(1);
+
+                // GETTING IMAGE NAME
+                var random = Path.GetFileName(img.FileName);
+
+                // GUID ID COMBINE WITH IMAGE NAME - TO ESCAPE IMAGE NAME REDENDNCY 
+                var FileName = Guid.NewGuid() + random;
+
+                // GET PATH OF CUSTOM IMAGE FOLDER
+                string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/admincss/Faculty");
+
+                // CHECKING FOLDER EXIST OR NOT - IF NOT THEN CREATE F0LDER 
+                if (!Directory.Exists(imgFolder))
+                {
+                    Directory.CreateDirectory(imgFolder);
+                }
+
+                // MAKING CUSTOM AND COMBINE FOLDER PATH WITH IMAHE 
+                string filepath = Path.Combine(imgFolder, FileName);
+
+                // COPY IMAGE TO REAL PATH TO DEVELOPER PATH
+                using (var stream = new FileStream(filepath, FileMode.Create))
+                {
+                    img.CopyTo(stream);
+                }
+
+                // READY SEND PATH TO  IMAGE TO DB  
+                var dbAddress = Path.Combine("admincss/Faculty", FileName);
+
+                // EQUALIZE TABLE (MODEL) PROPERTY WITH CUSTOM PATH 
+                newFaculty.FacultyTable.FacultyImg = dbAddress;
+                //MYIMAGES/imagetodbContext.JGP
+
+                Faculty faculty = new Faculty();
+                faculty.FacultyName = newFaculty.FacultyTable.FacultyName;
+                faculty.FacultyEmail = newFaculty.FacultyTable.FacultyEmail;
+                faculty.FacultyPassword = newFaculty.FacultyTable.FacultyPassword;
+				faculty.gender = newFaculty.FacultyTable.gender;
+				faculty.FacultyDepartment = newFaculty.FacultyTable.FacultyDepartment;
+				faculty.FacultyImg = dbAddress;
+			
+
+				// SEND TO TABLE 
+				db.Faculties.Add(faculty);
+                db.SaveChanges();
+                ViewBag.message = "Faculty Add Successfully";
+                return RedirectToAction("Faculty", new { message = ViewBag.message });
+			}
+			else
+			{
+				ViewBag.error = "Something went wrong";
+                return RedirectToAction("AddFaculty");
+            }
+
+			return View();
 		}
 
 		[HttpGet]
