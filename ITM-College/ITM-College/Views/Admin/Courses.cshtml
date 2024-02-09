@@ -56,11 +56,11 @@
 						<div class="card">
 							<div class="card-header">
 								<h4 class="card-title">All Courses</h4>
-								<a asp-controller="Admin" asp-action="AddStudent" class="btn btn-primary">+ Add new</a>
+								<a asp-controller="Admin" asp-action="AddCourse" class="btn btn-primary">+ Add new</a>
 							</div>
 							<div class="card-body">
-								@if (Model.Any())
-								{
+								 @if (Model.Any())
+								{ 
 
 								
 								<div class="table-responsive">
@@ -83,7 +83,7 @@
 														<td><img class="rounded-circle" width="35" src="~/@temp.CourseImg" alt=""></td>
 														<td>@temp.CourseName</td>
 														<td>@temp.Faculty.FacultyName</td>
-														<td>@temp.Faculty.FacultyDepartmentNavigation.DepartmentName</td>
+														 <td>@temp.Faculty.FacultyDepartmentNavigation.DepartmentName</td> 
 														<td>@temp.CourseDuration</td>
 														<td>@temp.CourseDesc</td>
 														<td>
@@ -98,11 +98,11 @@
 										</tbody>
 									</table>
 								</div>
-								}
+								 }
 								else
 								{
 									<h2>No Course Found</h2>
-								}
+								} 
 							</div>
 						</div>
 					</div>

@@ -251,8 +251,8 @@ namespace ITM_College.Controllers
         public IActionResult Courses(string message)
         {
 			ViewBag.message = message;
-			var course = db.Courses.Include(c => c.Faculty).Include(f=>f.Faculty.FacultyDepartmentNavigation).ToList();
-            return View();
+			var course = db.Courses.Include(c => c.Faculty).Include(f => f.Faculty.FacultyDepartmentNavigation).ToList();
+            return View(course);
         }
 
         [HttpGet]
@@ -313,7 +313,7 @@ namespace ITM_College.Controllers
 					course.CourseName = newCourse.CourseTable.CourseName;
 					course.CourseDesc = newCourse.CourseTable.CourseDesc;
 					course.CourseDuration = newCourse.CourseTable.CourseDuration;
-					course.CourseImg = newCourse.CourseTable.CourseImg;
+				    course.FacultyId = newCourse.CourseTable.FacultyId;
 
 					course.CourseImg = dbAddress;
 
@@ -332,19 +332,77 @@ namespace ITM_College.Controllers
 		}
 
 		[HttpGet]
-        public IActionResult UpdateCourse()
+        public IActionResult UpdateCourse(int id)
         {
-            return View();
+			CourseFacultyView viewModel = new CourseFacultyView
+			{
+				CourseTable = db.Courses.FirstOrDefault(col=>col.CourseId == id),
+				faculties = db.Faculties.ToList()
+			};
+			return View(viewModel);
         }
-        //[HttpPost]
-        //public IActionResult UpdateCourse()
-        //{
-        //	return View();
-        //}
 
-        public IActionResult DeleteCourse()
+		[HttpPost]
+		public IActionResult UpdateCourse(CourseFacultyView updatedCourse, IFormFile img)
+		{
+		
+				if (img != null && img.Length > 0)
+				{
+					var fileExt = Path.GetExtension(img.FileName).Substring(1);
+					var random = Path.GetFileName(img.FileName);
+					var fileName = Guid.NewGuid() + random;
+					string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/admincss/Course");
+
+					if (!Directory.Exists(imgFolder))
+					{
+						Directory.CreateDirectory(imgFolder);
+					}
+
+					string filepath = Path.Combine(imgFolder, fileName);
+
+					using (var stream = new FileStream(filepath, FileMode.Create))
+					{
+						img.CopyTo(stream);
+					}
+
+					var dbAddress = Path.Combine("admincss/Course", fileName);
+					updatedCourse.CourseTable.CourseImg = dbAddress;
+				}
+
+				var courseToUpdate = db.Courses.FirstOrDefault(c => c.CourseId == updatedCourse.CourseTable.CourseId);
+
+				if (courseToUpdate != null)
+				{
+					courseToUpdate.CourseName = updatedCourse.CourseTable.CourseName;
+					courseToUpdate.CourseDesc = updatedCourse.CourseTable.CourseDesc;
+					courseToUpdate.CourseDuration = updatedCourse.CourseTable.CourseDuration;
+					courseToUpdate.FacultyId = updatedCourse.CourseTable.FacultyId;
+
+					if (img != null && img.Length > 0)
+					{
+						courseToUpdate.CourseImg = updatedCourse.CourseTable.CourseImg;
+					}
+
+					db.SaveChanges();
+					ViewBag.message = "Course Updated Successfully";
+					return RedirectToAction("Courses", new { message = ViewBag.message });
+				}
+				else
+				{
+					ViewBag.error = "Course not found";
+					return RedirectToAction("UpdateCourse", new { id = updatedCourse.CourseTable.CourseId });
+				}
+		
+		}
+
+
+		public IActionResult DeleteCourse(int id)
         {
-            return View();
+			Course course = db.Courses.Find(id);
+			db.Courses.Remove(course);
+			db.SaveChanges();
+			ViewBag.message = "Course Deleted Successfully";
+			return RedirectToAction("Courses", new { message = ViewBag.message });
         }
         // Courses Controller End
 
@@ -423,9 +481,11 @@ namespace ITM_College.Controllers
 		// ii- Add Department
 		// iii- Update Department
 		// iv- Delete Department
-		public IActionResult Facilities()
+		public IActionResult Facilities(string message)
 		{
-			return View();
+			ViewBag.message = message;
+			var facility = db.Facilities.ToList();
+			return View(facility);
 		}
 
 		[HttpGet]
@@ -433,26 +493,140 @@ namespace ITM_College.Controllers
 		{
 			return View();
 		}
-		//[HttpPost]
-		//public IActionResult AddFacility()
-		//{
-		//	return View();
-		//}
 
-		[HttpGet]
-		public IActionResult UpdateFacility()
+
+		[HttpPost]
+		public IActionResult AddFacility(Facility newFacility,IFormFile img)
 		{
+
+			//checking Image path was null or not ?
+			if (ModelState.IsValid)
+			{
+				if (img != null && img.Length > 0)
+				{
+					// GETTING IMAGE FILE EXTENSION 
+					var fileExt = System.IO.Path.GetExtension(img.FileName).Substring(1);
+
+					// GETTING IMAGE NAME
+					var random = Path.GetFileName(img.FileName);
+
+					// GUID ID COMBINE WITH IMAGE NAME - TO ESCAPE IMAGE NAME REDENDNCY 
+					var FileName = Guid.NewGuid() + random;
+
+					// GET PATH OF CUSTOM IMAGE FOLDER
+					string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/admincss/Facility");
+
+					// CHECKING FOLDER EXIST OR NOT - IF NOT THEN CREATE F0LDER 
+					if (!Directory.Exists(imgFolder))
+					{
+						Directory.CreateDirectory(imgFolder);
+					}
+
+					// MAKING CUSTOM AND COMBINE FOLDER PATH WITH IMAHE 
+					string filepath = Path.Combine(imgFolder, FileName);
+
+					// COPY IMAGE TO REAL PATH TO DEVELOPER PATH
+					using (var stream = new FileStream(filepath, FileMode.Create))
+					{
+						img.CopyTo(stream);
+					}
+
+					// READY SEND PATH TO  IMAGE TO DB  
+					var dbAddress = Path.Combine("admincss/Facility", FileName);
+
+
+					//MYIMAGES/imagetodbContext.JGP
+
+					Facility facility = new Facility();
+					facility.FacilityName = newFacility.FacilityName;
+					facility.FacilityDesc = newFacility.FacilityDesc;
+					facility.FacilityImg = dbAddress;
+					
+
+
+					// SEND TO TABLE 
+					db.Facilities.Add(facility);
+					db.SaveChanges();
+					ViewBag.message = "Facility Add Successfully";
+					return RedirectToAction("Facilities", new { message = ViewBag.message });
+				}
+			}
+			else
+			{
+				ViewBag.error = "Something went wrong";
+				return RedirectToAction("AddFacility");
+			}
+
 			return View();
 		}
-		//[HttpPost]
-		//public IActionResult UpdateFacility()
-		//{
-		//	return View();
-		//}
 
-		public IActionResult DeleteFacility()
+		[HttpGet]
+		public IActionResult UpdateFacility(int id)
 		{
-			return View();
+			var facility = db.Facilities.FirstOrDefault(cols=>cols.Id == id);
+			return View(facility);
+		}
+
+		[HttpPost]
+		public IActionResult UpdateFacility(Facility updatedFacility, IFormFile img)
+		{
+			
+				if (img != null && img.Length > 0)
+				{
+					var fileExt = Path.GetExtension(img.FileName).Substring(1);
+					var random = Path.GetFileName(img.FileName);
+					var fileName = Guid.NewGuid() + random;
+					string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/admincss/Facility");
+
+					if (!Directory.Exists(imgFolder))
+					{
+						Directory.CreateDirectory(imgFolder);
+					}
+
+					string filepath = Path.Combine(imgFolder, fileName);
+
+					using (var stream = new FileStream(filepath, FileMode.Create))
+					{
+						img.CopyTo(stream);
+					}
+
+					var dbAddress = Path.Combine("admincss/Facility", fileName);
+					updatedFacility.FacilityImg = dbAddress;
+				}
+
+				var facilityToUpdate = db.Facilities.FirstOrDefault(f => f.Id == updatedFacility.Id);
+
+				if (facilityToUpdate != null)
+				{
+					facilityToUpdate.FacilityName = updatedFacility.FacilityName;
+					facilityToUpdate.FacilityDesc = updatedFacility.FacilityDesc;
+
+					if (img != null && img.Length > 0)
+					{
+						facilityToUpdate.FacilityImg = updatedFacility.FacilityImg;
+					}
+
+					db.SaveChanges();
+					ViewBag.message = "Facility Updated Successfully";
+					return RedirectToAction("Facilities", new { message = ViewBag.message });
+				}
+				else
+				{
+					ViewBag.error = "Facility not found";
+					return RedirectToAction("UpdateFacility", new { id = updatedFacility.Id });
+				}
+		
+		}
+
+
+		public IActionResult DeleteFacility(int id)
+		{
+
+			Facility facility = db.Facilities.Find(id);
+			db.Facilities.Remove(facility);
+			db.SaveChanges();
+			ViewBag.message = "Facility Deleted Successfully";
+			return RedirectToAction("Facilities", new { message = ViewBag.message });
 		}
 		// Facilities Controller End
 	}
