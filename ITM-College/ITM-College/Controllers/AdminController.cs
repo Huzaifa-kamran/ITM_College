@@ -23,10 +23,11 @@ namespace ITM_College.Controllers
 		// ii- Add Faculties
 		// iii- Update Faculty
 		// iv- Delete Faculty
-		public IActionResult Faculty(string message)
+		public IActionResult Faculty(string message,string error)
         {
 			var faculties = db.Faculties.Include(f => f.FacultyDepartmentNavigation);
 			ViewBag.message = message;
+			ViewBag.error = error;
 			return View(faculties);
         }
 		[HttpGet]
@@ -45,9 +46,7 @@ namespace ITM_College.Controllers
 		public IActionResult AddFaculty(FacultyAndDepartment newFaculty,IFormFile img)
 		{
 
-			//checking Image path was null or not ?
-			if (ModelState.IsValid)
-			{
+		
 				if (img != null && img.Length > 0)
 				{
 					// GETTING IMAGE FILE EXTENSION 
@@ -99,12 +98,7 @@ namespace ITM_College.Controllers
 					ViewBag.message = "Faculty Add Successfully";
 					return RedirectToAction("Faculty", new { message = ViewBag.message });
 				}
-			}
-			else
-			{
-				ViewBag.error = "Something went wrong";
-				return RedirectToAction("AddFaculty");
-			}
+		
 
 			return View();
 		}
@@ -193,14 +187,33 @@ namespace ITM_College.Controllers
 		}
 
 
+
 		public IActionResult DeleteFaculty(int id)
 		{
-			Faculty faculty = db.Faculties.Find(id);
+			var faculty = db.Faculties.Include(f => f.Courses).FirstOrDefault(f => f.FacultyId == id);
+
+			if (faculty == null)
+			{
+				// Faculty not found, handle error
+				ViewBag.error = "Faculty not found.";
+				return RedirectToAction("Faculty",new { error = ViewBag.error });
+			}
+
+			if (faculty.Courses.Any())
+			{
+				// Faculty cannot be deleted because it has courses associated with it
+				ViewBag.error = "Cannot delete faculty. It has associated courses.";
+				return RedirectToAction("Faculty",new { error = ViewBag.error });
+			}
+
+			// If the faculty has no associated courses, delete it
 			db.Faculties.Remove(faculty);
 			db.SaveChanges();
-			ViewBag.message = "Faculty Deleted Successfully";
-			return RedirectToAction("Faculty", new { message = ViewBag.message });
+
+			ViewBag.message = "Faculty deleted successfully.";
+			return RedirectToAction("Faculty",new { message = ViewBag.message });
 		}
+
 		// Faculty Controller End
 
 
@@ -413,9 +426,10 @@ namespace ITM_College.Controllers
         // ii- Add Department
         // iii- Update Department
         // iv- Delete Department
-        public IActionResult Departments(string message)
+        public IActionResult Departments(string message,string error)
         {
             ViewBag.message = message;
+			ViewBag.error = error;
 			var dep = db.Departments.Include(d => d.Faculties).ToList();
 			return View(dep);
         }
@@ -466,11 +480,29 @@ namespace ITM_College.Controllers
 
 		public IActionResult DeleteDepartment(int id)
         {
-			Department dep = db.Departments.Find(id);
-			db.Departments.Remove(dep);
+			var department = db.Departments.Include(d => d.Faculties).FirstOrDefault(d => d.DepartmentId == id);
+
+			if (department == null)
+			{
+				// Department not found, handle error
+				ViewBag.error = "Department not found.";
+				return RedirectToAction("Departments", new { error = ViewBag.error });
+			}
+
+			if (department.Faculties.Count > 0)
+			{
+				// Department cannot be deleted because it has faculties associated with it
+				ViewBag.error = "Cannot delete department. It has associated faculties.";
+				return RedirectToAction("Departments", new { error = ViewBag.error });
+			}
+
+			// If the department has no associated faculties, delete it
+			db.Departments.Remove(department);
 			db.SaveChanges();
-			ViewBag.message = "Department Deleted Successfully";
-			return RedirectToAction("Departments", new { message = ViewBag.message });
+
+			ViewBag.message = "Department deleted successfully.";
+			return RedirectToAction("Departments",new { message = ViewBag.message });
+
 		}
 		// Department Controller End
 
@@ -628,6 +660,51 @@ namespace ITM_College.Controllers
 			ViewBag.message = "Facility Deleted Successfully";
 			return RedirectToAction("Facilities", new { message = ViewBag.message });
 		}
-		// Facilities Controller End
-	}
+        // Facilities Controller End
+
+
+        // ------ Controller 6 Events Controller ------
+        // i- All Events
+        // ii- Add Event
+        // iii- Update Event
+        // iv- Delete Event
+
+		public IActionResult Events()
+		{
+			return View();
+		}
+
+
+		[HttpGet]
+        public IActionResult AddEvent()
+        {
+            return View();
+        }
+
+		//[HttpPost]
+		//public IActionResult AddEvent()
+		//{
+		//    return View();
+		//}
+
+		[HttpGet]
+        public IActionResult UpdateEvent(int id)
+        {
+            return View();
+        }
+
+        //[HttpPost]
+        //public IActionResult UpdateEvent()
+        //{
+        //    return View();
+        //}
+        public IActionResult DeleteEvent(int id)
+        {
+            return View();
+        }
+
+
+
+
+    }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oq8R+diPdQxU2YOzgrwGrAdiv5+wAQNGoGUyB+J2OJw=",
+  "Hash": "mfuDpx8S8/DU+4RbSx6og3VQmA/JPfcAkEr3tisxH8I=",
   "Source": "ITM-College",
   "BasePath": "_content/ITM-College",
   "Mode": "Default",
@@ -112,6 +112,25 @@
       "OriginalItemSpec": "wwwroot\\admincss\\Course\\342dfca7-62be-4728-889b-7188dc3e80a1convert to html.png"
     },
     {
+      "Identity": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\51215a06-b3f8-4246-89d2-7d840a0d32b3convert to html.png",
+      "SourceId": "ITM-College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\",
+      "BasePath": "_content/ITM-College",
+      "RelativePath": "admincss/Course/51215a06-b3f8-4246-89d2-7d840a0d32b3convert to html.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admincss\\Course\\51215a06-b3f8-4246-89d2-7d840a0d32b3convert to html.png"
+    },
+    {
       "Identity": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\9fbddb59-b4b7-40f1-962c-7206cb6310ceconvert-psd-to-html-xd-to-html-figma-to-html-css-bootstrap-and-js (2).jpg",
       "SourceId": "ITM-College",
       "SourceType": "Discovered",
@@ -148,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admincss\\Course\\bc8381ab-f929-421c-892d-ba748ff2ef3bconvert to html.png"
+    },
+    {
+      "Identity": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\c2678739-b568-4e05-ac88-0600478ec68fconvert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg",
+      "SourceId": "ITM-College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\",
+      "BasePath": "_content/ITM-College",
+      "RelativePath": "admincss/Course/c2678739-b568-4e05-ac88-0600478ec68fconvert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admincss\\Course\\c2678739-b568-4e05-ac88-0600478ec68fconvert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg"
     },
     {
       "Identity": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\c5802d10-93d3-4976-97ef-840373d5b2eeconvert-psd-to-html-xd-to-html-figma-to-html-css-bootstrap-and-js (1).jpg",
@@ -226,6 +264,25 @@
       "OriginalItemSpec": "wwwroot\\admincss\\css\\style.css"
     },
     {
+      "Identity": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Facility\\93b46fff-d549-47e8-bd6c-a7fe14da1ef3convert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg",
+      "SourceId": "ITM-College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\",
+      "BasePath": "_content/ITM-College",
+      "RelativePath": "admincss/Facility/93b46fff-d549-47e8-bd6c-a7fe14da1ef3convert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admincss\\Facility\\93b46fff-d549-47e8-bd6c-a7fe14da1ef3convert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg"
+    },
+    {
       "Identity": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Facility\\b194f058-50af-4c7d-addf-0fbf7b5d3646IMG-20240103-WA0146.jpg",
       "SourceId": "ITM-College",
       "SourceType": "Discovered",
@@ -281,6 +338,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admincss\\Faculty\\0fd0785e-9877-47bf-b7f9-b94816a776c0IMG-20240103-WA0217.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\11b71300-0604-4a57-9602-3a60c0adfd2cconvert-psd-to-html-xd-to-html-figma-to-html-css-bootstrap-and-js (1).jpg",
+      "SourceId": "ITM-College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\",
+      "BasePath": "_content/ITM-College",
+      "RelativePath": "admincss/Faculty/11b71300-0604-4a57-9602-3a60c0adfd2cconvert-psd-to-html-xd-to-html-figma-to-html-css-bootstrap-and-js (1).jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admincss\\Faculty\\11b71300-0604-4a57-9602-3a60c0adfd2cconvert-psd-to-html-xd-to-html-figma-to-html-css-bootstrap-and-js (1).jpg"
     },
     {
       "Identity": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\2c15511e-1eaa-4ad6-b76e-dc0f9897bb1dIMG-20240103-WA0146.jpg",
@@ -395,6 +471,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admincss\\Faculty\\dd82817c-a5b9-4133-b50c-6cd72c575560convert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\e1d44f6f-ae66-4324-8c67-f63999a7c866convert-psd-to-html-xd-to-html-figma-to-html-css-bootstrap-and-js (1).jpg",
+      "SourceId": "ITM-College",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\",
+      "BasePath": "_content/ITM-College",
+      "RelativePath": "admincss/Faculty/e1d44f6f-ae66-4324-8c67-f63999a7c866convert-psd-to-html-xd-to-html-figma-to-html-css-bootstrap-and-js (1).jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admincss\\Faculty\\e1d44f6f-ae66-4324-8c67-f63999a7c866convert-psd-to-html-xd-to-html-figma-to-html-css-bootstrap-and-js (1).jpg"
     },
     {
       "Identity": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\css\\style.css",

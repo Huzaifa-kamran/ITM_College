@@ -17,6 +17,15 @@
 			</button> @ViewBag.message
 		</div>
 }
+@if (ViewBag.error != null)
+	{
+		<div class="alert alert-danger solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-alert"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button>
+			<strong>@ViewBag.error</strong>
+		</div>
+	}
 	<!-- row -->
 	<div class="container-fluid">
 		<div class="row page-titles mx-0">

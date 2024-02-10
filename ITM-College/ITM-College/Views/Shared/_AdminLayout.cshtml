@@ -227,12 +227,6 @@
 
 			</li>
 			<li>
-				<a class="ai-icon" href="EventManagement.html" aria-expanded="false">
-					<i class="la la-calendar"></i>
-					<span class="nav-text">Event Management</span>
-				</a>
-			</li>
-			<li>
 				<a class="has-arrow" href="javascript:void()" aria-expanded="false">
 					<i class="la la-user"></i>
 					<span class="nav-text">Faculties</span>
@@ -287,6 +281,16 @@
                         </ul>
                     </li>
 
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="la la-calendar"></i>
+                            <span class="nav-text">Events</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a asp-controller="Admin" asp-action="Events">All Events</a></li>
+                            <li><a asp-controller="Admin" asp-action="AddEvent">Add Event</a></li>
+                        </ul>
+                    </li>
 
 				</ul>
 		
