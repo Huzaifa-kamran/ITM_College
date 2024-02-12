@@ -15,7 +15,20 @@ namespace ITM_College.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+			var dashboardData = new DashboardData
+			{
+				DepartmentsCount = db.Departments.Count(),
+				FacultiesCount = db.Faculties.Count(),
+				StudentsCount = db.Students.Count(),
+				CoursesCount = db.Courses.Count(),
+				Departments = db.Departments.ToList(),
+				Faculties = db.Faculties.ToList(),
+				Students = db.Students.ToList(),
+				Courses = db.Courses.ToList()
+			};
+
+			ViewBag.newStudents = db.StudentCourseRegistrations.Include(c => c.AddmissionForNavigation).Include(s => s.Student);
+            return View(dashboardData);
         }
 
 		// ------ Controller 1 Faculty Controller ------
