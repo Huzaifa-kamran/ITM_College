@@ -13,7 +13,7 @@ namespace ITM_College.Controllers
         {
 			this.db = db;
         }
-        public IActionResult Index()
+        public IActionResult Index(string message,string error)
         {
 			var dashboardData = new DashboardData
 			{
@@ -24,11 +24,14 @@ namespace ITM_College.Controllers
 				Departments = db.Departments.ToList(),
 				Faculties = db.Faculties.ToList(),
 				Students = db.Students.ToList(),
-				Courses = db.Courses.ToList()
+				Courses = db.Courses.ToList(),
+				newStd = db.StudentCourseRegistrations.Include(s=>s.AddmissionForNavigation)
+				.Include(c=>c.Student).Where(col=>col.Status == 1).ToList()
 			};
 
-			ViewBag.newStudents = db.StudentCourseRegistrations.Include(c => c.AddmissionForNavigation).Include(s => s.Student);
-            return View(dashboardData);
+			ViewBag.message = message;
+			ViewBag.error = error;
+			return View(dashboardData);
         }
 
 		// ------ Controller 1 Faculty Controller ------
@@ -43,6 +46,19 @@ namespace ITM_College.Controllers
 			ViewBag.error = error;
 			return View(faculties);
         }
+
+
+		public IActionResult FacultyDetail(int id)
+		{
+			var facultyWithCourses = db.Faculties
+	.Include(f => f.FacultyDepartmentNavigation)
+	.Include(f => f.Courses) // Include the Courses navigation property
+	.FirstOrDefault(f => f.FacultyId == id);
+
+			return View(facultyWithCourses);
+		}
+
+
 		[HttpGet]
 		public IActionResult AddFaculty()
 		{
@@ -522,10 +538,10 @@ namespace ITM_College.Controllers
 
 
 		// ------ Controller 5 Facilities Controller ------
-		// i- All Departments
-		// ii- Add Department
-		// iii- Update Department
-		// iv- Delete Department
+		// i- All Facilities
+		// ii- Add Facilities
+		// iii- Update Facilities
+		// iv- Delete Facilities
 		public IActionResult Facilities(string message)
 		{
 			ViewBag.message = message;
@@ -676,46 +692,14 @@ namespace ITM_College.Controllers
         // Facilities Controller End
 
 
-        // ------ Controller 6 Events Controller ------
-        // i- All Events
-        // ii- Add Event
-        // iii- Update Event
-        // iv- Delete Event
-
-		public IActionResult Events()
+        public IActionResult ApproveStudent(int id)
 		{
-			return View();
+			var std = db.StudentCourseRegistrations.FirstOrDefault(cols=>cols.Id == id);
+			std.Status = 2;
+			db.SaveChanges();
+			ViewBag.message = "Approve Successfully";
+			return RedirectToAction("Index", new { message = ViewBag.message });
 		}
-
-
-		[HttpGet]
-        public IActionResult AddEvent()
-        {
-            return View();
-        }
-
-		//[HttpPost]
-		//public IActionResult AddEvent()
-		//{
-		//    return View();
-		//}
-
-		[HttpGet]
-        public IActionResult UpdateEvent(int id)
-        {
-            return View();
-        }
-
-        //[HttpPost]
-        //public IActionResult UpdateEvent()
-        //{
-        //    return View();
-        //}
-        public IActionResult DeleteEvent(int id)
-        {
-            return View();
-        }
-
 
 
 

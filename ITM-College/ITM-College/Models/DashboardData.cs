@@ -11,5 +11,7 @@
     public List<Faculty> Faculties { get; set; }
     public List<Student> Students { get; set; }
     public List<Course> Courses { get; set; }
-}
+
+        public List<StudentCourseRegistration> newStd { get; set; }
+    }
 }

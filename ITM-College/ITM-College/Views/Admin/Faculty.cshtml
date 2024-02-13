@@ -77,18 +77,26 @@
 										<tbody>
 											@foreach (var temp in Model)
 											{
+												
 												<tr>
-													<td><img class="rounded-circle" width="35" src="~/@temp.FacultyImg" alt=""></td>
-													<td>@temp.FacultyName</td>
-													<td>@temp.FacultyDepartmentNavigation.DepartmentName</td>
+													<td><a asp-controller="Admin" asp-action="FacultyDetail" asp-route-id="@temp.FacultyId"><img class="rounded-circle" width="35" src="~/@temp.FacultyImg" alt=""></a></td>
 													<td>
+															<a asp-controller="Admin" asp-action="FacultyDetail" asp-route-id="@temp.FacultyId">@temp.FacultyName</a>
+														</td>
+													<td>
+														<a asp-controller="Admin" asp-action="FacultyDetail" asp-route-id="@temp.FacultyId">@temp.FacultyDepartmentNavigation.DepartmentName</a>
+														</td>
+													<td>
+														<a asp-controller="Admin" asp-action="FacultyDetail" asp-route-id="@temp.FacultyId">
 														@{
 															string gender = temp.gender == 1 ? "Male" : "Female";
 														}
 														@gender
+														</a>
 													</td>
 
-													<td>@temp.FacultyEmail</td>	
+													<td>
+														<a asp-controller="Admin" asp-action="FacultyDetail" asp-route-id="@temp.FacultyId">@temp.FacultyEmail</a></td>	
 													<td>
 														<a asp-controller="Admin" asp-action="UpdateFaculty" 
 														asp-route-id="@temp.FacultyId" class="btn btn-xs sharp btn-primary" >
@@ -96,6 +104,7 @@
 														<a asp-controller="Admin" asp-action="DeleteFaculty" asp-route-id="@temp.FacultyId" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
 													</td>
 												</tr>
+													
 											}
 										
 

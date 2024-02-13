@@ -3,6 +3,25 @@
 }
 @model ITM_College.Models.DashboardData;
 <div class="content-body">
+	@if (ViewBag.message != null)
+	{
+
+		<div class="alert alert-success solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-check"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button> @ViewBag.message
+		</div>
+	}
+
+	@if (ViewBag.error != null)
+	{
+		<div class="alert alert-danger solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-alert"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button>
+			<strong>@ViewBag.error</strong>
+		</div>
+	}
 	<!-- row -->
 	<div class="container-fluid">
 
@@ -99,7 +118,7 @@
 					</div>
 					<div class="card-body">
 						<div class="table-responsive recentOrderTable text-nowrap">
-							<table class="table verticle-middle table-responsive-md">
+							<table class="table table-hover table-responsive-md">
 								<thead>
 
 									<tr>
@@ -107,37 +126,36 @@
 										<th scope="col">Email</th>
 										<th scope="col">Course</th>
 										<th scope="col">Status</th>
-										<th scope="col">Actions</th>
+										<th scope="col" class="text-center">Actions</th>
 									</tr>
 
 
 								</thead>
 								<tbody>
 
-									@foreach (var temp in ViewBag.newStudents)
+									 @foreach (var item in Model.newStd)
 									{
 
 									
 									<tr>
-										<td>@temp.</td>
-										<td>Ashton Cox</td>
-										<td>12 August 2021</td>
-										<td>10:15</td>
+											<td>@item.StudentName</td>
+											<td>@item.Student.StudentEmail</td>
+										    <td>@item.AddmissionForNavigation.CourseName</td>
+											<td>@if(item.Status == 1)
+												{
+													<span class="badge badge-rounded badge-warning">Pending</span>
+												}
+											</td>
 										<td>
-											<div class="dropdown custom-dropdown mb-0">
-												<div data-bs-toggle="dropdown">
-													<i class="fa fa-ellipsis-v"></i>
-												</div>
-												<div class="dropdown-menu dropdown-menu-right">
-													<a class="dropdown-item" href="javascript:void(0);">Accept</a>
-													<a class="dropdown-item" href="javascript:void(0);">Details</a>
-													<a class="dropdown-item text-danger" href="javascript:void(0);">Cancel</a>
-												</div>
-											</div>
+												<a asp-controller="Admin" asp-action="ApproveStudent" asp-route-id="@item.Id" 
+												class="btn btn-primary btn-sm">Approve</a>
+
+												<a asp-controller="Admin" asp-action="RejectStudent" asp-route-id="@item.Id" 
+												class="btn btn-danger btn-sm">Reject</a>
 										</td>
 									</tr>
 
-									}
+									} 
 
 								</tbody>
 							</table>
