@@ -220,7 +220,7 @@
 		<ul class="metismenu" id="menu">
 			<li class="nav-label first">Main Menu</li>
 			<li>
-				<a class="has-arrow" href="javascript:void()" aria-expanded="false">
+				<a asp-controller="Admin" asp-action="Index" aria-expanded="false">
 					<i class="la la-home"></i>
 					<span class="nav-text">Dashboard</span>
 				</a>
@@ -282,14 +282,11 @@
                     </li>
 
                     <li>
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="la la-calendar"></i>
-                            <span class="nav-text">Events</span>
+                        <a asp-controller="Admin" asp-action="Feedback" aria-expanded="false">
+                            <i class="la la-plus-square-o"></i>
+                            <span class="nav-text">Feedback</span>
                         </a>
-                        <ul aria-expanded="false">
-                            <li><a asp-controller="Admin" asp-action="Events">All Events</a></li>
-                            <li><a asp-controller="Admin" asp-action="AddEvent">Add Event</a></li>
-                        </ul>
+
                     </li>
 
 				</ul>

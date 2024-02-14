@@ -50,11 +50,19 @@ namespace ITM_College.Controllers
 
 		public IActionResult FacultyDetail(int id)
 		{
-			var facultyWithCourses = db.Faculties
+	var facultyWithCourses = db.Faculties
 	.Include(f => f.FacultyDepartmentNavigation)
 	.Include(f => f.Courses) // Include the Courses navigation property
 	.FirstOrDefault(f => f.FacultyId == id);
 
+
+           var count = db.Courses
+           .Include(c => c.StudentCourseRegistrations)
+          .Where(col => col.FacultyId == id) 
+          .SelectMany(c => c.StudentCourseRegistrations)
+          .Count();
+
+            ViewBag.count = count;
 			return View(facultyWithCourses);
 		}
 
@@ -251,9 +259,14 @@ namespace ITM_College.Controllers
 		// ii- Add Students
 		// iii- Update Student
 		// iv- Delete Student
-		public IActionResult Students()
+		public IActionResult Students(string message,string error)
 		{
-			return View();
+			ViewBag.message = message;
+			ViewBag.error = error;
+			var students = db.Students.Include(s => s.StudentCourseRegistrations).ThenInclude(sr => sr.AddmissionForNavigation)
+			.ToList();
+			//var students = db.Students.Include(c => c.StudentCourseRegistrations);
+			return View(students);
 		}
 
 		[HttpGet]
@@ -701,7 +714,22 @@ namespace ITM_College.Controllers
 			return RedirectToAction("Index", new { message = ViewBag.message });
 		}
 
+		public IActionResult RejectStudent(int id)
+		{
+			var std = db.StudentCourseRegistrations.FirstOrDefault(cols => cols.Id == id);
+			std.Status = 3;
+			db.SaveChanges();
+			ViewBag.message = "Reject Student Request";
+			return RedirectToAction("Index", new { message = ViewBag.message });
+		}
+
+		public IActionResult Feedback(string message)
+		{
+			var contact = db.Contacts.ToList();
+			ViewBag.message = message;
+			return View(contact);
+		}
 
 
-    }
+	}
 }
