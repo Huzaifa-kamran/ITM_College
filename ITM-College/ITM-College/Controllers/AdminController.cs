@@ -310,7 +310,16 @@ namespace ITM_College.Controllers
             return View(course);
         }
 
-        [HttpGet]
+		public IActionResult CourseDetail(int id)
+		{
+			var course = db.Courses.Include(c => c.Faculty)
+				.Include(f => f.Faculty.FacultyDepartmentNavigation)
+				.Include(s=>s.StudentCourseRegistrations)
+				.FirstOrDefault(col=>col.CourseId == id);
+			return View(course);
+		}
+
+		[HttpGet]
         public IActionResult AddCourse()
         {
 			CourseFacultyView viewModel = new CourseFacultyView

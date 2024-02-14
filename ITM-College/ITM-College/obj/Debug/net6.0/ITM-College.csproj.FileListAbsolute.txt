@@ -632,3 +632,4 @@ C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\refint
 C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.pdb
 C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.genruntimeconfig.cache
 C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\ref\ITM-College.dll
+C:\Users\a\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.sourcelink.json

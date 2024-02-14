@@ -80,12 +80,20 @@
 											@foreach (var temp in Model)
 												{
 													<tr>
-														<td><img class="rounded-circle" width="35" src="~/@temp.CourseImg" alt=""></td>
-														<td>@temp.CourseName</td>
-														<td>@temp.Faculty.FacultyName</td>
-														 <td>@temp.Faculty.FacultyDepartmentNavigation.DepartmentName</td> 
-														<td>@temp.CourseDuration</td>
-														<td>@temp.CourseDesc</td>
+														<td>
+															<a asp-controller="Admin" asp-action="CourseDetail" asp-route-id="@temp.CourseId">
+															<img class="rounded-circle" width="35" src="~/@temp.CourseImg" alt="">
+															</a>
+														</td>
+														<td>
+															<a asp-controller="Admin" asp-action="CourseDetail" asp-route-id="@temp.CourseId">@temp.CourseName</a>
+														</td>
+														<td>
+															<a asp-controller="Admin" asp-action="CourseDetail" asp-route-id="@temp.CourseId">@temp.Faculty.FacultyName</a>
+													    </td>
+														<td><a asp-controller="Admin" asp-action="CourseDetail" asp-route-id="@temp.CourseId">@temp.Faculty.FacultyDepartmentNavigation.DepartmentName</a>	</td>
+														<td><a asp-controller="Admin" asp-action="CourseDetail" asp-route-id="@temp.CourseId">@temp.CourseDuration</a></td>
+														<td><a asp-controller="Admin" asp-action="CourseDetail" asp-route-id="@temp.CourseId">@temp.CourseDesc</a></td>
 														<td>
 															<a asp-controller="Admin" asp-action="UpdateCourse" asp-route-id="@temp.CourseId" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
 															<a asp-controller="Admin" asp-action="DeleteCourse" asp-route-id="@temp.CourseId" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
