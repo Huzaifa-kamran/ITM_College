@@ -265,7 +265,6 @@ namespace ITM_College.Controllers
 			ViewBag.error = error;
 			var students = db.Students.Include(s => s.StudentCourseRegistrations).ThenInclude(sr => sr.AddmissionForNavigation)
 			.ToList();
-			//var students = db.Students.Include(c => c.StudentCourseRegistrations);
 			return View(students);
 		}
 
