@@ -3,7 +3,7 @@ create database ITM_College;
 use ITM_College;
 
 
-create table Admin(id int primary key identity(1,1),adminName varchar(55),adminEmail varchar(55),password varchar(55));
+create table Admin(id int primary key identity(1,1),adminName varchar(55),adminEmail varchar(55),password varchar(55), role int);
 
 create table Facilities(id int primary key identity(1,1),facilityName varchar(55),facilityDesc text,facilityImg varchar(max));
 
@@ -18,6 +18,7 @@ facultyPassword varchar(55),
 facultyDepartment int,
 facultyImg varchar(max),
 gender int,
+Role int,
 foreign key (facultyDepartment) references Department(departmentID)
 );
 
@@ -33,7 +34,7 @@ facultyID int,
 foreign key (facultyID) references Faculties(facultyID)
 );
 
-create table Students(studentID int primary key identity(1,1),studentName varchar(55),studentEmail varchar(55),password varchar(55));
+create table Students(studentID int primary key identity(1,1),studentName varchar(55),studentEmail varchar(55),password varchar(55),role int);
 
 create table StudentCourseRegistration(
 id int primary key identity(1,1),

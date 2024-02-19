@@ -14,9 +14,11 @@ namespace ITM_College.Models
         public string? FacultyName { get; set; }
         public string? FacultyEmail { get; set; }
         public string? FacultyPassword { get; set; }
-		public int gender { get; set; }
-		public int? FacultyDepartment { get; set; }
+        public int? FacultyDepartment { get; set; }
         public string? FacultyImg { get; set; }
+        public int? Gender { get; set; }
+        public int? Role { get; set; }
+
         public virtual Department? FacultyDepartmentNavigation { get; set; }
         public virtual ICollection<Course> Courses { get; set; }
     }

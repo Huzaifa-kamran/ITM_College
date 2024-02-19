@@ -6,12 +6,7 @@
 		 Content body start
 	 ***********************************-->
 <div class="content-body">
-	@if(ViewBag.error != null)
-	{
-		<div class="alert alert-danger">
-			<p>@ViewBag.error</p>
-			</div>
-	}
+
 	<!-- row -->
 	<div class="container-fluid">
 
@@ -70,7 +65,7 @@
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label class="form-label">Gender</label>
-										<select asp-for="FacultyTable.gender" class="form-control">
+										<select asp-for="FacultyTable.Gender" class="form-control">
 											<option value="1">Male</option>
 											<option value="2">Female</option>
 										</select>
@@ -81,7 +76,7 @@
 									<div class="form-group">
 										<label class="form-label">Department</label>
 										<select asp-for="FacultyTable.FacultyDepartment" class="form-control">
-		
+
 											@foreach (var temp in Model.Departments)
 											{
 												<option value="@temp.DepartmentId">@temp.DepartmentName</option>
@@ -91,7 +86,7 @@
 
 									</div>
 								</div>
-			
+
 
 								<div class="col-lg-6 col-md-6">
 									<div class="form-group fallback w-100">
@@ -101,7 +96,7 @@
 								</div>
 								<div class="col-lg-12 col-md-12 col-sm-12">
 									<button type="submit" class="btn btn-primary">Submit</button>
-									<button type="reset" class="btn btn-danger light">Cancel</button>
+									<button type="reset" class="btn btn-danger light">Reset</button>
 								</div>
 							</div>
 						</form>

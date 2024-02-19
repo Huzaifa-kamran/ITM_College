@@ -7,17 +7,17 @@
 		  Content body start
 	  ***********************************-->
 <div class="content-body">
-	
-@if (ViewBag.message != null)
-{
-	
+
+	@if (ViewBag.message != null)
+	{
+
 		<div class="alert alert-success solid alert-right-icon alert-dismissible fade show">
 			<span><i class="mdi mdi-check"></i></span>
 			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
 			</button> @ViewBag.message
 		</div>
-}
-@if (ViewBag.error != null)
+	}
+	@if (ViewBag.error != null)
 	{
 		<div class="alert alert-danger solid alert-right-icon alert-dismissible fade show">
 			<span><i class="mdi mdi-alert"></i></span>
@@ -53,6 +53,8 @@
 								<a asp-controller="Admin" asp-action="AddDepartment" class="btn btn-primary">+ Add new</a>
 							</div>
 							<div class="card-body">
+								@if (Model.Any())
+								{
 								<div class="table-responsive">
 									<table id="example3" class="display text-nowrap table" style="min-width: 845px">
 										<thead>
@@ -71,7 +73,7 @@
 											@foreach (var temp in Model)
 											{
 												<tr>
-										            <td>@counter</td>
+													<td>@counter</td>
 													<td>@temp.DepartmentName</td>
 													<td>@temp.DepartmentDesc</td>
 													<td>@temp.Faculties.Count</td>
@@ -82,12 +84,17 @@
 												</tr>
 												counter++;
 											}
-										
+
 
 
 										</tbody>
 									</table>
 								</div>
+								}
+								else
+								{
+									<h2>No Department Found</h2>
+								}
 							</div>
 						</div>
 					</div>

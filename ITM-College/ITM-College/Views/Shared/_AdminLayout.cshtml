@@ -7,19 +7,6 @@
 <meta name="author" content="dexignlabs">
 <meta name="robots" content="index, follow">
 
-<meta name="keywords" content="admin, dashboard, admin dashboard, admin template, ASP.NET Core MVC, template, admin panel, administration, analytics, bootstrap, modern, responsive, creative, retina ready, modern Dashboard responsive dashboard, responsive template, user experience, user interface, Bootstrap Dashboard, Analytics Dashboard, Customizable Admin Panel, EduMin template, ui kit, web app, EduMin, School Management,Dashboard Template, academy, course, courses, e-learning, education, learning, learning management system, lms, school, student, teacher">
-
-<meta name="description" content="EduMin - Empower your educational institution with the all-in-one Education Admin ASP.NET Core MVC Dashboard Template. Streamline administrative tasks, manage courses, track student performance, and gain valuable insights with ease. Elevate your education management experience with a modern, responsive, and feature-packed solution. Explore EduMin now for a smarter, more efficient approach to education administration.">
-
-<meta property="og:title" content="EduMin - Education Admin ASP.NET Core MVC Dashboard Template | dexignlabs">
-<meta property="og:description" content="EduMin - Empower your educational institution with the all-in-one Education Admin ASP.NET Core MVC Dashboard Template. Streamline administrative tasks, manage courses, track student performance, and gain valuable insights with ease. Elevate your education management experience with a modern, responsive, and feature-packed solution. Explore EduMin now for a smarter, more efficient approach to education administration.">
-
-<meta property="og:image" content="../../products.w3itexpert.com/images/edumin_ogimage.png">
-
-<meta name="format-detection" content="telephone=no">
-
-<meta name="twitter:title" content="EduMin - Education Admin ASP.NET Core MVC Dashboard Template | dexignlabs">
-<meta name="twitter:description" content="EduMin - Empower your educational institution with the all-in-one Education Admin ASP.NET Core MVC Dashboard Template. Streamline administrative tasks, manage courses, track student performance, and gain valuable insights with ease. Elevate your education management experience with a modern, responsive, and feature-packed solution. Explore EduMin now for a smarter, more efficient approach to education administration.">
 
 <meta name="twitter:image" content="../../products.w3itexpert.com/images/edumin_ogimage.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -58,7 +45,7 @@
             Nav header start
 ***********************************-->
 <div class="nav-header">
-    <a asp-controller="Admin" asp-action="Index" class="brand-logo">
+    <a href="../index.html" class="brand-logo">
         <svg class="logo-abbr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="67" viewBox="0 0 84 67" fill="none">
             <mask id="mask0_135_5" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="0" width="76" height="66">
                 <rect x="4" width="76" height="66" fill="url(#pattern0)" />
@@ -220,12 +207,13 @@
 		<ul class="metismenu" id="menu">
 			<li class="nav-label first">Main Menu</li>
 			<li>
-				<a asp-controller="Admin" asp-action="Index" aria-expanded="false">
+                        <a class="ai-icon" asp-controller="Admin" asp-action="Index" aria-expanded="false">
 					<i class="la la-home"></i>
 					<span class="nav-text">Dashboard</span>
 				</a>
 
 			</li>
+			
 			<li>
 				<a class="has-arrow" href="javascript:void()" aria-expanded="false">
 					<i class="la la-user"></i>
@@ -282,11 +270,10 @@
                     </li>
 
                     <li>
-                        <a asp-controller="Admin" asp-action="Feedback" aria-expanded="false">
-                            <i class="la la-plus-square-o"></i>
+                        <a class="ai-icon" asp-controller="Admin" asp-action="Feedback" aria-expanded="false">
+                            <i class="la la-calendar"></i>
                             <span class="nav-text">Feedback</span>
                         </a>
-
                     </li>
 
 				</ul>
@@ -302,18 +289,6 @@
 ***********************************-->
         @RenderBody()
 
-
-<!--**********************************
-	Footer start
-***********************************-->
-<div class="footer">
-	<div class="copyright">
-		<p>Copyright © Designed &amp; Developed by <a href="http://dexignlab.com/" target="_blank">DexignLab</a> 2024</p>
-	</div>
-</div>
-<!--**********************************
-	Footer end
-***********************************-->
 	</div>
 <!--**********************************
 	Main wrapper end

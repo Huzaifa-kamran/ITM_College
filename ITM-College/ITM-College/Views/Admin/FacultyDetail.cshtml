@@ -1,5 +1,5 @@
 ﻿@{
-    Layout = "_AdminLayout";
+	Layout = "_AdminLayout";
 }
 @model ITM_College.Models.Faculty;
 <div class="content-body">
@@ -9,7 +9,7 @@
 		<div class="row page-titles mx-0">
 			<div class="col-sm-6 p-md-0">
 				<div class="welcome-text">
-					<h4>Professor Profile</h4>
+					<h4>Faculty Profile</h4>
 				</div>
 			</div>
 			<div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
@@ -44,20 +44,20 @@
 											<strong>Email</strong>
 											<span class="mb-0">@Model.FacultyEmail</span>
 										</li>
-										<li class="list-group-item d-flex px-0 justify-content-                                                   between">
+										<li class="list-group-item d-flex px-0 justify-content-between">
 											<strong>Gender</strong>
 											@{
-												string gender = Model.gender == 1 ? "Male" : "Female";
+												string gender = Model.Gender == 1 ? "Male" : "Female";
 											}
 											<span class="mb-0">
 												@gender
 											</span>
 										</li>
-									
+
 										<li class="list-group-item d-flex px-0 justify-content-between">
 											<strong>Courses</strong>
 											<span class="mb-0">
-												@if (Model.Courses != null)
+												@if (Model.Courses != null && Model.Courses.Any())
 												{
 													@foreach (var course in Model.Courses)
 													{
@@ -70,13 +70,11 @@
 												}
 												else
 												{
-													<text>No course</text>;
+													<text>No Course</text>
 												}
 											</span>
-
-
 										</li>
-									
+
 									</ul>
 								</div>
 								<div class="card-footer pt-0 pb-0 text-center">

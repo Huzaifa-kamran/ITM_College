@@ -253,27 +253,9 @@ var themeOptionArr = {
 	/* / set switcher option end / */
 
 	
-	jQuery(document).on('click', '.dlab_theme_demo', function(){
-
-		setTimeout(() => {
-			var allAttrs = getElementAttrs(document.querySelector('body'));
-			allAttrs.forEach(handleSetThemeOption);
-			$('.default-select').selectpicker('refresh');
-		},1500);
-
-		var demoTheme = jQuery(this).data('theme');
-		themeChange(demoTheme, 'ltr');
-		$('.dlab-demo-panel').removeClass('show');
-		jQuery('.main-css').attr('href','../admincss/css/style.css');
-	});
 	
 	
-	jQuery(document).on('click', '.dlab_theme_demo_rtl', function(){
-		var demoTheme = jQuery(this).data('theme');
-		themeChange(demoTheme, 'rtl');
-		$('.dlab-demo-panel').removeClass('show');
-		jQuery('.main-css').attr('href','../admincss/css/style-rtl.css');
-	});
+
 	
 	
 	jQuery(window).on('load', function(){

@@ -43,10 +43,10 @@
 									<div class="form-group">
 										<label class="form-label" for="Professor_Name">Faculty Name</label>
 										<select asp-for="CourseTable.FacultyId" class="form-control">
-                    						@foreach (var temp in Model.faculties)
+											@foreach (var temp in Model.faculties)
 											{
 												<option value="@temp.FacultyId">@temp.FacultyName</option>
-											} 
+											}
 										</select>
 									</div>
 								</div>
@@ -60,7 +60,7 @@
 								<div class="col-sm-6">
 									<div class="form-group">
 										<label class="form-label" for="Course_Duration">No. Of Lectures</label>
-										<input placeholder="Course Duration" asp-for="CourseTable.CourseDuration"  id="Course_Duration" type="text" class="form-control" required>
+										<input placeholder="Course Duration" asp-for="CourseTable.CourseDuration" id="Course_Duration" type="text" class="form-control" required>
 									</div>
 								</div>
 

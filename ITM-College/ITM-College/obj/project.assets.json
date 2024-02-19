@@ -9961,11 +9961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\ITM-College.csproj",
+      "projectUniqueName": "C:\\Users\\a\\Desktop\\ITM_College-main\\ITM-College\\ITM-College\\ITM-College.csproj",
       "projectName": "ITM-College",
-      "projectPath": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\ITM-College.csproj",
+      "projectPath": "C:\\Users\\a\\Desktop\\ITM_College-main\\ITM-College\\ITM-College\\ITM-College.csproj",
       "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\obj\\",
+      "outputPath": "C:\\Users\\a\\Desktop\\ITM_College-main\\ITM-College\\ITM-College\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",

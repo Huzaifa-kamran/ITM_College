@@ -25,65 +25,74 @@
 		</div>
 
 		<div class="row">
-	
+		
 			<div class="col-lg-12">
 				<div class="row">
 					<div class="show col-lg-12">
 						<div class="card">
 							<div class="card-header">
-								<h4 class="card-title">All Students  </h4>
-								<a asp-controller="Admin" asp-action="AddStudent" class="btn btn-primary">+ Add new</a>
+								<h4 class="card-title">All Students</h4>
+								
 							</div>
 							<div class="card-body">
 								@if (Model.Any())
 								{
-								<div class="table-responsive">
-									<table id="example3" class="display text-nowrap table" style="min-width: 845px">
-										<thead>
-											<tr>
-												<th>Profile</th>
-												<th>Name</th>
-												<th>Email</th>
-												<th>Courses</th>
-												<th>Action</th>
-											</tr>
-										</thead>
-										<tbody>
-											@foreach (var temp in Model)
+									<div class="table-responsive">
+										<table id="example3" class="display text-nowrap table" style="min-width: 845px">
+											<thead>
+												<tr>
+													<th>Profile</th>
+													<th>Name</th>
+													<th>Email</th>
+													<th>Courses</th>
+													<th>Action</th>
+												</tr>
+											</thead>
+											<tbody>
+												@foreach (var temp in Model)
 												{
-													
-												
-											<tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
+
+
+													<tr>
+														<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
 														<td><a asp-controller="Admin" asp-action="StudentDetail" asp-route-id="@temp.StudentId">@temp.StudentName</a></td>
 														<td><a asp-controller="Admin" asp-action="StudentDetail" asp-route-id="@temp.StudentId">@temp.StudentEmail</a></td>
 														<td>
 															<a asp-controller="Admin" asp-action="StudentDetail" asp-route-id="@temp.StudentId">
-															@foreach (var coursess in temp.StudentCourseRegistrations)
-															{
-																@coursess.AddmissionForNavigation.CourseName
-															}
+																@if (temp.StudentCourseRegistrations.Count == 0)
+																{
+																	<text>No courses</text>
+																}
+																else
+																{
+																	@foreach (var coursess in temp.StudentCourseRegistrations)
+																	{
+																		@coursess.AddmissionForNavigation.CourseName
+																	}
+																}
 															</a>
 														</td>
-												<td>
-													<a asp-controller="Admin" asp-action="UpdateStudent" asp-route-id="@temp.StudentId" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
+
+														<td>
+															<a asp-controller="Admin" asp-action="UpdateStudent" asp-route-id="@temp.StudentId" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
 															<a asp-controller="Admin" asp-action="DeleteStudent" asp-route-id="@temp.StudentId" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
-												</td>
-											</tr>
+														</td>
+													</tr>
 												}
 
-										</tbody>
-									</table>
-								</div>
+											</tbody>
+										</table>
+									</div>
 								}
 								else
 								{
-									// Model is empty or null
+								// Model is empty or null
 									<h2>No Students Found</h2>
 								}
 							</div>
 						</div>
 					</div>
+
 
 				</div>
 			</div>

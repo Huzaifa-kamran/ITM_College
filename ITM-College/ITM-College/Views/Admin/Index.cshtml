@@ -1,6 +1,7 @@
 ﻿@{
 	Layout = "_AdminLayout";
 }
+
 @model ITM_College.Models.DashboardData;
 <div class="content-body">
 	@if (ViewBag.message != null)
@@ -83,6 +84,7 @@
 					<div class="card-header">
 						<h4 class="card-title">Faculty List</h4>
 					</div>
+					@if(Model.Faculties.Any()){
 					<div class="card-body dz-scroll" >
 
 						@foreach (var temp in Model.Faculties)
@@ -105,6 +107,12 @@
 							<a asp-controller="Admin" asp-action="Faculty" class="btn btn-primary">View All</a>
 						</div>
 					</div>
+					}
+					else
+					{
+					// Model is empty or null
+						<h4 class="ms-3 p-4">No Faculty Found</h4>
+					}
 				</div>
 			</div>
 
@@ -114,9 +122,10 @@
 			<div class="col-xl-8 col-lg-8 col-xxl-8 col-md-12">
 				<div class="card">
 					<div class="card-header">
-						<h4 class="card-title">New Student</h4>
+						<h4 class="card-title">Student Request</h4>
 					</div>
 					<div class="card-body">
+						@if(Model.newStd.Any()){
 						<div class="table-responsive recentOrderTable text-nowrap">
 							<table class="table table-hover table-responsive-md">
 								<thead>
@@ -160,6 +169,12 @@
 								</tbody>
 							</table>
 						</div>
+						}
+						else
+						{
+						// Model is empty or null
+							<h4 class="ms-3 p-2">No Request Found</h4>
+						}
 					</div>
 				</div>
 			</div>

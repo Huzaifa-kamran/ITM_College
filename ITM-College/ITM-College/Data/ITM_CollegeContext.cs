@@ -28,8 +28,13 @@ namespace ITM_College.Data
         public virtual DbSet<StudentCourseRegistration> StudentCourseRegistrations { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        =>optionsBuilder.UseSqlServer();
-    
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+
+                optionsBuilder.UseSqlServer();
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -53,6 +58,8 @@ namespace ITM_College.Data
                     .HasMaxLength(55)
                     .IsUnicode(false)
                     .HasColumnName("password");
+
+                entity.Property(e => e.Role).HasColumnName("role");
             });
 
             modelBuilder.Entity<Contact>(entity =>
@@ -101,7 +108,7 @@ namespace ITM_College.Data
                 entity.HasOne(d => d.Faculty)
                     .WithMany(p => p.Courses)
                     .HasForeignKey(d => d.FacultyId)
-                    .HasConstraintName("FK__Courses__faculty__4222D4EF");
+                    .HasConstraintName("FK__Courses__faculty__2E1BDC42");
             });
 
             modelBuilder.Entity<Department>(entity =>
@@ -165,16 +172,18 @@ namespace ITM_College.Data
                     .IsUnicode(false)
                     .HasColumnName("facultyPassword");
 
+                entity.Property(e => e.Gender).HasColumnName("gender");
+
                 entity.HasOne(d => d.FacultyDepartmentNavigation)
                     .WithMany(p => p.Faculties)
                     .HasForeignKey(d => d.FacultyDepartment)
-                    .HasConstraintName("FK__faculties__facul__3F466844");
+                    .HasConstraintName("FK__faculties__facul__2B3F6F97");
             });
 
             modelBuilder.Entity<PreviousExam>(entity =>
             {
                 entity.HasKey(e => e.ExamId)
-                    .HasName("PK__Previous__A56D123F99617EA9");
+                    .HasName("PK__Previous__A56D123F99001D5B");
 
                 entity.ToTable("PreviousExam");
 
@@ -218,7 +227,7 @@ namespace ITM_College.Data
                 entity.HasOne(d => d.StudentData)
                     .WithMany(p => p.PreviousExams)
                     .HasForeignKey(d => d.StudentDataId)
-                    .HasConstraintName("FK__PreviousE__stude__4AB81AF0");
+                    .HasConstraintName("FK__PreviousE__stude__36B12243");
             });
 
             modelBuilder.Entity<Student>(entity =>
@@ -229,6 +238,8 @@ namespace ITM_College.Data
                     .HasMaxLength(55)
                     .IsUnicode(false)
                     .HasColumnName("password");
+
+                entity.Property(e => e.Role).HasColumnName("role");
 
                 entity.Property(e => e.StudentEmail)
                     .HasMaxLength(55)
@@ -295,12 +306,12 @@ namespace ITM_College.Data
                 entity.HasOne(d => d.AddmissionForNavigation)
                     .WithMany(p => p.StudentCourseRegistrations)
                     .HasForeignKey(d => d.AddmissionFor)
-                    .HasConstraintName("FK__StudentCo__addmi__47DBAE45");
+                    .HasConstraintName("FK__StudentCo__addmi__33D4B598");
 
                 entity.HasOne(d => d.Student)
                     .WithMany(p => p.StudentCourseRegistrations)
                     .HasForeignKey(d => d.StudentId)
-                    .HasConstraintName("FK__StudentCo__stude__46E78A0C");
+                    .HasConstraintName("FK__StudentCo__stude__32E0915F");
             });
 
             OnModelCreatingPartial(modelBuilder);
