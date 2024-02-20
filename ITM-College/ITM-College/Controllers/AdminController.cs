@@ -770,7 +770,7 @@ namespace ITM_College.Controllers
 			std.Status = 2;
 			db.SaveChanges();
 			ViewBag.message = "Approve Successfully";
-			return RedirectToAction("Index", new { message = ViewBag.message });
+			return RedirectToAction("Students", new { message = ViewBag.message });
 		}
 
 		public IActionResult RejectStudent(int id)
@@ -779,7 +779,7 @@ namespace ITM_College.Controllers
 			std.Status = 3;
 			db.SaveChanges();
 			ViewBag.message = "Reject Student Request";
-			return RedirectToAction("Index", new { message = ViewBag.message });
+			return RedirectToAction("Students", new { message = ViewBag.message });
 		}
 
 		public IActionResult Feedback(string message)

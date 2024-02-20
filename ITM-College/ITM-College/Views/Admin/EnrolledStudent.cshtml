@@ -84,89 +84,102 @@
 										<li class="list-group-item d-flex px-0 justify-content-between">
 											<strong>Courses</strong>
 
-										@foreach (var temp in Model.StudentCourseRegistrations)
+											@{
+												var enroll = Model.StudentCourseRegistrations.Where(col => col.Status == 2);
+											}
+										@if(enroll.Any()){
+											<span class="mb-0">
+										@foreach (var temp in enroll)
 										{
 											if(temp.Status == 2){
-												<span class="mb-0">
+												
 
 														@temp.AddmissionForNavigation.CourseName
-														@if (!temp.Equals(Model.StudentCourseRegistrations.Last()))
+														@if (!temp.Equals(enroll.Last()))
 														{
 															<text>, </text>
 														}
-													</span>
+										
+													
 												}
-												else
-												{
-													<span class="mb-0">
-														No Course
-													</span>
+												
 												}
+												</span>
 											}
-										
-										
-										
-										</li>
-
-
-										<li class="list-group-item d-flex px-0 justify-content-between">
-											<strong>Pending Courses</strong>
-
-											@foreach (var temp in Model.StudentCourseRegistrations)
+											else
 											{
-												if (temp.Status == 1)
-												{
-													<span class="mb-0">
-
-														<span style="font-size:19px;margin-left:8px">@temp.AddmissionForNavigation.CourseName  |</span>
-
-														<a asp-controller="Admin" asp-action="ApproveStudent" asp-route-id="@temp.Id"
-														   class="btn btn-primary btn-sm">Approve</a>
-
-														<a asp-controller="Admin" asp-action="RejectStudent" asp-route-id="@temp.Id"
-														   class="btn btn-danger btn-sm">Reject</a>
-													</span>
-												}
-												else
-												{
-													<span class="mb-0">
-														No Pending Course
-													</span>
-												}
+												<span class="mb-0">No Course</span>
 											}
 
-
-
+										
+										
 										</li>
+
+
+										<li class="list-group-item px-0">
+											<div class="row">
+												<div class="col">
+													<strong>Pending Courses</strong>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col">
+													@{
+														var pending = Model.StudentCourseRegistrations.Where(col => col.Status == 1);
+													}
+													@if (pending.Any())
+													{
+														foreach (var temp in pending)
+														{
+															if (temp.Status == 1)
+															{
+																<div class="d-flex justify-content-between mb-2">
+																	<span class="mt-1">@temp.AddmissionForNavigation.CourseName</span>
+																	<span>
+																		<a asp-controller="Admin" asp-action="ApproveStudent" asp-route-id="@temp.Id" class="btn btn-primary btn-sm">Approve</a>
+																		<a asp-controller="Admin" asp-action="RejectStudent" asp-route-id="@temp.Id" class="btn btn-danger btn-sm">Reject</a>
+																	</span>
+																</div>
+															}
+														}
+													}
+													else
+													{
+														<span>No Pending Course</span>
+													}
+												</div>
+											</div>
+										</li>
+
+
+
 
 										<li class="list-group-item d-flex px-0 justify-content-between">
 											<strong>Rejected Courses</strong>
-
-											@foreach (var temp in Model.StudentCourseRegistrations)
+											@{
+												var reject = Model.StudentCourseRegistrations.Where(col => col.Status == 3);
+											}
+											@if (reject.Any())
 											{
-												if (temp.Status == 3)
+												<span class="mb-0">
+												@foreach (var temp in reject)
 												{
-													<span class="mb-0">
-														<span class="mb-0">
+													
 															@temp.AddmissionForNavigation.CourseName
-															@if (!temp.Equals(Model.StudentCourseRegistrations.Last()))
+															@if (!temp.Equals(reject.Last()))
 															{
 																<text>, </text>
 															}
-														</span>
-													</span>
+												
 												}
-												else
-												{
-													<span class="mb-0">
-														No Rejected Course
-													</span>
-												}
+												</span>
 											}
-
-
-
+											else
+											{
+												<span class="mb-0">No Rejected Course</span>
+											}
 										</li>
+
 										@*
 										<li class="list-group-item d-flex px-0 justify-content-between">
 										<strong>Courses</strong>

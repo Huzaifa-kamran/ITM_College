@@ -6,6 +6,25 @@
 		  Content body start
 	  ***********************************-->
 <div class="content-body">
+	@if (ViewBag.message != null)
+	{
+
+		<div class="alert alert-success solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-check"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button> @ViewBag.message
+		</div>
+	}
+	@if (ViewBag.error != null)
+	{
+		<div class="alert alert-danger solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-alert"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button>
+			<strong>@ViewBag.error</strong>
+		</div>
+	}
+
 	<!-- row -->
 	<div class="container-fluid">
 
@@ -61,13 +80,19 @@
 															<a asp-controller="Admin" asp-action="StudentDetail" asp-route-id="@temp.StudentId">
 																@if (temp.StudentCourseRegistrations.Count == 0)
 																{
-																	<text>No courses</text>
+																	<text>Not Enrolled</text>
 																}
 																else
 																{
 																	@foreach (var coursess in temp.StudentCourseRegistrations)
 																	{
 																		@coursess.AddmissionForNavigation.CourseName
+
+
+																		@if (!coursess.Equals(temp.StudentCourseRegistrations.Last()))
+																		{
+																			<text>, </text>
+																		}
 																	}
 																}
 															</a>
