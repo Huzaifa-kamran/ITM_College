@@ -33,21 +33,22 @@ namespace ITM_College.Controllers
 		};
             return View(data);
         }
-		public IActionResult Course(string message)
+		public IActionResult Assignments(string message)
 		{
 			ViewBag.message = message;
-			var course = db.Courses.Include(c => c.Faculty).Include(f => f.Faculty.FacultyDepartmentNavigation).ToList();
-			return View();
-		}
-		public IActionResult Department(string message)
-		{
-			ViewBag.message = message;
-			var dep = db.Departments.Include(d => d.Faculties).ToList();
-			return View(dep);
+			var course = db.Courses.Where(col=>col.FacultyId == 1).ToList();
+			return View(course);
 		}
 		public IActionResult Student()
 		{
-			return View();
+			var students = db.StudentCourseRegistrations
+			   .Include(s => s.AddmissionForNavigation)
+			   .ThenInclude(a => a.Faculty)
+			   .Include(c => c.Student)
+			   .Where(s => s.AddmissionForNavigation.FacultyId == 1).Where(s => s.Status == 3)
+			   .ToList();
+			return View(students);
 		}
+
 	}
 }

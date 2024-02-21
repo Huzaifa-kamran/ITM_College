@@ -1,7 +1,7 @@
 ﻿@{
 	Layout = "_FacultyLayout";
 }
-
+@model IEnumerable<StudentCourseRegistration>;
 <!--**********************************
 		  Content body start
 	  ***********************************-->
@@ -37,44 +37,64 @@
 						<div class="card">
 							<div class="card-header">
 								<h4 class="card-title">All Students  </h4>
-								<a asp-controller="Admin" asp-action="AddStudent" class="btn btn-primary">+ Add new</a>
 							</div>
 							<div class="card-body">
-								<div class="table-responsive">
-									<table id="example3" class="display text-nowrap table" style="min-width: 845px">
-										<thead>
-											<tr>
-												<th>Profile</th>
-												<th>Name</th>
-												<th>Department</th>
-												<th>Gender</th>
-												<th>Education</th>
-												<th>Mobile</th>
-												<th>Email</th>
-												<th>Joining Date</th>
-												<th>Action</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
-												<td>Tiger Nixon</td>
-												<td>Architect</td>
-												<td>Male</td>
-												<td>M.COM., P.H.D.</td>
-												<td><a href="javascript:void(0);"><strong>123 456 7890</strong></a></td>
-												<td><a href="javascript:void(0);"><strong>info@example.com</strong></a></td>
-												<td>2011/04/25</td>
-												<td>
-													<a asp-controller="Admin" asp-action="UpdateStudent" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
-													<a asp-controller="Admin" asp-action="DeleteStudent" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
-												</td>
-											</tr>
+
+								@if (Model.Any())
+								{
+									<div class="table-responsive">
+										<table id="example3" class="display text-nowrap table">
+											<thead>
+												<tr>
+													<th>Profile</th>
+													<th>Name</th>
+													<th>Email</th>
+													<th>Courses</th>
+												</tr>
+											</thead>
+											<tbody>
+												@foreach (var temp in Model)
+												{
 
 
-										</tbody>
-									</table>
-								</div>
+													<tr>
+														<td><img class="rounded-circle" width="35" src="~/" alt=""></td>
+														<td>@temp.Student.StudentName</td>
+														<td>@temp.Student.StudentEmail</td>
+														<td>
+
+															@if (temp.Student.StudentCourseRegistrations.Count == 0)
+															{
+																<text>Not Enrolled</text>
+															}
+															else
+															{
+																@foreach (var coursess in temp.Student.StudentCourseRegistrations)
+																{
+																	@coursess.AddmissionForNavigation.CourseName
+
+
+																	@if (!coursess.Equals(temp.Student.StudentCourseRegistrations.Last()))
+																	{
+																		<text>, </text>
+																	}
+																}
+															}
+
+														</td>
+													</tr>
+												}
+
+											</tbody>
+										</table>
+									</div>
+								}
+								else
+								{
+									// Model is empty or null
+									<h2>No Students Found</h2>
+								}
+
 							</div>
 						</div>
 					</div>
