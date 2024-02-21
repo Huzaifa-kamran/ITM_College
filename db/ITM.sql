@@ -69,5 +69,18 @@ classObtained int,
 sports varchar(255),
 foreign key (studentDataID) references StudentCourseRegistration(id),
 )
+
+create table Assignment(
+id int primary key identity(1,1),
+facultyId int,
+courseId int,
+title varchar(255),
+description text,
+media varchar(max),
+uploadDate date,
+maxDate date,
+foreign key (facultyId) references faculties(facultyId),
+foreign key (courseId) references Courses(courseId),
+);
 select * from Courses
 
