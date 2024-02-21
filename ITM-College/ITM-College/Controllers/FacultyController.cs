@@ -15,7 +15,23 @@ namespace ITM_College.Controllers
 		}
 		public IActionResult Index()
         {
-            return View();
+			var data = new FacultyIndexModel
+			{
+				CoursesCount = db.Courses.Where(col => col.FacultyId == 1).Count(),
+
+				faculty = db.Faculties.Include(d => d.FacultyDepartmentNavigation).FirstOrDefault(col => col.FacultyId == 1),
+
+				courses = db.Courses.Where(f=>f.FacultyId == 1).ToList(),
+
+				students = db.StudentCourseRegistrations
+	           .Include(s => s.AddmissionForNavigation)
+		       .ThenInclude(a => a.Faculty)
+	           .Include(c => c.Student)
+	           .Where(s => s.AddmissionForNavigation.FacultyId == 1).Where(s=>s.Status == 3)
+	           .ToList(),
+
+		};
+            return View(data);
         }
 		public IActionResult Course(string message)
 		{

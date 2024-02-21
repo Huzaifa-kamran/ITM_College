@@ -616,7 +616,6 @@ C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\ITM-Co
 C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.RazorAssemblyInfo.cache
 C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.RazorAssemblyInfo.cs
-C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\ITM-College.sourcelink.json
 C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\asp\Desktop\ITM_College\ITM-College\ITM-College\obj\Debug\net6.0\staticwebassets\msbuild.ITM-College.Microsoft.AspNetCore.StaticWebAssets.props

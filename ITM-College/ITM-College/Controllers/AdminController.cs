@@ -269,8 +269,11 @@ namespace ITM_College.Controllers
 		{
 			ViewBag.message = message;
 			ViewBag.error = error;
-			var students = db.Students.Include(s => s.StudentCourseRegistrations).ThenInclude(sr => sr.AddmissionForNavigation)
-			.ToList();
+			var students = db.Students
+	.Include(s => s.StudentCourseRegistrations.Where(sr => sr.Status == 2)) // Filter registrations with status 2
+	.ThenInclude(sr => sr.AddmissionForNavigation)
+	.ToList();
+
 			return View(students);
 		}
 
@@ -312,41 +315,23 @@ namespace ITM_College.Controllers
 			return View(student);
 		}
 
-		[HttpGet]
-		public IActionResult AddStudent()
+		public IActionResult StudentRequest()
 		{
-			return View();
+			var newStd = db.StudentCourseRegistrations.Include(s => s.AddmissionForNavigation)
+			 .Include(c => c.Student).Where(col => col.Status == 1).ToList();
+
+            return View(newStd);
 		}
-		//[HttpPost]
-		//public IActionResult AddStudent()
-		//{
-		//	return View();
-		//}
 
-		[HttpGet]
-		public IActionResult UpdateStudent()
-		{
-			return View();
-		}
-		//[HttpPost]
-		//public IActionResult UpdateStudent()
-		//{
-		//	return View();
-		//}
-
-		public IActionResult DeleteStudent()
-		{
-			return View();
-		}
-		// Students Controller End
+        // Students Controller End
 
 
-		// ------ Controller 3 Courses Controller ------
-		// i- All Students
-		// ii- Add Students
-		// iii- Update Student
-		// iv- Delete Student
-		public IActionResult Courses(string message,string error)
+        // ------ Controller 3 Courses Controller ------
+        // i- All Students
+        // ii- Add Students
+        // iii- Update Student
+        // iv- Delete Student
+        public IActionResult Courses(string message,string error)
 		{
 			ViewBag.message = message;
 			ViewBag.error = error;
