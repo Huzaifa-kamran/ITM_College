@@ -39,6 +39,20 @@ namespace ITM_College.Controllers
 			var course = db.Courses.Where(col=>col.FacultyId == 1).ToList();
 			return View(course);
 		}
+
+		public IActionResult AssignmentOfCourse(int id)
+		{
+
+			var assignments = db.Assignments.Include(c=>c.Course).Include(f=>f.Faculty).Where(col => col.CourseId == id).ToList();
+			return View(assignments);
+		}
+
+		public IActionResult AssignmentDetail(int id)
+		{
+
+			var assignment = db.Assignments.Include(c => c.Course).Include(f => f.Faculty).FirstOrDefault(a=>a.Id == id);
+			return View(assignment);
+		}
 		public IActionResult Student()
 		{
 			var students = db.StudentCourseRegistrations
