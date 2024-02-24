@@ -14,14 +14,14 @@
 		<div class="row page-titles mx-0">
 			<div class="col-sm-6 p-md-0">
 				<div class="welcome-text">
-					<h4>All Professors</h4>
+					<h4>All Assignments</h4>
 				</div>
 			</div>
 			<div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
 				<ol class="breadcrumb">
 
 					<li class="breadcrumb-item"><a href="javascript:void(0);">Assignment</a></li>
-					<li class="breadcrumb-item active"><a href="javascript:void(0);">All Courses</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0);">All Assignments</a></li>
 				</ol>
 			</div>
 		</div>
@@ -35,13 +35,13 @@
 					{
 						@foreach (var temp in Model)
 						{
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+							<div class="col col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
 								<div class="card overflow-hidden">
-									<img src="~/@temp.CourseImg" class="card-img-top overflow-hidden" alt="...">
-									<div class="card-body">
+									<img src="~/@temp.CourseImg" style="height:300px" class="card-img-top overflow-hidden w-100" alt="...">
+									<div class="card-body pb-2">
 										<h5 class="card-title">@temp.CourseName</h5>
 										<p class="card-text">@temp.CourseDesc</p>
-										<a href="#" class="btn btn-primary">Assignments</a>
+										<a asp-controller="Faculty" asp-action="AssignmentOfCourse" asp-route-id="@temp.CourseId" class="btn btn-primary">Assignments</a>
 									</div>
 								</div>
 							</div>

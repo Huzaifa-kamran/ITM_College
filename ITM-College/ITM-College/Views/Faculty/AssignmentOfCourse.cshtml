@@ -1,0 +1,80 @@
+﻿@{
+	Layout = "_FacultyLayout";
+}
+@model IEnumerable<Assignment>;
+
+<style>
+	.assign-card:hover{
+		background-color:azure;
+	}
+</style>
+<!--**********************************
+		  Content body start
+	  ***********************************-->
+<div class="content-body">
+	<!-- row -->
+	<div class="container-fluid">
+
+		<div class="row page-titles mx-0">
+			<div class="col-sm-6 p-md-0">
+				<div class="welcome-text">
+					<h4>All Assignments</h4>
+				</div>
+			</div>
+			<div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+				<ol class="breadcrumb">
+
+					<li class="breadcrumb-item"><a href="javascript:void(0);">Assignment</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0);">All Assignments</a></li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="row">
+
+
+			<div class="container">
+				<div class="row">
+					@if (Model.Any())
+					{
+						@foreach (var temp in Model)
+						{
+
+							<div class="col col-xl-9 col-lg-10 col-md-10 col-sm-12 col-12">
+								<a asp-controller="Faculty" asp-action="AssignmentDetail" asp-route-id="@temp.Id"  class="text-reset">
+									<div class="card overflow-hidden assign-card">
+									<div class="row g-0 w-lg-50">
+										<div class="col-lg-2 col-md-2 pt-2 col-2 d-flex justify-content-center align-bottom">
+											<img src="~/@temp.Faculty.FacultyImg" style="width:50px;height:50px" class="img-fluid rounded-start" alt="...">
+										</div>
+										<div class="col-md-8 col-8">
+											<div class="card-body p-0">
+												<h5 class="card-title ps-0 pt-1">@temp.Faculty.FacultyName</h5>
+												<p class="card-text"><small class="text-body-secondary">@temp.UploadDate</small></p>
+											</div>
+										</div>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">@temp.Title</h5>
+										<p class="card-text">@temp.Description</p>
+									</div>
+								</div>
+								</a>
+							</div>
+						}
+					}
+					else
+					{
+						<h3>No Assignments</h3>
+					}
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<!--**********************************
+		Content body end
+	***********************************-->

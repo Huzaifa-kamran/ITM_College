@@ -8,6 +8,7 @@ namespace ITM_College.Models
     {
         public Faculty()
         {
+            Assignments = new HashSet<Assignment>();
             Courses = new HashSet<Course>();
         }
 
@@ -34,6 +35,7 @@ namespace ITM_College.Models
         public int? Role { get; set; }
 
         public virtual Department? FacultyDepartmentNavigation { get; set; }
+        public virtual ICollection<Assignment> Assignments { get; set; }
         public virtual ICollection<Course> Courses { get; set; }
     }
 }

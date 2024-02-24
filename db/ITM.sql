@@ -79,8 +79,51 @@ description text,
 media varchar(max),
 uploadDate date,
 maxDate date,
+totalMarks int,
 foreign key (facultyId) references faculties(facultyId),
 foreign key (courseId) references Courses(courseId),
 );
-select * from Courses
+drop table Assignment
+ALTER TABLE Assignment
+ADD totalMarks INT NOT NULL,
+ securedMarks INT DEFAULT 0
 
+select * from Assignment
+
+INSERT INTO Students (studentName, studentEmail,password)
+VALUES
+('Alice Smith', 'alice.smith@example.com','123123'),
+('Bob Johnson', 'bob.johnson@example.com','123123'),
+('Charlie Brown', 'charlie.brown@example.com','123123'),
+('Diana Garcia', 'diana.garcia@example.com','123123'),
+('Elizabeth Miller', 'elizabeth.miller@example.com','123123');
+
+INSERT INTO StudentCourseRegistration (studentID, studentName, fatherName, motherName, DOB, gender,residentalAddress, permanentAddress, addmissionFor, trackingID, status)
+VALUES
+(1, 'Alice Smith', 'John Smith', 'Mary Smith', '1999-10-25', 'Female', '123 Main Street, Anytown', '456 Elm Street, Anytown', 1, 'ABCD1234', 1),
+(1, 'Alice Smith', 'John Smith', 'Mary Smith', '1999-10-25', 'Female', '123 Main Street, Anytown', '456 Elm Street, Anytown', 2, 'ABCD1234', 1),
+(1, 'Alice Smith', 'John Smith', 'Mary Smith', '1999-10-25', 'Female', '123 Main Street, Anytown', '456 Elm Street, Anytown', 3, 'ABCD1234', 1),
+(2, 'Bob Johnson', 'David Johnson', 'Sarah Johnson', '2000-05-12', 'Male', '789 Oak Street, Anytown', '456 Elm Street, Anytown', 2, 'EFGH5678', 1),
+(2, 'Bob Johnson', 'David Johnson', 'Sarah Johnson', '2000-05-12', 'Male', '789 Oak Street, Anytown', '456 Elm Street, Anytown', 1, 'EFGH5678', 1),
+(3, 'Charlie Brown', 'Peter Brown', 'Susan Brown', '2001-03-07', 'Male', '321 Maple Street, Anytown', '456 Elm Street, Anytown', 3, 'HIJK9012', 1),
+(3, 'Charlie Brown', 'Peter Brown', 'Susan Brown', '2001-03-07', 'Male', '321 Maple Street, Anytown', '456 Elm Street, Anytown', 2, 'HIJK9012', 1),
+(4, 'Diana Garcia', 'Carlos Garcia', 'Elena Garcia', '2002-11-19', 'Female', '555 Pine Street, Anytown', '456 Elm Street, Anytown', 1, 'LMNOP3456', 1),
+(5, 'Elizabeth Miller', 'Michael Miller', 'Jennifer Miller', '2003-08-14', 'Female', '888 Hickory Street, Anytown', '456 Elm Street, Anytown', 2, 'QRST7890', 1);
+
+
+INSERT INTO Assignment (facultyId, courseId, title, description, uploadDate, maxDate,totalMarks)
+VALUES
+(1, 1, 'Introduction to Programming Project', 'Develop a simple Python program', '2024-02-20', '2024-03-05',100),
+(1, 1, 'Web Design Challenge', 'Create a basic website using HTML and CSS', '2024-02-22', '2024-03-10',100),
+(1, 1, 'Data Analysis Exercise', 'Analyze a provided dataset and write a report', '2024-02-23', '2024-03-15',100),
+(1, 2, 'Marketing Plan Proposal', 'Develop a marketing plan for a fictitious product', '2024-02-24', '2024-03-20',100),
+(1, 2, 'Business Communication Case Study', 'Analyze a business communication case study', '2024-02-25', '2024-03-25',100);
+
+
+INSERT INTO Assignment (facultyId, courseId, title, description,media, uploadDate, maxDate,totalMarks)
+VALUES
+(1, 1, 'I Programming Project', 'Develop a simple Python program','admincss/assignment\abc.png', '2024-02-20', '2024-03-05',100),
+(1, 1, 'Challenge', 'Create a basic website using HTML and CSS','admincss/assignment\abjhgc.txt', '2024-02-22', '2024-03-10',100),
+(1, 1, 'Analysis Exercise', 'Analyze a provided dataset and write a report','admincss/assignment\abc.word', '2024-02-23', '2024-03-15',100),
+(1, 2, 'Plan Proposal', 'Develop a marketing plan for a fictitious product','admincss/assignment\abc.png', '2024-02-24', '2024-03-20',100),
+(1, 2, 'Communication Case Study', 'Analyze a business communication case study','admincss/assignment\abc.png', '2024-02-25', '2024-03-25',100);

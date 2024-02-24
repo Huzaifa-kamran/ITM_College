@@ -1,18 +1,19 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ITM-College.bundle.scp.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ITM-College.bundle.scp.css",
       "PackagePath": "staticwebassets\\ITM-College.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Admin\\admin.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Admin\\admin.jpg",
       "PackagePath": "staticwebassets\\admincss\\Admin\\admin.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\077606d9-4d14-4f91-918d-14734da246561.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\077606d9-4d14-4f91-918d-14734da246561.png",
       "PackagePath": "staticwebassets\\admincss\\Course\\077606d9-4d14-4f91-918d-14734da246561.png"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\0817d565-0652-44bb-9186-abab5ce64dcbpic4.jpg",
       "PackagePath": "staticwebassets\\admincss\\Course\\0817d565-0652-44bb-9186-abab5ce64dcbpic4.jpg"
     },
@@ -38,13 +39,25 @@
     },
     {
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\35c4fe64-e2d2-4861-9da5-e40ca1a012091.jpg",
+=======
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\0817d565-0652-44bb-9186-abab5ce64dcbpic4.jpg",
+      "PackagePath": "staticwebassets\\admincss\\Course\\0817d565-0652-44bb-9186-abab5ce64dcbpic4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\099c5ce6-2492-45b4-aa1d-72d353ba711d7.jpg",
+      "PackagePath": "staticwebassets\\admincss\\Course\\099c5ce6-2492-45b4-aa1d-72d353ba711d7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\35c4fe64-e2d2-4861-9da5-e40ca1a012091.jpg",
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
       "PackagePath": "staticwebassets\\admincss\\Course\\35c4fe64-e2d2-4861-9da5-e40ca1a012091.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\3667190a-23ca-4a74-ae63-4ddb88853814Screenshot (1).png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\3667190a-23ca-4a74-ae63-4ddb88853814Screenshot (1).png",
       "PackagePath": "staticwebassets\\admincss\\Course\\3667190a-23ca-4a74-ae63-4ddb88853814Screenshot (1).png"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\3f9713d3-24be-45fb-bde4-39ff52391e0cdownload.jpg",
       "PackagePath": "staticwebassets\\admincss\\Course\\3f9713d3-24be-45fb-bde4-39ff52391e0cdownload.jpg"
     },
@@ -90,41 +103,57 @@
     },
     {
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\a292f754-dc7c-4462-9658-3220398338991.png",
+=======
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\423475a7-fd59-4fe4-a85e-e24c2d347bdbScreenshot (1).png",
+      "PackagePath": "staticwebassets\\admincss\\Course\\423475a7-fd59-4fe4-a85e-e24c2d347bdbScreenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\7a746450-01cf-4225-9067-b9d0cc239044pic2.jpg",
+      "PackagePath": "staticwebassets\\admincss\\Course\\7a746450-01cf-4225-9067-b9d0cc239044pic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\a292f754-dc7c-4462-9658-3220398338991.png",
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
       "PackagePath": "staticwebassets\\admincss\\Course\\a292f754-dc7c-4462-9658-3220398338991.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\b131ac07-cd7d-45ca-80a6-2be76c697863avatar-square1.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\b131ac07-cd7d-45ca-80a6-2be76c697863avatar-square1.png",
       "PackagePath": "staticwebassets\\admincss\\Course\\b131ac07-cd7d-45ca-80a6-2be76c697863avatar-square1.png"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\b64ec0dd-33bd-4b16-ac0e-93bc0e65cfb5bg-1.jpg",
       "PackagePath": "staticwebassets\\admincss\\Course\\b64ec0dd-33bd-4b16-ac0e-93bc0e65cfb5bg-1.jpg"
     },
     {
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\baaf7d90-71e4-43ab-84bd-f30696b183495.jpg",
+=======
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\baaf7d90-71e4-43ab-84bd-f30696b183495.jpg",
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
       "PackagePath": "staticwebassets\\admincss\\Course\\baaf7d90-71e4-43ab-84bd-f30696b183495.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\bc8381ab-f929-421c-892d-ba748ff2ef3bconvert to html.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\bc8381ab-f929-421c-892d-ba748ff2ef3bconvert to html.png",
       "PackagePath": "staticwebassets\\admincss\\Course\\bc8381ab-f929-421c-892d-ba748ff2ef3bconvert to html.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\c4ee3676-3d47-45b5-ab65-acf78e82c8571.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\c4ee3676-3d47-45b5-ab65-acf78e82c8571.jpg",
       "PackagePath": "staticwebassets\\admincss\\Course\\c4ee3676-3d47-45b5-ab65-acf78e82c8571.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\d21d6869-dfef-40a6-8502-44b6ff812285Screenshot (1).png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\d21d6869-dfef-40a6-8502-44b6ff812285Screenshot (1).png",
       "PackagePath": "staticwebassets\\admincss\\Course\\d21d6869-dfef-40a6-8502-44b6ff812285Screenshot (1).png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\e41fbe8f-6e27-444a-9465-d314f752d8e8e project.PNG",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\e41fbe8f-6e27-444a-9465-d314f752d8e8e project.PNG",
       "PackagePath": "staticwebassets\\admincss\\Course\\e41fbe8f-6e27-444a-9465-d314f752d8e8e project.PNG"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\f3db0a8f-b955-46d2-9e58-0d525c282355convert to html.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Course\\f3db0a8f-b955-46d2-9e58-0d525c282355convert to html.png",
       "PackagePath": "staticwebassets\\admincss\\Course\\f3db0a8f-b955-46d2-9e58-0d525c282355convert to html.png"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Facility\\012925f0-e9df-426a-b74e-0bad24421cdfcarolina-marinelli-PkbyxvkGWcU-unsplash.jpg",
       "PackagePath": "staticwebassets\\admincss\\Facility\\012925f0-e9df-426a-b74e-0bad24421cdfcarolina-marinelli-PkbyxvkGWcU-unsplash.jpg"
     },
@@ -182,29 +211,41 @@
     },
     {
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\0fd0785e-9877-47bf-b7f9-b94816a776c0IMG-20240103-WA0217.jpg",
+=======
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Facility\\c4dd060f-b3a0-4b9c-b5ac-53793174acb9e project.PNG",
+      "PackagePath": "staticwebassets\\admincss\\Facility\\c4dd060f-b3a0-4b9c-b5ac-53793174acb9e project.PNG"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\0fd0785e-9877-47bf-b7f9-b94816a776c0IMG-20240103-WA0217.jpg",
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
       "PackagePath": "staticwebassets\\admincss\\Faculty\\0fd0785e-9877-47bf-b7f9-b94816a776c0IMG-20240103-WA0217.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\1ec11109-57f9-4a09-8834-6e4dff3cd046Frame 1.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\1ec11109-57f9-4a09-8834-6e4dff3cd046Frame 1.png",
       "PackagePath": "staticwebassets\\admincss\\Faculty\\1ec11109-57f9-4a09-8834-6e4dff3cd046Frame 1.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\2306602a-c19d-4cfc-b770-0dfb7bf5037eScreenshot (1).png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\2306602a-c19d-4cfc-b770-0dfb7bf5037eScreenshot (1).png",
       "PackagePath": "staticwebassets\\admincss\\Faculty\\2306602a-c19d-4cfc-b770-0dfb7bf5037eScreenshot (1).png"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\248f8c3a-1edd-4427-b6ed-d622989b6ff0jurica-koletic-7YVZYZeITc8-unsplash (1).jpg",
       "PackagePath": "staticwebassets\\admincss\\Faculty\\248f8c3a-1edd-4427-b6ed-d622989b6ff0jurica-koletic-7YVZYZeITc8-unsplash (1).jpg"
     },
     {
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\2c15511e-1eaa-4ad6-b76e-dc0f9897bb1dIMG-20240103-WA0146.jpg",
+=======
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\2c15511e-1eaa-4ad6-b76e-dc0f9897bb1dIMG-20240103-WA0146.jpg",
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
       "PackagePath": "staticwebassets\\admincss\\Faculty\\2c15511e-1eaa-4ad6-b76e-dc0f9897bb1dIMG-20240103-WA0146.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\308d4062-dbff-4ef4-a48c-9b419810ce7b3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\308d4062-dbff-4ef4-a48c-9b419810ce7b3.jpg",
       "PackagePath": "staticwebassets\\admincss\\Faculty\\308d4062-dbff-4ef4-a48c-9b419810ce7b3.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\3d177d19-495d-4f02-bcbb-3ea9a8bf6553stephanie-liverani-Zz5LQe-VSMY-unsplash.jpg",
       "PackagePath": "staticwebassets\\admincss\\Faculty\\3d177d19-495d-4f02-bcbb-3ea9a8bf6553stephanie-liverani-Zz5LQe-VSMY-unsplash.jpg"
     },
@@ -266,1826 +307,1861 @@
     },
     {
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\cccec3f4-aec8-49a7-bdec-4f9559110670IMG-20240103-WA0177.jpg",
+=======
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\451c2323-7e87-49ef-bca1-90e129a9eb37c2.jfif",
+      "PackagePath": "staticwebassets\\admincss\\Faculty\\451c2323-7e87-49ef-bca1-90e129a9eb37c2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\6418ee56-fa51-4c53-a845-cbd6b40da9b0fruit-and-vegetables-basket-png-20.png",
+      "PackagePath": "staticwebassets\\admincss\\Faculty\\6418ee56-fa51-4c53-a845-cbd6b40da9b0fruit-and-vegetables-basket-png-20.png"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\7062b9ed-7967-46e9-a391-457c70fd118dIMG-20220220-WA0056-01_1.jpeg",
+      "PackagePath": "staticwebassets\\admincss\\Faculty\\7062b9ed-7967-46e9-a391-457c70fd118dIMG-20220220-WA0056-01_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\968e800c-91f6-4198-925d-68bf910607db1.png",
+      "PackagePath": "staticwebassets\\admincss\\Faculty\\968e800c-91f6-4198-925d-68bf910607db1.png"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\a7feadcb-944c-42a5-86f7-bde8847f60611.jpg",
+      "PackagePath": "staticwebassets\\admincss\\Faculty\\a7feadcb-944c-42a5-86f7-bde8847f60611.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\cccec3f4-aec8-49a7-bdec-4f9559110670IMG-20240103-WA0177.jpg",
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
       "PackagePath": "staticwebassets\\admincss\\Faculty\\cccec3f4-aec8-49a7-bdec-4f9559110670IMG-20240103-WA0177.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\d522b603-de08-41bb-b099-e6c663ac7087Screenshot (1).png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\d522b603-de08-41bb-b099-e6c663ac7087Screenshot (1).png",
       "PackagePath": "staticwebassets\\admincss\\Faculty\\d522b603-de08-41bb-b099-e6c663ac7087Screenshot (1).png"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\d7960d78-0d93-4002-98de-4c0d17d273cfaiony-haust-3TLl_97HNJo-unsplash.jpg",
       "PackagePath": "staticwebassets\\admincss\\Faculty\\d7960d78-0d93-4002-98de-4c0d17d273cfaiony-haust-3TLl_97HNJo-unsplash.jpg"
     },
     {
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\d95b44a6-ff19-4d81-a472-22f1c6818b9bdownload.jfif",
+=======
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\d95b44a6-ff19-4d81-a472-22f1c6818b9bdownload.jfif",
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
       "PackagePath": "staticwebassets\\admincss\\Faculty\\d95b44a6-ff19-4d81-a472-22f1c6818b9bdownload.jfif"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\dd82817c-a5b9-4133-b50c-6cd72c575560convert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\dd82817c-a5b9-4133-b50c-6cd72c575560convert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg",
       "PackagePath": "staticwebassets\\admincss\\Faculty\\dd82817c-a5b9-4133-b50c-6cd72c575560convert-psd-xd-sketch-figma-file-to-html-responsive-bootstrap.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\Faculty\\ff35e5b3-7270-44b8-839b-4e1b2d21a8a0stefan-stefancik-QXevDflbl8A-unsplash.jpg",
       "PackagePath": "staticwebassets\\admincss\\Faculty\\ff35e5b3-7270-44b8-839b-4e1b2d21a8a0stefan-stefancik-QXevDflbl8A-unsplash.jpg"
     },
     {
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\add-\\Edumin\\Blog.html",
+=======
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\add-\\Edumin\\Blog.html",
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
       "PackagePath": "staticwebassets\\admincss\\add-\\Edumin\\Blog.html"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\css\\style.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\css\\style.css",
       "PackagePath": "staticwebassets\\admincss\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\css\\style.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\css\\style.css",
       "PackagePath": "staticwebassets\\admincss\\icons\\avasta\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\fonts\\avasta.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\fonts\\avasta.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\avasta\\fonts\\avasta.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\fonts\\avasta.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\fonts\\avasta.svg",
       "PackagePath": "staticwebassets\\admincss\\icons\\avasta\\fonts\\avasta.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\fonts\\avasta.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\fonts\\avasta.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\avasta\\fonts\\avasta.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\fonts\\avasta.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\fonts\\avasta.woff",
       "PackagePath": "staticwebassets\\admincss\\icons\\avasta\\fonts\\avasta.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\fonts\\avasta.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\avasta\\fonts\\avasta.woff2",
       "PackagePath": "staticwebassets\\admincss\\icons\\avasta\\fonts\\avasta.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\Flaticon.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\Flaticon.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\flaticon\\Flaticon.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\Flaticon.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\Flaticon.svg",
       "PackagePath": "staticwebassets\\admincss\\icons\\flaticon\\Flaticon.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\Flaticon.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\Flaticon.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\flaticon\\Flaticon.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\Flaticon.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\Flaticon.woff",
       "PackagePath": "staticwebassets\\admincss\\icons\\flaticon\\Flaticon.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\Flaticond41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\Flaticond41d.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\flaticon\\Flaticond41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\flaticon.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\flaticon\\flaticon.css",
       "PackagePath": "staticwebassets\\admincss\\icons\\flaticon\\flaticon.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\css\\all.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\css\\all.min.css",
       "PackagePath": "staticwebassets\\admincss\\icons\\fontawesome\\css\\all.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\fontawesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\admincss\\icons\\fontawesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\fontawesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\admincss\\icons\\fontawesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\fontawesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\admincss\\icons\\fontawesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\fontawesome\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\admincss\\icons\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\css\\line-awesome.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\css\\line-awesome.min.css",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\css\\line-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.svg",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.woff",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.woff2",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400d41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-brands-400d41d.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-brands-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.svg",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.woff",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.woff2",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400d41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-regular-400d41d.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-regular-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.svg",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.woff",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.woff2",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900d41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\line-awesome\\fonts\\la-solid-900d41d.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\line-awesome\\fonts\\la-solid-900d41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\css\\materialdesignicons.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\css\\materialdesignicons.min.css",
       "PackagePath": "staticwebassets\\admincss\\icons\\material-design-iconic-font\\css\\materialdesignicons.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.svg",
       "PackagePath": "staticwebassets\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.woff",
       "PackagePath": "staticwebassets\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.woff2",
       "PackagePath": "staticwebassets\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont683c.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfontd41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfontd41d.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfontd41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\css\\simple-line-icons.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\css\\simple-line-icons.css",
       "PackagePath": "staticwebassets\\admincss\\icons\\simple-line-icons\\css\\simple-line-icons.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.svg",
       "PackagePath": "staticwebassets\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.woff",
       "PackagePath": "staticwebassets\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.woff2",
       "PackagePath": "staticwebassets\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c824c82.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Iconsd41dd41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Iconsd41dd41d.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\simple-line-icons\\fonts\\Simple-Line-Iconsd41dd41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\css\\themify-icons.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\css\\themify-icons.css",
       "PackagePath": "staticwebassets\\admincss\\icons\\themify-icons\\css\\themify-icons.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\fonts\\themify.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\fonts\\themify.ttf",
       "PackagePath": "staticwebassets\\admincss\\icons\\themify-icons\\fonts\\themify.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\fonts\\themify.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\fonts\\themify.woff",
       "PackagePath": "staticwebassets\\admincss\\icons\\themify-icons\\fonts\\themify.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\fonts\\themify9f249f24.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\fonts\\themify9f249f24.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\themify-icons\\fonts\\themify9f249f24.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\fonts\\themify9f249f24.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\fonts\\themify9f249f24.svg",
       "PackagePath": "staticwebassets\\admincss\\icons\\themify-icons\\fonts\\themify9f249f24.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\fonts\\themifyd41dd41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\icons\\themify-icons\\fonts\\themifyd41dd41d.eot",
       "PackagePath": "staticwebassets\\admincss\\icons\\themify-icons\\fonts\\themifyd41dd41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\1.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\1.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\avatar\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\1.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\1.png",
       "PackagePath": "staticwebassets\\admincss\\images\\avatar\\1.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\2.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\avatar\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\3.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\avatar\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\4.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\avatar\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\5.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\5.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\avatar\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\5.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\5.png",
       "PackagePath": "staticwebassets\\admincss\\images\\avatar\\5.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\6.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\6.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\avatar\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\7.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\7.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\avatar\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\8.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\avatar\\8.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\avatar\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img1.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\big\\img1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img2.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\big\\img2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img3.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\big\\img3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img4.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\big\\img4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img5.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img5.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\big\\img5.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img6.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img6.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\big\\img6.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img7.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img7.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\big\\img7.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img8.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\big\\img8.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\big\\img8.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\body\\12.html",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\body\\12.html",
       "PackagePath": "staticwebassets\\admincss\\images\\body\\12.html"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\card\\1.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\card\\1.png",
       "PackagePath": "staticwebassets\\admincss\\images\\card\\1.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\card\\2.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\card\\2.png",
       "PackagePath": "staticwebassets\\admincss\\images\\card\\2.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\card\\3.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\card\\3.png",
       "PackagePath": "staticwebassets\\admincss\\images\\card\\3.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic1.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\courses\\pic1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic2.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\courses\\pic2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic3.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\courses\\pic3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic4.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\courses\\pic4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic5.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic5.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\courses\\pic5.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic6.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic6.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\courses\\pic6.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic7.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic7.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\courses\\pic7.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic8.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\courses\\pic8.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\courses\\pic8.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\favicon.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\favicon.png",
       "PackagePath": "staticwebassets\\admincss\\images\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\like.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\like.png",
       "PackagePath": "staticwebassets\\admincss\\images\\like.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\logo-text.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\logo-text.png",
       "PackagePath": "staticwebassets\\admincss\\images\\logo-text.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\no-img-avatar.html",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\no-img-avatar.html",
       "PackagePath": "staticwebassets\\admincss\\images\\no-img-avatar.html"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\no-img-avatar.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\no-img-avatar.png",
       "PackagePath": "staticwebassets\\admincss\\images\\no-img-avatar.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\pattern\\pattern5.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\pattern\\pattern5.png",
       "PackagePath": "staticwebassets\\admincss\\images\\pattern\\pattern5.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\1.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\product\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\2.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\product\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\3.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\product\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\4.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\product\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\5.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\5.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\product\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\6.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\6.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\product\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\7.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\product\\7.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\product\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\1.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\10.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\10.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\10.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\2.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\3.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\4.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\5.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\5.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\5.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\5de87be9-8a3e-4a85-a029-72de970d18dejuan-encalada-WC7KIHo13Fc-unsplash.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\5de87be9-8a3e-4a85-a029-72de970d18dejuan-encalada-WC7KIHo13Fc-unsplash.jpg"
     },
     {
       "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\6.jpg",
+=======
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\6.jpg",
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\7.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\7.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\8.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\8.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\9.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\9.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\9.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\cover.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\cover.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\cover.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic1.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\education\\pic1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic10.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic10.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\education\\pic10.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic2.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\education\\pic2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic3.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\education\\pic3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic4.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\education\\pic4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic5.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic5.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\education\\pic5.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic6.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic6.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\education\\pic6.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic7.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic7.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\education\\pic7.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic8.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic8.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\education\\pic8.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic9.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\education\\pic9.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\education\\pic9.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\profile.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\profile.png",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\profile.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic1.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\small\\pic1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic10.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic10.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\small\\pic10.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic2.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\small\\pic2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic3.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\small\\pic3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic4.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\small\\pic4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic5.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic5.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\small\\pic5.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic6.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic6.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\small\\pic6.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic7.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic7.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\small\\pic7.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic8.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic8.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\small\\pic8.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic9.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\profile\\small\\pic9.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\profile\\small\\pic9.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\qr.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\qr.png",
       "PackagePath": "staticwebassets\\admincss\\images\\qr.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\svg\\cd-arrow.html",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\svg\\cd-arrow.html",
       "PackagePath": "staticwebassets\\admincss\\images\\svg\\cd-arrow.html"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\tab\\1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\tab\\1.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\tab\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\tab\\2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\tab\\2.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\tab\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\tab\\3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\tab\\3.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\tab\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\tab\\4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\images\\tab\\4.jpg",
       "PackagePath": "staticwebassets\\admincss\\images\\tab\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\custom.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\custom.min.js",
       "PackagePath": "staticwebassets\\admincss\\js\\custom.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\dashboard\\cms.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\dashboard\\cms.js",
       "PackagePath": "staticwebassets\\admincss\\js\\dashboard\\cms.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\dashboard\\dashboard-2.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\dashboard\\dashboard-2.js",
       "PackagePath": "staticwebassets\\admincss\\js\\dashboard\\dashboard-2.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\dashboard\\dashboard-3.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\dashboard\\dashboard-3.js",
       "PackagePath": "staticwebassets\\admincss\\js\\dashboard\\dashboard-3.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\dashboard\\dashboard.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\dashboard\\dashboard.js",
       "PackagePath": "staticwebassets\\admincss\\js\\dashboard\\dashboard.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\demo.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\demo.js",
       "PackagePath": "staticwebassets\\admincss\\js\\demo.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\dlabnav-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\dlabnav-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\dlabnav-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\bs-daterange-picker-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\bs-daterange-picker-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\bs-daterange-picker-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\chartist-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\chartist-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\chartist-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\chartjs-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\chartjs-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\chartjs-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\clock-picker-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\clock-picker-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\clock-picker-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\datatables.init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\datatables.init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\datatables.init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\flot-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\flot-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\flot-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\fullcalendar-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\fullcalendar-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\fullcalendar-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\jquery-ascolorpicker.init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\jquery-ascolorpicker.init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\jquery-ascolorpicker.init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\jqvmap-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\jqvmap-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\jqvmap-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\material-date-picker-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\material-date-picker-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\material-date-picker-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\morris-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\morris-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\morris-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\nestable-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\nestable-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\nestable-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\nouislider-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\nouislider-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\nouislider-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\pickadate-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\pickadate-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\pickadate-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\piety-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\piety-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\piety-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\select2-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\select2-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\select2-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\sparkline-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\sparkline-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\sparkline-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\sweetalert.init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\sweetalert.init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\sweetalert.init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\toastr-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\toastr-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\toastr-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\widgets-script-init.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\plugins-init\\widgets-script-init.js",
       "PackagePath": "staticwebassets\\admincss\\js\\plugins-init\\widgets-script-init.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\styleSwitcher.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\js\\styleSwitcher.js",
       "PackagePath": "staticwebassets\\admincss\\js\\styleSwitcher.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-datepicker-master\\css\\bootstrap-datepicker.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-datepicker-master\\css\\bootstrap-datepicker.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\bootstrap-datepicker-master\\css\\bootstrap-datepicker.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-datepicker-master\\js\\bootstrap-datepicker.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-datepicker-master\\js\\bootstrap-datepicker.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\bootstrap-datepicker-master\\js\\bootstrap-datepicker.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-daterangepicker\\daterangepicker.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-daterangepicker\\daterangepicker.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\bootstrap-daterangepicker\\daterangepicker.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-daterangepicker\\daterangepicker.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-daterangepicker\\daterangepicker.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\bootstrap-daterangepicker\\daterangepicker.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\chart.js\\Chart.bundle.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\chart.js\\Chart.bundle.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\chart.js\\Chart.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\chartist-plugin-tooltips\\js\\chartist-plugin-tooltip.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\chartist-plugin-tooltips\\js\\chartist-plugin-tooltip.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\chartist-plugin-tooltips\\js\\chartist-plugin-tooltip.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\chartist\\css\\chartist.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\chartist\\css\\chartist.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\chartist\\css\\chartist.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\chartist\\js\\chartist.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\chartist\\js\\chartist.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\chartist\\js\\chartist.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\ckeditor\\ckeditor.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\ckeditor\\ckeditor.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\ckeditor\\ckeditor.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\clockpicker\\css\\bootstrap-clockpicker.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\clockpicker\\css\\bootstrap-clockpicker.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\clockpicker\\css\\bootstrap-clockpicker.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\clockpicker\\js\\bootstrap-clockpicker.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\clockpicker\\js\\bootstrap-clockpicker.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\clockpicker\\js\\bootstrap-clockpicker.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\datatables\\css\\jquery.dataTables.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\datatables\\css\\jquery.dataTables.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\datatables\\css\\jquery.dataTables.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\datatables\\css\\responsive.bootstrap.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\datatables\\css\\responsive.bootstrap.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\datatables\\css\\responsive.bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\datatables\\js\\dataTables.responsive.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\datatables\\js\\dataTables.responsive.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\datatables\\js\\dataTables.responsive.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\datatables\\js\\jquery.dataTables.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\datatables\\js\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\datatables\\js\\jquery.dataTables.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\dropzone\\dist\\dropzone.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\dropzone\\dist\\dropzone.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\dropzone\\dist\\dropzone.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\dropzone\\dist\\dropzone.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\dropzone\\dist\\dropzone.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\dropzone\\dist\\dropzone.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\flot-spline\\jquery.flot.spline.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\flot-spline\\jquery.flot.spline.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\flot-spline\\jquery.flot.spline.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\flot\\jquery.flot.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\flot\\jquery.flot.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\flot\\jquery.flot.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\flot\\jquery.flot.pie.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\flot\\jquery.flot.pie.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\flot\\jquery.flot.pie.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\flot\\jquery.flot.resize.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\flot\\jquery.flot.resize.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\flot\\jquery.flot.resize.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\fullcalendar\\css\\fullcalendar.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\fullcalendar\\css\\fullcalendar.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\fullcalendar\\css\\fullcalendar.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\fullcalendar\\js\\fullcalendar.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\fullcalendar\\js\\fullcalendar.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\fullcalendar\\js\\fullcalendar.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\global\\global.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\global\\global.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\global\\global.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\highlightjs\\highlight.pack.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\highlightjs\\highlight.pack.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\highlightjs\\highlight.pack.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolor\\jquery-ascolor.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolor\\jquery-ascolor.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-ascolor\\jquery-ascolor.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\css\\ascolorpicker.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\css\\ascolorpicker.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-ascolorpicker\\css\\ascolorpicker.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\images\\alpha.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\images\\alpha.png",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-ascolorpicker\\images\\alpha.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\images\\hue.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\images\\hue.png",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-ascolorpicker\\images\\hue.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\images\\saturation.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\images\\saturation.png",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-ascolorpicker\\images\\saturation.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\images\\transparent.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\images\\transparent.png",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-ascolorpicker\\images\\transparent.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\js\\jquery-ascolorpicker.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-ascolorpicker\\js\\jquery-ascolorpicker.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-ascolorpicker\\js\\jquery-ascolorpicker.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-asgradient\\jquery-asgradient.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-asgradient\\jquery-asgradient.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-asgradient\\jquery-asgradient.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-smartwizard\\dist\\css\\smart_wizard.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-smartwizard\\dist\\css\\smart_wizard.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-smartwizard\\dist\\css\\smart_wizard.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-smartwizard\\dist\\js\\jquery.smartWizard.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-smartwizard\\dist\\js\\jquery.smartWizard.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-smartwizard\\dist\\js\\jquery.smartWizard.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-sparkline\\jquery.sparkline.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-sparkline\\jquery.sparkline.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-sparkline\\jquery.sparkline.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-steps\\build\\jquery.steps.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jquery-steps\\build\\jquery.steps.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jquery-steps\\build\\jquery.steps.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jqueryui\\js\\jquery-ui.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jqueryui\\js\\jquery-ui.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jqueryui\\js\\jquery-ui.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jqvmap\\css\\jqvmap.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jqvmap\\css\\jqvmap.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jqvmap\\css\\jqvmap.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jqvmap\\js\\jquery.vmap.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jqvmap\\js\\jquery.vmap.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jqvmap\\js\\jquery.vmap.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jqvmap\\js\\jquery.vmap.usa.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jqvmap\\js\\jquery.vmap.usa.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jqvmap\\js\\jquery.vmap.usa.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jqvmap\\js\\jquery.vmap.world.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\jqvmap\\js\\jquery.vmap.world.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\jqvmap\\js\\jquery.vmap.world.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\css\\lg-thumbnail.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\css\\lg-thumbnail.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\css\\lg-thumbnail.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\css\\lg-zoom.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\css\\lg-zoom.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\css\\lg-zoom.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\css\\lightgallery.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\css\\lightgallery.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\css\\lightgallery.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.svg",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.ttf",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.woff",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.woff2",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\fonts\\lgb687.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\images\\loading.gif",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\images\\loading.gif",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\images\\loading.gif"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\lightgallery.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\lightgallery.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\lightgallery.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\plugins\\thumbnail\\lg-thumbnail.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\plugins\\thumbnail\\lg-thumbnail.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\plugins\\thumbnail\\lg-thumbnail.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\plugins\\zoom\\lg-zoom.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\lightgallery\\dist\\plugins\\zoom\\lg-zoom.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\lightgallery\\dist\\plugins\\zoom\\lg-zoom.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\metismenu\\css\\metisMenu.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\metismenu\\css\\metisMenu.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\metismenu\\css\\metisMenu.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\moment\\moment.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\moment\\moment.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\moment\\moment.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\morris\\morris.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\morris\\morris.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\morris\\morris.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\nestable2\\css\\jquery.nestable.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\nestable2\\css\\jquery.nestable.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\nestable2\\css\\jquery.nestable.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\nestable2\\js\\jquery.nestable.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\nestable2\\js\\jquery.nestable.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\nestable2\\js\\jquery.nestable.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\nouislider\\nouislider.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\nouislider\\nouislider.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\nouislider\\nouislider.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\nouislider\\nouislider.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\nouislider\\nouislider.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\nouislider\\nouislider.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\owl-carousel\\owl.carousel.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\owl-carousel\\owl.carousel.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\owl-carousel\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\owl-carousel\\owl.carousel.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\owl-carousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\owl-carousel\\owl.carousel.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\owl-carousel\\owl.video.play.html",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\owl-carousel\\owl.video.play.html",
       "PackagePath": "staticwebassets\\admincss\\vendor\\owl-carousel\\owl.video.play.html"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\peity\\jquery.peity.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\peity\\jquery.peity.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\peity\\jquery.peity.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\pickadate\\picker.date.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\pickadate\\picker.date.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\pickadate\\picker.date.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\pickadate\\picker.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\pickadate\\picker.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\pickadate\\picker.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\pickadate\\picker.time.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\pickadate\\picker.time.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\pickadate\\picker.time.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\pickadate\\themes\\default.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\pickadate\\themes\\default.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\pickadate\\themes\\default.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\pickadate\\themes\\default.date.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\pickadate\\themes\\default.date.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\pickadate\\themes\\default.date.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\raphael\\raphael.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\raphael\\raphael.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\raphael\\raphael.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\select2\\css\\select2.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\select2\\css\\select2.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\select2\\css\\select2.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\select2\\js\\select2.full.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\select2\\js\\select2.full.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\select2\\js\\select2.full.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\star-rating\\jquery.star-rating-svg.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\star-rating\\jquery.star-rating-svg.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\star-rating\\jquery.star-rating-svg.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\star-rating\\star-rating-svg.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\star-rating\\star-rating-svg.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\star-rating\\star-rating-svg.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\svganimation\\svg.animation.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\svganimation\\svg.animation.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\svganimation\\svg.animation.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\svganimation\\vivus.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\svganimation\\vivus.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\svganimation\\vivus.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\sweetalert2\\dist\\sweetalert2.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\sweetalert2\\dist\\sweetalert2.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\sweetalert2\\dist\\sweetalert2.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\sweetalert2\\dist\\sweetalert2.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\sweetalert2\\dist\\sweetalert2.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\sweetalert2\\dist\\sweetalert2.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\tagify\\dist\\tagify.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\tagify\\dist\\tagify.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\tagify\\dist\\tagify.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\tagify\\dist\\tagify.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\tagify\\dist\\tagify.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\tagify\\dist\\tagify.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\toastr\\css\\toastr.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\toastr\\css\\toastr.min.css",
       "PackagePath": "staticwebassets\\admincss\\vendor\\toastr\\css\\toastr.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\toastr\\js\\toastr.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\toastr\\js\\toastr.min.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\toastr\\js\\toastr.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\wnumb\\wNumb.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\admincss\\vendor\\wnumb\\wNumb.js",
       "PackagePath": "staticwebassets\\admincss\\vendor\\wnumb\\wNumb.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\animate.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\animate.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins\\animate.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\bootstrap.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\default.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\default.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins\\default.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\fontawesome-all.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\fontawesome-all.min.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins\\fontawesome-all.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\magnific-popup.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\magnific-popup.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\nav-menu.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\nav-menu.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins\\nav-menu.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\owl.carousel.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\owl.video.play.html",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\owl.video.play.html",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins\\owl.video.play.html"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\themify-icons.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\plugins\\themify-icons.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\plugins\\themify-icons.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\styles.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\css\\styles.css",
       "PackagePath": "staticwebassets\\clientcss\\css\\styles.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-brands-400.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400d41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-brands-400d41d.eot",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-brands-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-regular-400.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400d41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-regular-400d41d.eot",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-regular-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-solid-900.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900d41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\fa-solid-900d41d.eot",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\fa-solid-900d41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\themify9f24.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\themify9f24.eot",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\themify9f24.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\themify9f24.svg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\themify9f24.svg",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\themify9f24.svg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\themify9f24.ttf",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\themify9f24.ttf",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\themify9f24.ttf"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\themify9f24.woff",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\themify9f24.woff",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\themify9f24.woff"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\themifyd41d.eot",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\fonts\\themifyd41d.eot",
       "PackagePath": "staticwebassets\\clientcss\\fonts\\themifyd41d.eot"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\bg\\page-title.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\bg\\page-title.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\bg\\page-title.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\01.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\01.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\01.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\02.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\02.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\02.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\03.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\03.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\03.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\1.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\2.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\3.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\4.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog1.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\blog1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog2.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\blog2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog3.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\blog3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog4.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\blog4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog5.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog5.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\blog5.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog6.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\blog\\blog6.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\blog\\blog6.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\404-image.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\404-image.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\content\\404-image.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\about01.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\about01.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\content\\about01.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\about02.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\about02.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\content\\about02.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\about03.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\about03.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\content\\about03.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\coming-soon-img.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\coming-soon-img.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\content\\coming-soon-img.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\content-01.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\content-01.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\content\\content-01.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\content-02.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\content-02.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\content\\content-02.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\content-03.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\content-03.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\content\\content-03.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\extra-bg.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\extra-bg.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\content\\extra-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\image.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\content\\image.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\content\\image.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c1.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\c1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c2.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\c2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c3.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\c3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c4.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\c4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c5.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c5.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\c5.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c6.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\c6.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\c6.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\course-detail01.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\course-detail01.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\course-detail01.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-author.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-author.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses-author.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-review-01.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-review-01.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses-review-01.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-review-02.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-review-02.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses-review-02.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-sidebar1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-sidebar1.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses-sidebar1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-sidebar2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-sidebar2.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses-sidebar2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-sidebar3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses-sidebar3.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses-sidebar3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_01.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_01.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses_thumb_01.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_02.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_02.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses_thumb_02.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_03.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_03.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses_thumb_03.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_04.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_04.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses_thumb_04.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_05.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_05.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses_thumb_05.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_06.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\courses\\courses_thumb_06.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\courses\\courses_thumb_06.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\demos\\01.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\demos\\01.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\demos\\01.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\demos\\02.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\demos\\02.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\demos\\02.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\demos\\03.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\demos\\03.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\demos\\03.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event-01.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event-01.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\event-01.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event-02.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event-02.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\event-02.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event-03.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event-03.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\event-03.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event-04.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event-04.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\event-04.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event-05.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event-05.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\event-05.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event1.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\event1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event2.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\event2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event3.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\event3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\event4.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\event4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\eventdetail-1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\eventdetail-1.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\eventdetail-1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\events-01.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\events-01.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\events-01.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\events-02.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\events-02.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\events-02.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\events-03.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\events\\events-03.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\events\\events-03.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\01.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\01.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\gallery\\01.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\02.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\02.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\gallery\\02.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\03.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\03.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\gallery\\03.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\04.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\04.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\gallery\\04.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\05.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\05.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\gallery\\05.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\06.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\gallery\\06.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\gallery\\06.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\apple-touch-icon-114x114.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\apple-touch-icon-114x114.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\logos\\apple-touch-icon-114x114.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\apple-touch-icon-57x57.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\apple-touch-icon-57x57.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\logos\\apple-touch-icon-57x57.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\apple-touch-icon-72x72.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\apple-touch-icon-72x72.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\logos\\apple-touch-icon-72x72.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\favicon.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\favicon.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\logos\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\logo-dark.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\logo-dark.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\logos\\logo-dark.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\logo-footer.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\logo-footer.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\logos\\logo-footer.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\logo.png",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\logos\\logo.png",
       "PackagePath": "staticwebassets\\clientcss\\img\\logos\\logo.png"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide1.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide1.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\slider\\slide1.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide2.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide2.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\slider\\slide2.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide3.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide3.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\slider\\slide3.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide4.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide4.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\slider\\slide4.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide5.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide5.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\slider\\slide5.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide6.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide6.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\slider\\slide6.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide7.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\slider\\slide7.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\slider\\slide7.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-01.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-01.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\team\\team-01.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-02.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-02.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\team\\team-02.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-03.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-03.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\team\\team-03.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-04.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-04.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\team\\team-04.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-05.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-05.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\team\\team-05.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-06.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\team\\team-06.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\team\\team-06.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\testmonials\\t-7.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\testmonials\\t-7.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\testmonials\\t-7.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\testmonials\\t-8.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\testmonials\\t-8.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\testmonials\\t-8.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\testmonials\\t-9.jpg",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\img\\testmonials\\t-9.jpg",
       "PackagePath": "staticwebassets\\clientcss\\img\\testmonials\\t-9.jpg"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\js\\core.min.index.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\js\\core.min.index.js",
       "PackagePath": "staticwebassets\\clientcss\\js\\core.min.index.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\js\\core.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\js\\core.min.js",
       "PackagePath": "staticwebassets\\clientcss\\js\\core.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\js\\main.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\js\\main.js",
       "PackagePath": "staticwebassets\\clientcss\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\search\\search.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\search\\search.css",
       "PackagePath": "staticwebassets\\clientcss\\search\\search.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\search\\search.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\search\\search.js",
       "PackagePath": "staticwebassets\\clientcss\\search\\search.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\video\\down-time.mp4",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\clientcss\\video\\down-time.mp4",
       "PackagePath": "staticwebassets\\clientcss\\video\\down-time.mp4"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\a\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\asp\\Desktop\\ITM_College\\ITM-College\\ITM-College\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

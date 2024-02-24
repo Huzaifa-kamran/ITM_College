@@ -18,6 +18,7 @@ namespace ITM_College.Data
         }
 
         public virtual DbSet<Admin> Admins { get; set; } = null!;
+        public virtual DbSet<Assignment> Assignments { get; set; } = null!;
         public virtual DbSet<Contact> Contacts { get; set; } = null!;
         public virtual DbSet<Course> Courses { get; set; } = null!;
         public virtual DbSet<Department> Departments { get; set; } = null!;
@@ -28,12 +29,17 @@ namespace ITM_College.Data
         public virtual DbSet<StudentCourseRegistration> StudentCourseRegistrations { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+<<<<<<< HEAD
         {
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer();
             }
         }
+=======
+        => optionsBuilder.UseSqlServer();
+        
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -61,6 +67,50 @@ namespace ITM_College.Data
                     .HasColumnName("password");
 
                 entity.Property(e => e.Role).HasColumnName("role");
+            });
+
+            modelBuilder.Entity<Assignment>(entity =>
+            {
+                entity.ToTable("Assignment");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.CourseId).HasColumnName("courseId");
+
+                entity.Property(e => e.Description)
+                    .HasColumnType("text")
+                    .HasColumnName("description");
+
+                entity.Property(e => e.FacultyId).HasColumnName("facultyId");
+
+                entity.Property(e => e.MaxDate)
+                    .HasColumnType("date")
+                    .HasColumnName("maxDate");
+
+                entity.Property(e => e.Media)
+                    .IsUnicode(false)
+                    .HasColumnName("media");
+
+                entity.Property(e => e.Title)
+                    .HasMaxLength(255)
+                    .IsUnicode(false)
+                    .HasColumnName("title");
+
+                entity.Property(e => e.TotalMarks).HasColumnName("totalMarks");
+
+                entity.Property(e => e.UploadDate)
+                    .HasColumnType("date")
+                    .HasColumnName("uploadDate");
+
+                entity.HasOne(d => d.Course)
+                    .WithMany(p => p.Assignments)
+                    .HasForeignKey(d => d.CourseId)
+                    .HasConstraintName("FK__Assignmen__cours__3F466844");
+
+                entity.HasOne(d => d.Faculty)
+                    .WithMany(p => p.Assignments)
+                    .HasForeignKey(d => d.FacultyId)
+                    .HasConstraintName("FK__Assignmen__facul__3E52440B");
             });
 
             modelBuilder.Entity<Contact>(entity =>
@@ -184,7 +234,11 @@ namespace ITM_College.Data
             modelBuilder.Entity<PreviousExam>(entity =>
             {
                 entity.HasKey(e => e.ExamId)
+<<<<<<< HEAD
                     .HasName("PK__Previous__A56D123FDE5C2BE6");
+=======
+                    .HasName("PK__Previous__A56D123F85F34DBE");
+>>>>>>> 7cf72848e5a11946f323e0bb09c0a99ab08fa160
 
                 entity.ToTable("PreviousExam");
 

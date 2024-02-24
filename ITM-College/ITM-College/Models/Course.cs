@@ -8,6 +8,7 @@ namespace ITM_College.Models
     {
         public Course()
         {
+            Assignments = new HashSet<Assignment>();
             StudentCourseRegistrations = new HashSet<StudentCourseRegistration>();
         }
 
@@ -30,6 +31,7 @@ namespace ITM_College.Models
         public int? FacultyId { get; set; }
 
         public virtual Faculty? Faculty { get; set; }
+        public virtual ICollection<Assignment> Assignments { get; set; }
         public virtual ICollection<StudentCourseRegistration> StudentCourseRegistrations { get; set; }
     }
 }
