@@ -1,4 +1,16 @@
-﻿<!DOCTYPE html>
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var Session_userrole = HttpContextAccessor.HttpContext.Session.GetString("sessionRole");
+}
+
+@if (Session_userrole != "1")
+{
+    <script>
+        window.location.href = '@Url.Action("Login", "Home")';
+    </script>
+}
+<!DOCTYPE html>
 <html>
 <head>
     <!-- Meta -->
@@ -24,7 +36,9 @@
     <meta name="twitter:image" content="../../products.w3itexpert.com/images/edumin_ogimage.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EduMin - Education ASP.NET Core MVC Admin Dashboard Template | dexignlabs</title>
+    <title>
+        ITM College
+    </title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="~/admincss/images/favicon.png">
 

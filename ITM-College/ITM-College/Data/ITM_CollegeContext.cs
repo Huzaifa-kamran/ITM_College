@@ -31,7 +31,6 @@ namespace ITM_College.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-
                 optionsBuilder.UseSqlServer();
             }
         }
@@ -48,6 +47,8 @@ namespace ITM_College.Data
                     .HasMaxLength(55)
                     .IsUnicode(false)
                     .HasColumnName("adminEmail");
+
+                entity.Property(e => e.AdminImg).IsUnicode(false);
 
                 entity.Property(e => e.AdminName)
                     .HasMaxLength(55)
@@ -108,7 +109,7 @@ namespace ITM_College.Data
                 entity.HasOne(d => d.Faculty)
                     .WithMany(p => p.Courses)
                     .HasForeignKey(d => d.FacultyId)
-                    .HasConstraintName("FK__Courses__faculty__2E1BDC42");
+                    .HasConstraintName("FK__Courses__faculty__4222D4EF");
             });
 
             modelBuilder.Entity<Department>(entity =>
@@ -177,13 +178,13 @@ namespace ITM_College.Data
                 entity.HasOne(d => d.FacultyDepartmentNavigation)
                     .WithMany(p => p.Faculties)
                     .HasForeignKey(d => d.FacultyDepartment)
-                    .HasConstraintName("FK__faculties__facul__2B3F6F97");
+                    .HasConstraintName("FK__faculties__facul__3F466844");
             });
 
             modelBuilder.Entity<PreviousExam>(entity =>
             {
                 entity.HasKey(e => e.ExamId)
-                    .HasName("PK__Previous__A56D123F99001D5B");
+                    .HasName("PK__Previous__A56D123FDE5C2BE6");
 
                 entity.ToTable("PreviousExam");
 
@@ -227,7 +228,7 @@ namespace ITM_College.Data
                 entity.HasOne(d => d.StudentData)
                     .WithMany(p => p.PreviousExams)
                     .HasForeignKey(d => d.StudentDataId)
-                    .HasConstraintName("FK__PreviousE__stude__36B12243");
+                    .HasConstraintName("FK__PreviousE__stude__4AB81AF0");
             });
 
             modelBuilder.Entity<Student>(entity =>
@@ -240,6 +241,8 @@ namespace ITM_College.Data
                     .HasColumnName("password");
 
                 entity.Property(e => e.Role).HasColumnName("role");
+
+                entity.Property(e => e.StdImg).IsUnicode(false);
 
                 entity.Property(e => e.StudentEmail)
                     .HasMaxLength(55)
@@ -306,12 +309,12 @@ namespace ITM_College.Data
                 entity.HasOne(d => d.AddmissionForNavigation)
                     .WithMany(p => p.StudentCourseRegistrations)
                     .HasForeignKey(d => d.AddmissionFor)
-                    .HasConstraintName("FK__StudentCo__addmi__33D4B598");
+                    .HasConstraintName("FK__StudentCo__addmi__47DBAE45");
 
                 entity.HasOne(d => d.Student)
                     .WithMany(p => p.StudentCourseRegistrations)
                     .HasForeignKey(d => d.StudentId)
-                    .HasConstraintName("FK__StudentCo__stude__32E0915F");
+                    .HasConstraintName("FK__StudentCo__stude__46E78A0C");
             });
 
             OnModelCreatingPartial(modelBuilder);

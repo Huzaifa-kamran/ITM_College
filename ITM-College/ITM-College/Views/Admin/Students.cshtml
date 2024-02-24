@@ -64,7 +64,7 @@
 													<th>Name</th>
 													<th>Email</th>
 													<th>Courses</th>
-													<th>Action</th>
+													@* <th>Action</th> *@
 												</tr>
 											</thead>
 											<tbody>
@@ -73,7 +73,7 @@
 
 
 													<tr>
-														<td><img class="rounded-circle" width="35" src="images/profile/small/pic1.jpg" alt=""></td>
+														<td><img class="rounded-circle" width="35" src="~/@temp.StdImg" alt=""></td>
 														<td><a asp-controller="Admin" asp-action="StudentDetail" asp-route-id="@temp.StudentId">@temp.StudentName</a></td>
 														<td><a asp-controller="Admin" asp-action="StudentDetail" asp-route-id="@temp.StudentId">@temp.StudentEmail</a></td>
 														<td>
@@ -98,10 +98,10 @@
 															</a>
 														</td>
 
-														<td>
+														@* <td>
 															<a asp-controller="Admin" asp-action="UpdateStudent" asp-route-id="@temp.StudentId" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
 															<a asp-controller="Admin" asp-action="DeleteStudent" asp-route-id="@temp.StudentId" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
-														</td>
+														</td> *@
 													</tr>
 												}
 

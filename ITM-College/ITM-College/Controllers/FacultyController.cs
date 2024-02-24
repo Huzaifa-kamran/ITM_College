@@ -9,43 +9,47 @@ namespace ITM_College.Controllers
     public class FacultyController : Controller
     {
 		private readonly ITM_CollegeContext db;
-		public FacultyController(ITM_CollegeContext db)
+        private readonly IHttpContextAccessor contx;
+        public FacultyController(ITM_CollegeContext db, IHttpContextAccessor contx)
 		{
 			this.db = db;
-		}
+            this.contx = contx;
+        }
 		public IActionResult Index()
         {
-			var data = new FacultyIndexModel
+
+			string sessionId = HttpContext.Session.GetString("sessionId");
+			var facid = Convert.ToInt32(sessionId);
+            var data = new FacultyIndexModel
 			{
-				CoursesCount = db.Courses.Where(col => col.FacultyId == 1).Count(),
+				CoursesCount = db.Courses.Where(col => col.FacultyId == facid).Count(),
 
-				faculty = db.Faculties.Include(d => d.FacultyDepartmentNavigation).FirstOrDefault(col => col.FacultyId == 1),
+				faculty = db.Faculties.Include(d => d.FacultyDepartmentNavigation).FirstOrDefault(col => col.FacultyId == facid),
 
-				courses = db.Courses.Where(f=>f.FacultyId == 1).ToList(),
+				courses = db.Courses.Where(f=>f.FacultyId == facid).ToList(),
 
 				students = db.StudentCourseRegistrations
 	           .Include(s => s.AddmissionForNavigation)
 		       .ThenInclude(a => a.Faculty)
 	           .Include(c => c.Student)
-	           .Where(s => s.AddmissionForNavigation.FacultyId == 1).Where(s=>s.Status == 3)
+	           .Where(s => s.AddmissionForNavigation.FacultyId == facid).Where(s=>s.Status == 2)
 	           .ToList(),
 
 		};
             return View(data);
         }
-		public IActionResult Assignments(string message)
-		{
-			ViewBag.message = message;
-			var course = db.Courses.Where(col=>col.FacultyId == 1).ToList();
-			return View(course);
-		}
+		
+
+		
 		public IActionResult Student()
 		{
-			var students = db.StudentCourseRegistrations
+            string sessionId = HttpContext.Session.GetString("sessionId");
+            var facid = Convert.ToInt32(sessionId);
+            var students = db.StudentCourseRegistrations
 			   .Include(s => s.AddmissionForNavigation)
 			   .ThenInclude(a => a.Faculty)
 			   .Include(c => c.Student)
-			   .Where(s => s.AddmissionForNavigation.FacultyId == 1).Where(s => s.Status == 3)
+			   .Where(s => s.AddmissionForNavigation.FacultyId == facid).Where(s => s.Status == 2)
 			   .ToList();
 			return View(students);
 		}

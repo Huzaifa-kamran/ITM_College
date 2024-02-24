@@ -1,5 +1,7 @@
 ﻿  @model ITM_College.Models.Student;
+
 <section class="page-title-section bg-img cover-background" data-overlay-dark="7" data-background="/clientcss/img/bg/page-title.jpg">
+  
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -24,6 +26,10 @@
                     <h4 class="no-margin-bottom text-center font-weight-500">Welcome Back</h4>
                     <div class="title-border"><span class="lg"></span><span class="md"></span><span class="sm"></span></div>
                     <form method="post">
+                        @if (!string.IsNullOrEmpty(ViewBag.error))
+                        {
+                          <span class="text-danger">@ViewBag.error</span>  
+                        }
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input class="margin-5px-bottom" type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" asp-for="StudentEmail">
@@ -33,9 +39,11 @@
                             <label for="exampleInputPassword1">Password</label>
                             <input class="margin-5px-bottom" type="password" id="exampleInputPassword1" placeholder="Password" asp-for="Password">
                         </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input width-auto" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Remember Password</label>
+                        <div class="col-12">
+                            <div class="form-group no-margin">
+
+                                <a asp-action="Registration" asp-controller="Home">New Student Click here to Register!</a>
+                            </div>
                         </div>
                         <button type="submit" class="butn theme margin-20px-top"><span class="alt-font">Login <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></span></button>
                     </form>
