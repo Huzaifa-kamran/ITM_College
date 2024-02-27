@@ -1,0 +1,74 @@
+﻿  @model ITM_College.Models.VisitorIndex;
+   @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var Session_userrole = HttpContextAccessor.HttpContext.Session.GetString("sessionRole");
+}
+
+
+<!-- start page title section -->
+<section class="page-title-section bg-img cover-background" data-overlay-dark="7" data-background="/clientcss/img/bg/page-title.jpg">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Our Courses</h1>
+            </div>
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="javascript:void(0)">Our Courses</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- end page title section -->
+<!-- start course area section -->
+<section class="courses-area bg-light-gray">
+    <div class="container">
+        <div class="courses-list">
+            <div class="row">
+                @foreach (var temp in Model.courses)
+                {
+                    <div class="col-lg-4 col-md-6 margin-30px-bottom sm-margin-25px-bottom">
+                        <div class="courses-box no-margin-lr">
+                            <div class="courses-pic position-relative">
+                                <img src="@temp.CourseImg" alt="" />
+                            </div>
+                            <div class="course-main-content">
+                                <div class="courses-desc last-paragraph-no-margin">
+                                    <div class="courses-title">
+                                        <h4 class="font-size22 sm-font-size20 margin-5px-bottom font-weight-500 text-theme-color">@temp.CourseName</h4>
+                                    </div>
+
+                                    <p>@temp.CourseDesc</p>
+                                </div>
+                            </div>
+                            <div class="card-footer media bg-white align-items-center justify-content-between">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-1">
+                                        <i class="ti-headphone mr-2"></i>@temp.CourseDuration
+                                    </li>
+                                    <li class="mb-1">
+                                        @if (Session_userrole != "1")
+                                        {
+                                            <a class="butn fill margin-30px-top md-margin-25px-top sm-margin-20px-top" asp-action="Login" asp-controller="Home">Enroll <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
+                                        }
+                                        else
+                                        {
+                                            <a class="butn fill margin-30px-top md-margin-25px-top sm-margin-20px-top" asp-action="RegistrationForm" asp-controller="Student">Enroll <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
+
+                                        }
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end course area section -->

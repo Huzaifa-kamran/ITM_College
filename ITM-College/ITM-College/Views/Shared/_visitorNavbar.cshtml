@@ -1,0 +1,80 @@
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var Session_userrole = HttpContextAccessor.HttpContext.Session.GetString("sessionRole");
+}
+
+    <!-- start page loading -->
+    <div id="preloader">
+        <div class="row loader">
+            <div class="loader-icon"></div>
+        </div>
+    </div>
+    <!-- end page loading -->
+
+    
+
+        <!-- start header section -->
+        <header class="header-style1 menu_area-light">
+
+            <div class="navbar-default">
+
+
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-12">
+                    <div class="menu_area alt-font">
+                        <nav class="navbar navbar-expand-lg navbar-light no-padding">
+
+                            <div class="navbar-header navbar-header-custom">
+                                <!-- start logo -->
+                                <a asp-action="Index" asp-controller="Home" class="navbar-brand"><img id="logo" src="~/clientcss/img/logos/Your_paragraph_text__3_-removebg-preview.png" alt="logo"></a>
+                                <!-- end logo -->
+                            </div>
+
+                            <div class="navbar-toggler"></div>
+
+                            <!-- start menu area -->
+                            <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
+                                <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                                <li><a asp-action="About" asp-controller="Home">About Us</a></li>
+                                <li>
+                                    <a asp-action="Courses" asp-controller="Home">Courses</a>
+                                </li>
+                                <li>
+                                    <a asp-action="FAQ" asp-controller="Home">FAQs</a>
+                                
+                                </li>
+                                <li><a asp-action="Contact" asp-controller="Home">Contact Us</a></li>
+                                @if (Session_userrole != null)
+                                {
+                                    if (Session_userrole == "1")
+                                    {
+                                        <li><a asp-action="Index" asp-controller="Student">Student Dashboard</a></li>
+                                    }
+                                    else if (Session_userrole == "2")
+                                    {
+                                        <li><a asp-action="Index" asp-controller="Faculty">Teacher Dashboard</a></li>
+                                    }
+                                    else if (Session_userrole == "3")
+                                    {
+                                        <li><a asp-action="Index" asp-controller="Admin">Admin Dashboard</a></li>
+                                    }
+                                }
+                                else
+                                {
+                                    <li><a asp-action="Login" asp-controller="Home">Login</a></li>
+                                }
+
+                            </ul>
+                            <!-- end menu area -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<!-- end header section -->

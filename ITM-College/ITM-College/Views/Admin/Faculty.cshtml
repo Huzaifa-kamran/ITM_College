@@ -1,0 +1,134 @@
+﻿@{
+	Layout = "_AdminLayout";
+}
+@model IEnumerable<Faculty>;
+
+<!--**********************************
+		  Content body start
+	  ***********************************-->
+<div class="content-body">
+	@if (ViewBag.message != null)
+	{
+
+		<div class="alert alert-success solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-check"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button> @ViewBag.message
+		</div>
+	}
+
+	@if (ViewBag.error != null)
+	{
+		<div class="alert alert-danger solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-alert"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button>
+			<strong>@ViewBag.error</strong>
+		</div>
+	}
+	<!-- row -->
+	<div class="container-fluid">
+
+		<div class="row page-titles mx-0">
+			<div class="col-sm-6 p-md-0">
+				<div class="welcome-text">
+					<h4>All Faculties</h4>
+				</div>
+			</div>
+			<div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+				<ol class="breadcrumb">
+
+					<li class="breadcrumb-item"><a href="javascript:void(0);">Faculties</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0);">All Faculties</a></li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="row">
+		
+			<div class="col-lg-12">
+				<div class="row">
+					<div class="show col-lg-12">
+						<div class="card">
+							<div class="card-header">
+								<h4 class="card-title">All Faculties  </h4>
+								<a asp-controller="Admin" asp-action="AddFaculty" class="btn btn-primary">+ Add new</a>
+							</div>
+							<div class="card-body">
+								@if (Model.Any())
+								{
+									<div class="table-responsive">
+										<table id="example3" class="display text-nowrap table" style="min-width: 845px">
+											<thead>
+												<tr>
+													<th>Profile</th>
+													<th>Name</th>
+													<th>Department</th>
+													<th>Gender</th>
+													<th>Email</th>
+													<th>Action</th>
+												</tr>
+											</thead>
+											<tbody>
+												@foreach (var temp in Model)
+												{
+
+													<tr>
+														<td><a asp-controller="Admin" asp-action="FacultyDetail" asp-route-id="@temp.FacultyId"><img class="rounded-circle" width="35" src="~/@temp.FacultyImg" alt=""></a></td>
+														<td>
+															<a asp-controller="Admin" asp-action="FacultyDetail" asp-route-id="@temp.FacultyId">@temp.FacultyName</a>
+														</td>
+														<td>
+															<a asp-controller="Admin" asp-action="FacultyDetail" asp-route-id="@temp.FacultyId">@temp.FacultyDepartmentNavigation.DepartmentName</a>
+														</td>
+														<td>
+															<a asp-controller="Admin" asp-action="FacultyDetail" asp-route-id="@temp.FacultyId">
+																@{
+																	string gender = temp.Gender == 1 ? "Male" : "Female";
+																}
+																@gender
+															</a>
+														</td>
+
+														<td>
+															<a asp-controller="Admin" asp-action="FacultyDetail" asp-route-id="@temp.FacultyId">@temp.FacultyEmail</a>
+														</td>
+														<td>
+															<a asp-controller="Admin" asp-action="UpdateFaculty"
+															   asp-route-id="@temp.FacultyId" class="btn btn-xs sharp btn-primary">
+																<i class="fa fa-pencil"></i>
+															</a>
+															<a asp-controller="Admin" asp-action="DeleteFaculty" asp-route-id="@temp.FacultyId" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
+														</td>
+													</tr>
+
+												}
+
+
+
+											</tbody>
+										</table>
+									</div>
+								}
+								else
+								{
+								// Model is empty or null
+									<h2>No Faculties</h2>
+								}
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<!--**********************************
+	Content body end
+***********************************-->

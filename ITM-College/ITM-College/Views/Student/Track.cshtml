@@ -1,0 +1,52 @@
+﻿@{
+	Layout = "_StudentLayout";
+}
+@model IEnumerable<StudentCourseRegistration>
+<div class="content-body">
+	@if (ViewBag.message != null)
+	{
+
+		<div class="alert alert-success solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-check"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button> @ViewBag.message
+
+		</div>
+	}
+
+	@if (ViewBag.error != null)
+	{
+		<div class="alert alert-danger solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-alert"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button>
+			<strong>@ViewBag.error</strong>
+		</div>
+	}
+	<!-- row -->
+	<div class="container-fluid">
+
+		<div class="row">
+			@if (TempData["TrackingId"] != null)
+			{
+				<div class="alert alert-success" role="alert">
+					Your tracking ID is: @TempData["TrackingId"]
+				</div>
+			}
+			<div class="col-xl-6 col-xxl-6 col-sm-12">
+				<div class="widget-stat card">
+					<div class="card-body">
+						<form method="post">
+							<div class="form-group">
+								<label for="trackingId">Enter Tracking ID:</label>
+								<input type="text" id="trackingId" name="trackingId" class="form-control" required>
+							</div>
+							<button type="submit" class="btn btn-primary">Check Status</button>
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,237 @@
+﻿@{
+	Layout = "_AdminLayout";
+}
+@model ITM_College.Models.Student;
+<div class="content-body">
+	<!-- row -->
+	<div class="container-fluid">
+
+		<div class="row page-titles mx-0">
+			<div class="col-sm-6 p-md-0">
+				<div class="welcome-text">
+					<h4>Student Profile</h4>
+				</div>
+			</div>
+			<div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+				<ol class="breadcrumb">
+
+					<li class="breadcrumb-item"><a href="javascript:void(0);">Student</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0);">Student Detail</a></li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xl-12 col-xxl-12 col-lg-12">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="card">
+							<div class="text-center p-3 overlay-box" style="background-image: url(/admincss/images/big/img1.jpg);">
+								<div class="profile-photo">
+									@*<img src="~/@Model." width="100" class="img-fluid rounded-circle" alt="">*@
+								</div>
+								<h3 class="mt-3 mb-1 text-white">@Model.StudentName</h3>
+							</div>
+							<div class="card overflow-hidden px-lg-5">
+
+								<div class="card-body pb-0">
+									<ul class="list-group list-group-flush ">
+										<li class="list-group-item d-flex px-0 justify-content-between">
+											<strong>Email</strong>
+											<span class="mb-0">@Model.StudentEmail</span>
+										</li>
+										<li class="list-group-item d-flex px-0 justify-content-between">
+											<strong>Password</strong>
+											<span class="mb-0">@Model.Password</span>
+										</li>
+									
+										@if (Model.StudentCourseRegistrations.Any())
+										{
+											var latestRegistration = Model.StudentCourseRegistrations.OrderByDescending(scr => scr.Id).First();
+											<li class="list-group-item d-flex px-0 justify-content-between">
+												<strong>Father Name</strong>
+												<span class="mb-0">@latestRegistration.FatherName</span>
+											</li>
+											<li class="list-group-item d-flex px-0 justify-content-between">
+												<strong>Mother Name</strong>
+												<span class="mb-0">@latestRegistration.MotherName</span>
+											</li>
+											<li class="list-group-item d-flex px-0 justify-content-between">
+												<strong>Date Of Birth</strong>
+												<span class="mb-0">@latestRegistration.Dob</span>
+											</li>
+											<li class="list-group-item d-flex px-0 justify-content-between">
+												<strong>Gender</strong>
+												<span class="mb-0">@latestRegistration.Gender</span>
+											</li>
+
+											<li class="list-group-item d-flex px-0 justify-content-between">
+												<strong>Residental Address</strong>
+												<span class="mb-0">@latestRegistration.ResidentalAddress</span>
+											</li>
+
+											<li class="list-group-item d-flex px-0 justify-content-between">
+												<strong>Permanent Address</strong>
+												<span class="mb-0">@latestRegistration.PermanentAddress</span>
+											</li>
+											
+										}
+										else
+										{
+											<p>No courses enrolled</p>
+										}
+
+										<li class="list-group-item d-flex px-0 justify-content-between">
+											<strong>Courses</strong>
+
+											@{
+												var enroll = Model.StudentCourseRegistrations.Where(col => col.Status == 2);
+											}
+										@if(enroll.Any()){
+											<span class="mb-0">
+										@foreach (var temp in enroll)
+										{
+											if(temp.Status == 2){
+												
+
+														@temp.AddmissionForNavigation.CourseName
+														@if (!temp.Equals(enroll.Last()))
+														{
+															<text>, </text>
+														}
+										
+													
+												}
+												
+												}
+												</span>
+											}
+											else
+											{
+												<span class="mb-0">No Course</span>
+											}
+
+										
+										
+										</li>
+
+
+										<li class="list-group-item px-0">
+											<div class="row">
+												<div class="col">
+													<strong>Pending Courses</strong>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col">
+													@{
+														var pending = Model.StudentCourseRegistrations.Where(col => col.Status == 1);
+													}
+													@if (pending.Any())
+													{
+														foreach (var temp in pending)
+														{
+															if (temp.Status == 1)
+															{
+																<div class="d-flex justify-content-between mb-2">
+																	<span class="mt-1">@temp.AddmissionForNavigation.CourseName</span>
+																	<span>
+																		<a asp-controller="Admin" asp-action="ApproveStudent" asp-route-id="@temp.Id" class="btn btn-primary btn-sm">Approve</a>
+																		<a asp-controller="Admin" asp-action="RejectStudent" asp-route-id="@temp.Id" class="btn btn-danger btn-sm">Reject</a>
+																	</span>
+																</div>
+															}
+														}
+													}
+													else
+													{
+														<span>No Pending Course</span>
+													}
+												</div>
+											</div>
+										</li>
+
+
+
+
+										<li class="list-group-item d-flex px-0 justify-content-between">
+											<strong>Rejected Courses</strong>
+											@{
+												var reject = Model.StudentCourseRegistrations.Where(col => col.Status == 3);
+											}
+											@if (reject.Any())
+											{
+												<span class="mb-0">
+												@foreach (var temp in reject)
+												{
+													
+															@temp.AddmissionForNavigation.CourseName
+															@if (!temp.Equals(reject.Last()))
+															{
+																<text>, </text>
+															}
+												
+												}
+												</span>
+											}
+											else
+											{
+												<span class="mb-0">No Rejected Course</span>
+											}
+										</li>
+
+										@*
+										<li class="list-group-item d-flex px-0 justify-content-between">
+										<strong>Courses</strong>
+										<span class="mb-0">
+										@if (Model.Courses != null && Model.Courses.Any())
+										{
+										@foreach (var course in Model.Courses)
+										{
+										@course.CourseName
+										@if (!course.Equals(Model.Courses.Last()))
+										{
+										<text>, </text>
+										}
+										}
+										}
+										else
+										{
+										<text>No Course</text>
+										}
+										</span>
+										</li>*@
+
+									</ul>
+								</div>
+								@* <div class="card-footer pt-0 pb-0 text-center">
+								<div class="row">
+								<div class="col-6 pt-3 pb-3 border-end">
+								<h3 class="mb-1 text-primary">@Model.Courses.Count</h3>
+								<span>Courses</span>
+								</div>
+								<div class="col-6 pt-3 pb-3 border-end">
+								<h3 class="mb-1 text-primary">@ViewBag.count</h3>
+								<span>Students</span>
+								</div>
+								</div>
+								</div> *@
+							</div>
+							<div class="card-footer text-center border-0 mt-0">
+								@*<a asp-controller="Admin" asp-action="UpdateStudent"
+								asp-route-id="@Model.StudentId" class="btn sharp btn-primary">
+								<i class="fa fa-pencil"></i> Update
+								</a>
+								<a asp-controller="Admin" asp-action="DeleteStudent" asp-route-id="@Model.StudentId" class="btn sharp btn-danger"><i class="fa fa-trash"></i> Delete</a>*@
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</div>

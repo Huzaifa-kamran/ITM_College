@@ -1,0 +1,97 @@
+﻿@model ITM_College.Models.Contact;
+<!-- start page title section -->
+<section class="page-title-section bg-img cover-background" data-overlay-dark="7" data-background="/clientcss/img/bg/page-title.jpg">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="javascript:void(0)">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- end page title section -->
+<!-- start contact section -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 xs-margin-25px-bottom">
+                <div class="contact-info padding-55px-tb md-padding-50px-tb sm-padding-30px-tb padding-25px-lr sm-padding-10px-lr text-center">
+                    <i class="ti-location-pin font-size44 md-font-size42 sm-font-size38 text-theme-color"></i>
+                    <h4 class="margin-5px-bottom margin-15px-top sm-margin-10px-top font-size18 sm-font-size16">Visit Our Office</h4>
+                    <p class="no-margin-bottom">
+                        202 Mainstreet, 12th Floor
+                        <br> New York, NY 10013.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 xs-margin-25px-bottom">
+                <div class="contact-info padding-55px-tb md-padding-50px-tb sm-padding-30px-tb padding-25px-lr sm-padding-10px-lr text-center">
+                    <i class="ti-mobile font-size44 md-font-size42 sm-font-size38 text-theme-color"></i>
+                    <h4 class="margin-5px-bottom margin-15px-top sm-margin-10px-top font-size18 sm-font-size16">Let's Talk</h4>
+                    <p class="no-margin-bottom">
+                        Phone: (+44) 123 456 789
+                        <br> Fax: 123 456 789
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="contact-info padding-55px-tb md-padding-50px-tb sm-padding-30px-tb padding-25px-lr sm-padding-10px-lr text-center">
+                    <i class="ti-email font-size44 md-font-size42 sm-font-size38 text-theme-color"></i>
+                    <h4 class="margin-5px-bottom margin-15px-top sm-margin-10px-top font-size18 sm-font-size16">E-mail Us</h4>
+                    <p class="no-margin-bottom">
+                        <a href="javascript:void(0)">info@yourdomain.com</a>
+                        <br> <a href="javascript:void(0)">hr@yourdomain.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end contact section -->
+<!-- start contact form section -->
+<section class="no-padding-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 center-col margin-50px-bottom sm-margin-30px-bottom text-center">
+                <h3 class="font-weight-500 font-size32 md-font-size28 sm-font-size26 xs-font-size24 section-title">Send your message</h3>
+                <div class="title-border"><span class="lg"></span><span class="md"></span><span class="sm"></span></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 center-col">
+                <form method="post">
+                    <input type="hidden" name="form-type" value="contact">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" asp-for="UserName" placeholder="Your Name:">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" asp-for="UserEmail" placeholder="Email:">
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="message" rows="7" asp-for="Message" placeholder="Message:"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="butn">Submit comment <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end contact form section -->
+<!-- start map section -->
+<iframe class="map" id="gmap_canvas" src="https://maps.google.com/maps?q=london&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+<!-- end map section -->

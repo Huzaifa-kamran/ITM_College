@@ -1,0 +1,113 @@
+﻿@{
+	Layout = "_AdminLayout";
+}
+@model IEnumerable<Department>;
+
+<!--**********************************
+		  Content body start
+	  ***********************************-->
+<div class="content-body">
+
+	@if (ViewBag.message != null)
+	{
+
+		<div class="alert alert-success solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-check"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button> @ViewBag.message
+		</div>
+	}
+	@if (ViewBag.error != null)
+	{
+		<div class="alert alert-danger solid alert-right-icon alert-dismissible fade show">
+			<span><i class="mdi mdi-alert"></i></span>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+			</button>
+			<strong>@ViewBag.error</strong>
+		</div>
+	}
+	<!-- row -->
+	<div class="container-fluid">
+		<div class="row page-titles mx-0">
+			<div class="col-sm-6 p-md-0">
+				<div class="welcome-text">
+					<h4>All Departments</h4>
+				</div>
+			</div>
+			<div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+				<ol class="breadcrumb">
+
+					<li class="breadcrumb-item"><a href="javascript:void(0);">Departments</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0);">All Departments</a></li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="row ">
+					<div class=" col-lg-12">
+						<div class="card">
+							<div class="card-header">
+								<h4 class="card-title">All Departments</h4>
+								<a asp-controller="Admin" asp-action="AddDepartment" class="btn btn-primary">+ Add new</a>
+							</div>
+							<div class="card-body">
+								@if (Model.Any())
+								{
+								<div class="table-responsive">
+									<table id="example3" class="display text-nowrap table" style="min-width: 845px">
+										<thead>
+											<tr>
+												<th>No.</th>
+												<th>Name</th>
+												<th>Department</th>
+												<th>Faculties</th>
+												<th>Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											@{
+												int counter = 1;
+											}
+											@foreach (var temp in Model)
+											{
+												<tr>
+													<td>@counter</td>
+													<td>@temp.DepartmentName</td>
+													<td>@temp.DepartmentDesc</td>
+													<td>@temp.Faculties.Count</td>
+													<td>
+														<a asp-controller="Admin" asp-action="UpdateDepartment" asp-route-id="@temp.DepartmentId" class="btn btn-xs sharp btn-primary"><i class="fa fa-pencil"></i></a>
+														<a asp-controller="Admin" asp-action="DeleteDepartment" asp-route-id="@temp.DepartmentId" class="btn btn-xs sharp btn-danger"><i class="fa fa-trash"></i></a>
+													</td>
+												</tr>
+												counter++;
+											}
+
+
+
+										</tbody>
+									</table>
+								</div>
+								}
+								else
+								{
+									<h2>No Department Found</h2>
+								}
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<!--**********************************
+	Content body end
+***********************************-->

@@ -1,0 +1,92 @@
+﻿@{
+	Layout = "_AdminLayout";
+}
+@model ITM_College.Models.Course;
+<!--**********************************
+		   Content body start
+	   ***********************************-->
+<div class="content-body">
+	<!-- row -->
+	<div class="container-fluid">
+
+		<div class="row page-titles mx-0">
+			<div class="col-sm-6 p-md-0">
+				<div class="welcome-text">
+					<h4>About Courses</h4>
+				</div>
+			</div>
+			<div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+				<ol class="breadcrumb">
+
+					<li class="breadcrumb-item"><a href="javascript:void(0);">Courses</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0);">About Courses</a></li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xl-3 col-xxl-4 col-lg-4">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="card">
+							<img class="img-fluid" src="~/@Model.CourseImg" alt="">
+							<div class="card-body">
+								<h4 class="mb-0">@Model.CourseName</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="card overflow-hidden">
+							<div class="card-header">
+								<h2 class="card-title">About Course</h2>
+							</div>
+							<div class="card-body pb-0 pt-0">
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item d-flex px-0 justify-content-between">
+										<strong>Department</strong>
+										<span class="mb-0">@Model.Faculty.FacultyDepartmentNavigation.DepartmentName</span>
+									</li>
+									<li class="list-group-item d-flex px-0 justify-content-between">
+										<strong>Faculty</strong>
+										<span class="mb-0">@Model.Faculty.FacultyName</span>
+									</li>
+								</ul>
+							</div>
+							<div class="card-footer pt-0 pb-0 text-center">
+								<div class="row">
+									<div class="col-6 pt-3 pb-3 border-end">
+										<h3 class="mb-1 text-primary">@Model.CourseDuration</h3>
+										<span>Lectures</span>
+									</div>
+									<div class="col-6 pt-3 pb-3">
+										<h3 class="mb-1 text-primary">@Model.StudentCourseRegistrations.Count</h3>
+										<span>Students</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-9 col-xxl-8 col-lg-8">
+				<div class="card">
+					<div class="card-body">
+						<h2>Description</h2>
+						<p>@Model.CourseDesc</p>
+					</div>
+					<div class="card-footer mt-2">
+						<a asp-controller="Admin" asp-action="UpdateCourse" asp-route-id="@Model.CourseId" class="btn sharp btn-primary"><i class="fa fa-pencil"></i> Update</a>
+						<a asp-controller="Admin" asp-action="DeleteCourse" asp-route-id="@Model.CourseId" class="btn sharp btn-danger"><i class="fa fa-trash"></i> Delete</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<!--**********************************
+	Content body end
+***********************************-->
