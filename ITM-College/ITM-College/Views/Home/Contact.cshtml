@@ -1,5 +1,6 @@
-﻿        <!-- start page title section -->
-<section class="page-title-section bg-img cover-background"  data-overlay-dark="7" data-background="/clientcss/img/bg/page-title.jpg">
+﻿@model ITM_College.Models.Contact;
+<!-- start page title section -->
+<section class="page-title-section bg-img cover-background" data-overlay-dark="7" data-background="/clientcss/img/bg/page-title.jpg">
     <div class="container">
 
         <div class="row">
@@ -69,20 +70,17 @@
 
         <div class="row">
             <div class="col-lg-8 center-col">
-                <form method="post" action="#!">
+                <form method="post">
                     <input type="hidden" name="form-type" value="contact">
                     <div class="row">
-                        <div class="col-md-6">
-                            <input type="text" name="name" placeholder="Your Name:">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" name="phone" placeholder="Telephone:">
+                        <div class="col-md-12">
+                            <input type="text" asp-for="UserName" placeholder="Your Name:">
                         </div>
                         <div class="col-md-12">
-                            <input type="text" name="email" placeholder="Email:">
+                            <input type="text" asp-for="UserEmail" placeholder="Email:">
                         </div>
                         <div class="col-md-12">
-                            <textarea name="message" rows="7" placeholder="Message:"></textarea>
+                            <textarea name="message" rows="7" asp-for="Message" placeholder="Message:"></textarea>
                         </div>
                         <div class="col-md-12">
                             <button type="submit" class="butn">Submit comment <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></button>

@@ -15,6 +15,7 @@ namespace ITM_College.Models
         public string? StudentEmail { get; set; }
         public string? Password { get; set; }
         public int? Role { get; set; }
+        public string? StdImg { get; set; }
 
         public virtual ICollection<StudentCourseRegistration> StudentCourseRegistrations { get; set; }
     }

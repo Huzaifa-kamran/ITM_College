@@ -27,7 +27,10 @@ namespace ITM_College.Controllers
 		}
 		public IActionResult Index()
 		{
-			return View();
+            string sessionId = HttpContext.Session.GetString("sessionId");
+            var facid = Convert.ToInt32(sessionId);
+			var student = db.Students.FirstOrDefault(col => col.StudentId == facid);
+			return View(student);
 		}
 
 		// ------ Controller 1 Student registration Controller ------
@@ -53,7 +56,15 @@ namespace ITM_College.Controllers
 			// Save data to database
 			var newstd = newReg.StudentReg;
 			var newreg = newReg.PreviousExams;
-			db.StudentCourseRegistrations.Add(newstd);
+
+
+            string sessionId = HttpContext.Session.GetString("sessionId");
+            var facid = Convert.ToInt32(sessionId);
+            newstd.Dob = Convert.ToDateTime("2002-3-9");
+            newstd.Status = 1;
+            newstd.StudentId = facid;
+
+            db.StudentCourseRegistrations.Add(newstd);
 			db.PreviousExams.Add(newreg);
 			// Generate tracking ID
 			string trackingId = GenerateTrackingId();
@@ -74,5 +85,12 @@ namespace ITM_College.Controllers
 			ViewBag.error = error;
 			return View();
 		}
-	}
+
+        public IActionResult CheckStatus(string message, string error)
+        {
+            ViewBag.message = message;
+            ViewBag.error = error;
+            return View();
+        }
+    }
 }

@@ -1,4 +1,12 @@
-﻿        <!-- start page title section -->
+﻿  @model ITM_College.Models.VisitorIndex;
+   @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var Session_userrole = HttpContextAccessor.HttpContext.Session.GetString("sessionRole");
+}
+
+
+<!-- start page title section -->
 <section class="page-title-section bg-img cover-background" data-overlay-dark="7" data-background="/clientcss/img/bg/page-title.jpg">
     <div class="container">
 
@@ -22,224 +30,43 @@
     <div class="container">
         <div class="courses-list">
             <div class="row">
-                <div class="col-lg-4 col-md-6 margin-30px-bottom sm-margin-25px-bottom">
-                    <div class="courses-box no-margin-lr">
-                        <div class="courses-pic position-relative">
-                            <a href="course-details.html"><img src="~/clientcss/img/courses/courses_thumb_01.jpg" alt="" /></a>
-                        </div>
-                        <div class="course-main-content">
-                            <div class="courses-desc last-paragraph-no-margin">
-                                <div class="courses-title">
-                                    <h4 class="font-size22 sm-font-size20 margin-5px-bottom font-weight-500"><a href="course-details.html" class="text-theme-color">Computer Science</a></h4>
-                                </div>
-                                <div class="course-review margin-15px-bottom md-margin-10px-bottom mobile-margin-5px-bottom">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="padding-10px-left">20 Reviews</span>
-                                </div>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum. </p>
+                @foreach (var temp in Model.courses)
+                {
+                    <div class="col-lg-4 col-md-6 margin-30px-bottom sm-margin-25px-bottom">
+                        <div class="courses-box no-margin-lr">
+                            <div class="courses-pic position-relative">
+                                <img src="@temp.CourseImg" alt="" />
                             </div>
-                        </div>
-                        <div class="card-footer media bg-white align-items-center justify-content-between">
-                            <ul class="list-unstyled mb-0">
-                                <li class="mb-1">
-                                    <i class="ti-headphone mr-2"></i>25 lectures
-                                </li>
-                                <li class="">
-                                    <i class="ti-time mr-2"></i>9 hours
-                                </li>
-                            </ul>
-                            <h4 class="text-right no-margin-bottom">
-                                <span>$180</span>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
+                            <div class="course-main-content">
+                                <div class="courses-desc last-paragraph-no-margin">
+                                    <div class="courses-title">
+                                        <h4 class="font-size22 sm-font-size20 margin-5px-bottom font-weight-500 text-theme-color">@temp.CourseName</h4>
+                                    </div>
 
-                <div class="col-lg-4 col-md-6 margin-30px-bottom sm-margin-25px-bottom">
-                    <div class="courses-box no-margin-lr">
-                        <div class="courses-pic position-relative">
-                            <a href="course-details.html"><img src="~/clientcss/img/courses/courses_thumb_02.jpg" alt="" /></a>
-                        </div>
-                        <div class="course-main-content">
-                            <div class="courses-desc last-paragraph-no-margin">
-                                <div class="courses-title">
-                                    <h4 class="font-size22 sm-font-size20 margin-5px-bottom font-weight-500"><a href="course-details.html" class="text-theme-color">Marketing Business</a></h4>
+                                    <p>@temp.CourseDesc</p>
                                 </div>
-                                <div class="course-review margin-15px-bottom md-margin-10px-bottom mobile-margin-5px-bottom">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="padding-10px-left">26 Reviews</span>
-                                </div>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum. </p>
                             </div>
-                        </div>
-                        <div class="card-footer media bg-white align-items-center justify-content-between">
-                            <ul class="list-unstyled mb-0">
-                                <li class="mb-1">
-                                    <i class="ti-headphone mr-2"></i>65 lectures
-                                </li>
-                                <li class="">
-                                    <i class="ti-time mr-2"></i>8 hours
-                                </li>
-                            </ul>
-                            <h4 class="text-right no-margin-bottom">
-                                <span>$140</span>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
+                            <div class="card-footer media bg-white align-items-center justify-content-between">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-1">
+                                        <i class="ti-headphone mr-2"></i>@temp.CourseDuration
+                                    </li>
+                                    <li class="mb-1">
+                                        @if (Session_userrole != "1")
+                                        {
+                                            <a class="butn fill margin-30px-top md-margin-25px-top sm-margin-20px-top" asp-action="Login" asp-controller="Home">Enroll <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
+                                        }
+                                        else
+                                        {
+                                            <a class="butn fill margin-30px-top md-margin-25px-top sm-margin-20px-top" asp-action="RegistrationForm" asp-controller="Student">Enroll <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
 
-                <div class="col-lg-4 col-md-6 margin-30px-bottom sm-margin-25px-bottom">
-                    <div class="courses-box no-margin-lr">
-                        <div class="courses-pic position-relative">
-                            <a href="course-details.html"><img src="~/clientcss/img/courses/courses_thumb_03.jpg" alt="" /></a>
-                        </div>
-                        <div class="course-main-content">
-                            <div class="courses-desc last-paragraph-no-margin">
-                                <div class="courses-title">
-                                    <h4 class="font-size22 sm-font-size20 margin-5px-bottom font-weight-500"><a href="course-details.html" class="text-theme-color">Architecture Design</a></h4>
-                                </div>
-                                <div class="course-review margin-15px-bottom md-margin-10px-bottom mobile-margin-5px-bottom">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="padding-10px-left">18 Reviews</span>
-                                </div>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum. </p>
+                                        }
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="card-footer media bg-white align-items-center justify-content-between">
-                            <ul class="list-unstyled mb-0">
-                                <li class="mb-1">
-                                    <i class="ti-headphone mr-2"></i>55 lectures
-                                </li>
-                                <li class="">
-                                    <i class="ti-time mr-2"></i>7 hours
-                                </li>
-                            </ul>
-                            <h4 class="text-right no-margin-bottom">
-                                <span>$190</span>
-                            </h4>
-                        </div>
                     </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 sm-margin-25px-bottom">
-                    <div class="courses-box no-margin-lr">
-                        <div class="courses-pic position-relative">
-                            <a href="course-details.html"><img src="~/clientcss/img/courses/courses_thumb_04.jpg" alt="" /></a>
-                        </div>
-                        <div class="course-main-content">
-                            <div class="courses-desc last-paragraph-no-margin">
-                                <div class="courses-title">
-                                    <h4 class="font-size22 sm-font-size20 margin-5px-bottom font-weight-500"><a href="course-details.html" class="text-theme-color">Medical Technology</a></h4>
-                                </div>
-                                <div class="course-review margin-15px-bottom md-margin-10px-bottom mobile-margin-5px-bottom">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="padding-10px-left">25 Reviews</span>
-                                </div>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum. </p>
-                            </div>
-                        </div>
-                        <div class="card-footer media bg-white align-items-center justify-content-between">
-                            <ul class="list-unstyled mb-0">
-                                <li class="mb-1">
-                                    <i class="ti-headphone mr-2"></i>85 lectures
-                                </li>
-                                <li class="">
-                                    <i class="ti-time mr-2"></i>6 hours
-                                </li>
-                            </ul>
-                            <h4 class="text-right no-margin-bottom">
-                                <span>$110</span>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 xs-margin-25px-bottom">
-                    <div class="courses-box no-margin-lr">
-                        <div class="courses-pic position-relative">
-                            <a href="course-details.html"><img src="~/clientcss/img/courses/courses_thumb_05.jpg" alt="" /></a>
-                        </div>
-                        <div class="course-main-content">
-                            <div class="courses-desc last-paragraph-no-margin">
-                                <div class="courses-title">
-                                    <h4 class="font-size22 sm-font-size20 margin-5px-bottom font-weight-500"><a href="course-details.html" class="text-theme-color">Microsoft Azure</a></h4>
-                                </div>
-                                <div class="course-review margin-15px-bottom md-margin-10px-bottom mobile-margin-5px-bottom">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="padding-10px-left">22 Reviews</span>
-                                </div>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum. </p>
-                            </div>
-                        </div>
-                        <div class="card-footer media bg-white align-items-center justify-content-between">
-                            <ul class="list-unstyled mb-0">
-                                <li class="mb-1">
-                                    <i class="ti-headphone mr-2"></i>30 lectures
-                                </li>
-                                <li class="">
-                                    <i class="ti-time mr-2"></i>5 hours
-                                </li>
-                            </ul>
-                            <h4 class="text-right no-margin-bottom">
-                                <span>$130</span>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="courses-box no-margin-lr">
-                        <div class="courses-pic position-relative">
-                            <a href="course-details.html"><img src="~/clientcss/img/courses/courses_thumb_06.jpg" alt="" /></a>
-                        </div>
-                        <div class="course-main-content">
-                            <div class="courses-desc last-paragraph-no-margin">
-                                <div class="courses-title">
-                                    <h4 class="font-size22 sm-font-size20 margin-5px-bottom font-weight-500"><a href="course-details.html" class="text-theme-color">Android Apps</a></h4>
-                                </div>
-                                <div class="course-review margin-15px-bottom md-margin-10px-bottom mobile-margin-5px-bottom">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <span class="padding-10px-left">12 Reviews</span>
-                                </div>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum. </p>
-                            </div>
-                        </div>
-                        <div class="card-footer media bg-white align-items-center justify-content-between">
-                            <ul class="list-unstyled mb-0">
-                                <li class="mb-1">
-                                    <i class="ti-headphone mr-2"></i>75 lectures
-                                </li>
-                                <li class="">
-                                    <i class="ti-time mr-2"></i>4 hours
-                                </li>
-                            </ul>
-                            <h4 class="text-right no-margin-bottom">
-                                <span>$160</span>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center margin-50px-top md-margin-35px-top sm-margin-30px-top">
-                <a class="butn" href="javascript:void(0)">View All <i class="fas fa-long-arrow-alt-right margin-10px-left"></i></a>
+                }
             </div>
         </div>
     </div>

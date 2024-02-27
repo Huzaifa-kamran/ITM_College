@@ -110,10 +110,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlU3R1ZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Faculty/Assignments.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxBc3NpZ25tZW50cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Faculty/Course.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxDb3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -130,40 +126,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/Blog.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/BlogDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/CourseDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb3Vyc2VEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/Courses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb3Vyc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/EventDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/Events.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/FAQ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGQVEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/Gallery.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHYWxsZXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/Index.cshtml]
@@ -180,14 +152,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRpb24uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/Teachers.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZWFjaGVycy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Home/TeachersDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZWFjaGVyc0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/a/Desktop/ITM_College/ITM-College/ITM-College/Views/Shared/Error.cshtml]

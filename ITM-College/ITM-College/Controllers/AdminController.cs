@@ -2,6 +2,7 @@
 using ITM_College.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol.Plugins;
 
 namespace ITM_College.Controllers
 {
@@ -132,6 +133,7 @@ namespace ITM_College.Controllers
 				faculty.Gender = newFaculty.FacultyTable.Gender;
 				faculty.FacultyDepartment = newFaculty.FacultyTable.FacultyDepartment;
 				faculty.FacultyImg = dbAddress;
+				faculty.Role = newFaculty.FacultyTable.Role;
 
 
 				// SEND TO TABLE 
@@ -221,6 +223,8 @@ namespace ITM_College.Controllers
 			existingFaculty.FacultyPassword = updatedFaculty.FacultyTable.FacultyPassword;
 			existingFaculty.Gender = updatedFaculty.FacultyTable.Gender;
 			existingFaculty.FacultyDepartment = updatedFaculty.FacultyTable.FacultyDepartment;
+			existingFaculty.Role = updatedFaculty.FacultyTable.Role;
+		
 
 			// Save changes to the database
 			db.SaveChanges();
@@ -415,12 +419,14 @@ namespace ITM_College.Controllers
 				course.CourseImg = dbAddress;
 
 
-				// SEND TO TABLE 
-				db.Courses.Add(course);
-				db.SaveChanges();
-				ViewBag.message = "Course Added Successfully";
-				return RedirectToAction("Courses", new { message = ViewBag.message });
-			}
+					
+						// If the model is valid
+						db.Courses.Add(course); // Add the course object to the database context
+						db.SaveChanges(); // Save changes to the database
+						ViewBag.message = "Course Added Successfully"; // Set a message to be displayed
+						return RedirectToAction("Courses", new { message = ViewBag.message }); // Redirect to the "Courses" action
+				
+				}
 			else
 			{
 				ViewBag.error = "Something went wrong";
@@ -661,12 +667,18 @@ namespace ITM_College.Controllers
 					facility.FacilityImg = dbAddress;
 
 
-
-					// SEND TO TABLE 
-					db.Facilities.Add(facility);
-					db.SaveChanges();
-					ViewBag.message = "Facility Add Successfully";
-					return RedirectToAction("Facilities", new { message = ViewBag.message });
+					if (ModelState.IsValid)
+					{
+						// SEND TO TABLE 
+						db.Facilities.Add(facility);
+						db.SaveChanges();
+						ViewBag.message = "Facility Add Successfully";
+						return RedirectToAction("Facilities", new { message = ViewBag.message });
+					}
+					else
+					{
+						return View();
+					}
 				}
 			}
 			else

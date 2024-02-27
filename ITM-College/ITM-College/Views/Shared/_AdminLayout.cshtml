@@ -1,4 +1,16 @@
-﻿<!DOCTYPE html>
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var Session_userrole = HttpContextAccessor.HttpContext.Session.GetString("sessionRole");
+}
+
+@if (Session_userrole != "3")
+{
+    <script>
+        window.location.href = '@Url.Action("Login", "Home")';
+    </script>
+}
+<!DOCTYPE html>
 <html>
 <head>
     <!-- Meta -->
@@ -7,9 +19,12 @@
 <meta name="author" content="dexignlabs">
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EduMin - Education ASP.NET Core MVC Admin Dashboard Template | dexignlabs</title>
+    <title>ITM College</title>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="~/admincss/images/favicon.png">
+    <link rel="shortcut icon" href="~/clientcss/img/logos/favicon.png" />
+    <link rel="apple-touch-icon" href="~/~/clientcss/img/logos/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="~/clientcss/img/logos/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="~/clientcss/img/logos/apple-touch-icon-114x114.png" />
 
     <link href="~/admincss/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
 
