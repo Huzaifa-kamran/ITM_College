@@ -90,11 +90,9 @@ namespace ITM_College.Controllers
 				}
 
 			}
-			//var Session_useremail = contx.HttpContext.Session.GetString("sessionEmail");
-			//var Session_userpass = contx.HttpContext.Session.GetString("sessionPassword");
-			//var Session_userrole = contx.HttpContext.Session.GetString("sessionRole");
-
-			return RedirectToAction("Login", "Home");
+		
+			ViewBag.error= "Invalid login credentials. Please ensure your email and password are correct.";
+            return View();
 
 		}
 		[HttpGet]
@@ -121,7 +119,7 @@ namespace ITM_College.Controllers
 				var FileName = Guid.NewGuid() + random;
 
 				// GET PATH OF CUSTOM IMAGE FOLDER
-				string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/admincss/images/profile");
+				string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/admincss/students");
 
 				// CHECKING FOLDER EXIST OR NOT - IF NOT THEN CREATE F0LDER 
 				if (!Directory.Exists(imgFolder))
@@ -139,7 +137,7 @@ namespace ITM_College.Controllers
 				}
 
 				// READY SEND PATH TO  IMAGE TO DB  
-				var dbAddress = Path.Combine("myImages", FileName);
+				var dbAddress = Path.Combine("admincss/students", FileName);
 
 				// EQUALIZE TABLE (MODEL) PROPERTY WITH CUSTOM PATH 
 				registration.StdImg = dbAddress;

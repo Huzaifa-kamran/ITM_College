@@ -24,6 +24,9 @@
                     <h4 class="no-margin-bottom text-center font-weight-500">Welcome Back</h4>
                     <div class="title-border"><span class="lg"></span><span class="md"></span><span class="sm"></span></div>
                     <form method="post">
+                        @if(ViewBag.error != null){
+                            <span class="text-danger">@ViewBag.error</span>
+                        }
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input class="margin-5px-bottom" type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" asp-for="StudentEmail">

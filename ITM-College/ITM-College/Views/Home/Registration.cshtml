@@ -24,12 +24,12 @@
                 <div class="common-block padding-40px-all sm-padding-30px-all xs-padding-25px-all">
                     <h4 class="text-center no-margin-bottom font-weight-500">Register New Account</h4>
                     <div class="title-border"><span class="lg"></span><span class="md"></span><span class="sm"></span></div>
-                    <form class="margin-30px-top" method="post" enctype="multipart/form-data">
+                    <form class="margin-30px-top" method="post" enctype="multipart/form-data" id="register-form">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="username">Full Name</label>
-                                    <input class="margin-5px-bottom" type="text" id="username" placeholder="Full Name" asp-for="StudentName">
+                                    <input class="margin-5px-bottom" type="text" id="name" placeholder="Full Name" asp-for="StudentName">
                                 </div>
                             </div>
 
@@ -71,3 +71,32 @@
     </div>
 </section>
 <!-- end register section -->
+<script>
+    const validate = new window.JustValidate('#register-form');
+
+    validate
+        .addField('#name', [
+            {
+                rule: 'required',
+                errorMessage: 'Name is required',
+            },
+            {
+                rule: 'minLength',
+                value: 3,
+            },
+            {
+                rule: 'maxLength',
+                value: 30,
+            },
+        ])
+        .addField('#email', [
+            {
+                rule: 'required',
+                errorMessage: 'Email is required',
+            },
+            {
+                rule: 'email',
+                errorMessage: 'Email is invalid!',
+            },
+        ]);
+</script>
